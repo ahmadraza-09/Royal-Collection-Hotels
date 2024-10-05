@@ -8,6 +8,7 @@ import WhyChooseUs from '../components/why-choose-us'
 import DestinationSlider from '../components/destination-slider'
 import DestinationSliderSection from '../components/destination-slider-section'
 import CustomerCounting from '../components/customer-counting'
+import PopularHotels from '../components/popular-hotels'
 
 const HomePage = () => {
     return (
@@ -19,6 +20,7 @@ const HomePage = () => {
             {<WhatWeOffer />}
             {<DestinationSliderSection />}
             {<CustomerCounting />}
+            {<PopularHotels />}
             {<Footer />}
         </>
     )
