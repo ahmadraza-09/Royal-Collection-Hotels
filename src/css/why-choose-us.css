@@ -13,9 +13,21 @@
 
 .why-choose-us-section h2 {
     font-size: 30px;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     font-weight: 800;
     text-transform: uppercase;
+    position: relative;
+}
+
+.why-choose-us-section h2::after {
+    content: '';
+    width: 40%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 55px;
+    left: 5px;
+    background-color: #B92100;
 }
 
 .why-choose-us-contents {

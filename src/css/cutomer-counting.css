@@ -1,0 +1,51 @@
+.customer-counting-section {
+    height: fit-content;
+    width: 100%;
+    max-width: 1440px;
+    background-color: #F5EFFF;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.customer-counting-box {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.customer-counting-box h2:first-of-type {
+    font-size: 40px;
+}
+
+/* Responsive */
+@media (min-width: 320px) and (max-width: 480px) {
+    .customer-counting-section {
+        padding: 40px 10px;
+    }
+
+    .customer-counting-box {
+        width: 150px;
+        height: 150px;
+    }
+
+    .customer-counting-box h2:first-of-type {
+        font-size: 30px;
+    }
+
+    .customer-counting-box h2:last-of-type {
+        font-size: 18px;
+    }
+}

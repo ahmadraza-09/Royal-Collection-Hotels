@@ -1,0 +1,206 @@
+.destination-slider-section {
+    max-width: 1440px;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destination-slider-section>h2 {
+    width: fit-content;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 800;
+    position: relative;
+}
+
+.destination-slider-section>h2::after {
+    content: '';
+    width: 40%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 55px;
+    left: 0;
+    background-color: #B92100;
+}
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+    max-width: 1440px;
+    padding: 40px 50px;
+    background-color: #fff;
+}
+
+.swiper>h2 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 35px;
+    height: 55px;
+    font-size: 10px;
+    color: #000;
+    /* background-color: #b81104; */
+    border-radius: 5px;
+}
+
+.swiper-button-next:active,
+.swiper-button-prev:active {
+    color: #000;
+    /* background-color: #b81104; */
+}
+
+.swiper-slide {
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    font-size: 18px;
+    /* background-color: red;    */
+    color: #fff;
+    border-radius: 20px;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.swiper-overlay {
+    position: relative;
+}
+
+.swiper-overlay .content{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 20px;
+}
+
+.swiper-overlay .content h2 {
+    text-transform: uppercase;
+}
+
+.swiper-overlay .content h3 {
+    text-transform: uppercase;
+    background-color: #B92100;
+    padding: 0px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.swiper-overlay {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.swiper-overlay1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/mussoorie.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-overlay2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/nainital.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-overlay3 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/corbett.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay4 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/manali.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay5 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/bhimtal.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay6 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/dharamshala.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay7 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/amritsar.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay8 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/kausani.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay9 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/ranikhet.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay10 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/dalhousie.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay11 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/haridwar.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay12 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/chandigarh.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay13 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/bandhavgarh.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay14 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/shimla.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Responsive */
+@media (min-width: 320px) and (max-width: 480px){
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: transparent;
+    }
+
+    .destination-slider-section>h2 {
+        font-size: 25px;
+    }
+}

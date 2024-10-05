@@ -5,6 +5,9 @@ import HeroSection from '../components/hero-section'
 import Footer from '../components/footer'
 import WhatWeOffer from '../components/what-we-offer'
 import WhyChooseUs from '../components/why-choose-us'
+import DestinationSlider from '../components/destination-slider'
+import DestinationSliderSection from '../components/destination-slider-section'
+import CustomerCounting from '../components/customer-counting'
 
 const HomePage = () => {
     return (
@@ -14,6 +17,8 @@ const HomePage = () => {
             {<HeroSection />}
             {<WhyChooseUs />}
             {<WhatWeOffer />}
+            {<DestinationSliderSection />}
+            {<CustomerCounting />}
             {<Footer />}
         </>
     )
