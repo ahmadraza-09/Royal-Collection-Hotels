@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="contact-col">
               <p>
                 <i class="fa-regular fa-clock"></i>
-                <p>Mon – Sat: 10:00 am – 06:30 pm</p>
+                <p>Mon – Sat: 10:00 am – 06:00 pm</p>
               </p>
             </div>
           </div>

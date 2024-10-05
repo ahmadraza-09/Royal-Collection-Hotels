@@ -29,67 +29,73 @@ const Navbar = () => {
   };
 
   return (
-    <div
-      className={navbarsection ? "navbar-section activated" : "navbar-section"}
-    >
-      <input type="checkbox" id="check" />
-      <div
-        className="logo-section"
-        onClick={() => {
-          navigate("/");
-        }}
-      >
-        <img src={Logo} alt="" />
-        <h2>Royal Collection Hotels</h2>
-      </div>
-
-      {/* Conditionally render menu based on isOpen */}
-      <ul className={`menu-section ${isOpen ? "show-menu" : ""}`}>
-        <div className="none">
-          <button>
-            <i className="fa-solid fa-magnifying-glass"></i>
-          </button>
-          <button>
-            List Property <i className="fa-solid fa-handshake-simple"></i>
-          </button>
-        </div>
-        <li
-          className={isActive("/")}
-          onClick={() => {
-            navigate("/");
-            setIsOpen(false); // Close menu on click
-          }}
+    <>
+      <div className="header-section">
+        <div
+          className={
+            navbarsection ? "navbar-section activated" : "navbar-section"
+          }
         >
-          Home
-        </li>
-        <li onClick={() => setIsOpen(false)}>About</li>
-        <li onClick={() => setIsOpen(false)}>Our Hotels</li>
-        <li onClick={() => setIsOpen(false)}>Careers</li>
-        <li onClick={() => setIsOpen(false)}>Contact</li>
-      </ul>
+          <input type="checkbox" id="check" />
+          <div
+            className="logo-section"
+            onClick={() => {
+              navigate("/");
+            }}
+          >
+            <img src={Logo} alt="" />
+            <h2>Royal Collection Hotels</h2>
+          </div>
 
-      <div className="search-section">
-        <button>
-          <i className="fa-solid fa-magnifying-glass"></i>
-        </button>
-        <button>
-          List Property <i className="fa-solid fa-handshake-simple"></i>
-        </button>
+          {/* Conditionally render menu based on isOpen */}
+          <ul className={`menu-section ${isOpen ? "show-menu" : ""}`}>
+            <div className="none">
+              <button>
+                <i className="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <button>
+                List Property <i className="fa-solid fa-handshake-simple"></i>
+              </button>
+            </div>
+            <li
+              className={isActive("/")}
+              onClick={() => {
+                navigate("/");
+                setIsOpen(false); // Close menu on click
+              }}
+            >
+              Home
+            </li>
+            <li onClick={() => setIsOpen(false)}>About</li>
+            <li onClick={() => setIsOpen(false)}>Our Hotels</li>
+            <li onClick={() => setIsOpen(false)}>Careers</li>
+            <li onClick={() => setIsOpen(false)}>Contact</li>
+          </ul>
 
-        {/* Hamburger Icon */}
-        <div className="menu-bars" onClick={toggleMenu}>
-          {isOpen ? (
-            <label htmlFor="check">
-              <i className="fa-solid fa-close"></i>
-            </label>
-          ) : (
-            <label htmlFor="check">
-              <i className="fa-solid fa-bars"></i>
-            </label>
-          )}
+          <div className="search-section">
+            <button>
+              <i className="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button>
+              List Property <i className="fa-solid fa-handshake-simple"></i>
+            </button>
+
+            {/* Hamburger Icon */}
+            <div className="menu-bars" onClick={toggleMenu}>
+              {isOpen ? (
+                <label htmlFor="check">
+                  <i className="fa-solid fa-close"></i>
+                </label>
+              ) : (
+                <label htmlFor="check">
+                  <i className="fa-solid fa-bars"></i>
+                </label>
+              )}
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

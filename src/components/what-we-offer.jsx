@@ -1,0 +1,39 @@
+import React from "react";
+import "../css/what-we-offer.css";
+import Guarantee from "../assets/icons/guarantee.png";
+import Trust from "../assets/icons/trust.png";
+import Agent from "../assets/icons/man-in-suit-and-tie.png";
+import Hotel from "../assets/icons/hotel2.png";
+import CustomerSupport from "../assets/icons/services.png";
+
+const WhatWeOffer = () => {
+  return (
+    <div className="what-we-offer-section">
+      <h2>What We Offer</h2>
+      <div className="what-we-offer-section-boxes">
+        <div className="what-we-offer-section-box">
+          <img src={Guarantee} alt="" />
+          <h3>Best Price Guarantee</h3>
+        </div>
+        <div className="what-we-offer-section-box">
+          <img src={Trust} alt="" />
+          <h3>Travellers Choose Us</h3>
+        </div>
+        <div className="what-we-offer-section-box">
+          <img src={Agent} alt="" />
+          <h3>Best Travel Agents</h3>
+        </div>
+        <div className="what-we-offer-section-box">
+          <img src={Hotel} alt="" />
+          <h3> Best Hotels & Resorts</h3>
+        </div>
+        <div className="what-we-offer-section-box">
+          <img src={CustomerSupport} alt="" />
+          <h3>Our Customer Support</h3>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default WhatWeOffer;
