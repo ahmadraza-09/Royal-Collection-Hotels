@@ -76,9 +76,7 @@ const Navbar = () => {
             <button>
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
-            <button>
-              List Property <i className="fa-solid fa-handshake-simple"></i>
-            </button>
+            <button>List Property</button>
 
             {/* Hamburger Icon */}
             <div className="menu-bars" onClick={toggleMenu}>

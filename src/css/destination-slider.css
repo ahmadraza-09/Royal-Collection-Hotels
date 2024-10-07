@@ -29,7 +29,7 @@
     background-color: #B92100;
 }
 
-.swiper {
+.destination-slider-swiper {
     width: 100%;
     height: fit-content;
     max-width: 1440px;
@@ -59,7 +59,7 @@
     /* background-color: #b81104; */
 }
 
-.swiper-slide {
+.destination-slider-swiper .swiper-slide {
     width: 200px;
     height: 400px;
     text-align: center;

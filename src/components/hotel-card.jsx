@@ -1,39 +1,32 @@
 import React from "react";
 import "../css/hotel-card.css";
-import Img from "../assets/6.jpg";
 
-const HotelCard = () => {
+const HotelCard = ({ image, name, price, rating, description, rooms }) => {
   return (
     <div className="hotel-card">
       <div className="hotel-card-image">
-        <img src={Img} alt="" />
+        <img src={image} alt={name} />
       </div>
       <div className="hotel-card-content">
         <div className="hotel-card-content-header">
-          <h2>Hotel Shilton Mussoorie</h2>
+          <h2>{name}</h2>
           <h4>
-            <span>₹ 6999</span> /Night
+            <span>₹ {price}</span> /Night
           </h4>
           <p>
             <span>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
+              {Array.from({ length: rating }, (_, index) => (
+                <i key={index} className="fa-solid fa-star"></i>
+              ))}
             </span>
-            4 Stars
+            {` ${rating} Stars`}
           </p>
         </div>
         <div className="hotel-card-content-center">
-          <p>
-            The hotel at the heart of the town (Library Chowk, Mussoorie) will
-            spell bound you with the picturesque view of the Doon valley. The
-            hotel reflects true value of warmth, luxury and comfort with
-            hospitable staff and flawless service.
-          </p>
+          <p>{description}</p>
         </div>
         <div className="hotel-card-content-footer">
-          <h4>49 Rooms</h4>
+          <h4>{rooms} Rooms</h4>
           <button>Book Now</button>
         </div>
       </div>

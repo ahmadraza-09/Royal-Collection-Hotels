@@ -3,8 +3,6 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination, Scrollbar } from "swiper/modules";
 
-import Mussoorie from "../assets/mussoorie.jpg";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -50,9 +48,9 @@ const DestinationSlider = () => {
           },
         }}
         modules={[Navigation, Autoplay, Pagination, Scrollbar]}
-        className="mySwiper"
+        className="mySwiper destination-slider-swiper"
       >
-        <SwiperSlide>
+        <SwiperSlide className="swiper-overlay">
           <div className="swiper-overlay1 swiper-overlay">
             <div className="content">
               <h2>Mussoorie</h2>

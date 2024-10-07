@@ -119,13 +119,13 @@ input[type="checkbox"] {
     padding: 5px 10px;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
     transition: all 0.2s ease-in-out;
 }
 
 .navbar-section .menu-section li:hover {
     background-color: #B92100;
     color: #fff;
-    border-radius: 0px 5px;
 }
 
 .navbar-section .search-section {
@@ -143,9 +143,18 @@ input[type="checkbox"] {
     font-family: 'Montserrat', sans-serif;
     padding: 5px 10px;
     border: none;
-    border-radius: 0px 5px;   
+    border-radius: 5px;   
     outline: none;
     cursor: pointer;
+}
+
+.navbar-section .search-section button:first-of-type {
+    border-radius: 55px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar-section .search-section .menu-bars {
