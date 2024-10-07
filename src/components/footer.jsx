@@ -82,6 +82,7 @@ const Footer = () => {
             >
               Careers
             </a>
+            <a>Payment Option</a>
           </div>
           <div class="footer-col">
             <h4>get help</h4>
@@ -107,6 +108,7 @@ const Footer = () => {
             >
               {/* Payment Options */}
             </a>
+            <a>Cancellation & Refund Policy</a>
           </div>
           <div class="footer-col">
             <h4>Services</h4>

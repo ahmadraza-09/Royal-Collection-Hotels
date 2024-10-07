@@ -61,12 +61,20 @@ const Navbar = () => {
               className={isActive("/")}
               onClick={() => {
                 navigate("/");
-                setIsOpen(false); // Close menu on click
+                setIsOpen(false);
               }}
             >
               Home
             </li>
-            <li onClick={() => setIsOpen(false)}>About</li>
+            <li
+              className={isActive("/about")}
+              onClick={() => {
+                navigate("/about");
+                setIsOpen(false);
+              }}
+            >
+              About
+            </li>
             <li onClick={() => setIsOpen(false)}>Our Hotels</li>
             <li onClick={() => setIsOpen(false)}>Careers</li>
             <li onClick={() => setIsOpen(false)}>Contact</li>

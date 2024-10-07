@@ -257,6 +257,8 @@ footer .row {
 
     .footer-col-logo h2 {
         display: block;
+        font-size: 20px;
+        text-align: start;
     }
 
     .footer-col {

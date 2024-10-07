@@ -1,0 +1,62 @@
+.about-us-section {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    height: fit-content;
+    background-color: #fff;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-us-section h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.what-we-do-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: start;
+    justify-content: center;    
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.what-we-do-section img {
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+
+.what-we-do-section p{
+    width: 50%;
+}
+
+.what-we-do-section p span{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+@media (min-width: 320px) and (max-width: 628px) {
+    .what-we-do-section {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .what-we-do-section p, 
+    .what-we-do-section img {
+        width: 100%;
+    }
+
+    .about-us-section h2 {
+        font-size: 25px;
+    }
+}

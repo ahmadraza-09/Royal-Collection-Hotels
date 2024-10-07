@@ -113,6 +113,7 @@ input[type="checkbox"] {
     font-weight: 700;
     font-size: 18px;
     transition: max-height 0.3s ease-in-out;
+    z-index: 80;
 }
 
 .navbar-section .menu-section li {
@@ -133,7 +134,7 @@ input[type="checkbox"] {
     gap: 10px;
 }
 
-.navbar-section .search-section button,
+.navbar-section .search-section button, 
 .none button{
     background-color: #B92100;
     color: #fff;
@@ -221,6 +222,10 @@ input[type="checkbox"]:checked ~ .menu-section {
     }
 
     .search-section button {
+        display: none;
+    }
+
+    .navbar-section .search-section button:first-of-type {
         display: none;
     }
 }

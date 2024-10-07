@@ -2,6 +2,7 @@
     height: fit-content;
     width: 100%;
     max-width: 1440px;
+    margin: auto;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -9,34 +10,6 @@
     justify-content: center;
     padding: 40px 20px;
     gap: 30px;
-}
-
-.popular-hotel-swiper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    background-color: #fff;
-    padding: 40px 30px;
-}
-
-.popular-hotel-swiper .swiper-wrapper {
-    background-color: #fff;
-    padding: 40px 50px;
-}
-
-.popular-hotel-swiper .swiper-slide {
-    width: 200px;
-    height: 400px;
-    text-align: center;
-    font-size: 18px;
-    color: #fff;
-    background-color: #fff;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .popular-hotels-section>h2 {
@@ -60,11 +33,23 @@
 
 .popular-hotels-cards {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 40px;
 }
 
 @media (min-width: 320px) and (max-width: 400px) {
-    
+    .popular-hotel-swiper {
+        padding: 40px 0px;
+    }
+
+    .popular-hotel-swiper .swiper-slide {
+        width: 100%;
+        /* height: fit-content; */
+    }
+
+    .popular-hotels-section>h2 {
+        font-size: 25px;
+    }
 }
