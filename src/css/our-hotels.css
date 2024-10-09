@@ -17,7 +17,7 @@
 .hotels-filter-cards-section {
     width: 100%;
     height: fit-content;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     display: flex;
     padding: 10px;
     gap: 10px;
@@ -83,12 +83,36 @@
 }
 
 .hotel-cards-section {
-    width: 1000px;
-    height: 700px;
-    border: 2px solid #000;
+    width: 100%;
+    max-width: 1000px;
+    height: fit-content;
+    /* border: 2px solid #000; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
+    padding: 0px;
+}
+
+/* Responsive */
+@media (min-width: 320px) and (max-width: 480px) {
+    .our-hotels-section {
+        padding: 40px 0px;
+    }
+
+    .hotels-filter-cards-section{
+        flex-direction: column;
+    }
+
+    .hotel-filter-section {
+        width: 100%;
+    }
+
+    .hotel-cards-section {
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
