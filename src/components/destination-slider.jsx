@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination, Scrollbar } from "swiper/modules";
@@ -62,7 +62,7 @@ const DestinationSlider = () => {
           <div className="swiper-overlay2 swiper-overlay">
             <div className="content">
               <h2>Nainital</h2>
-              <h3>2 Listing</h3>
+              <h3>3 Listing</h3>
             </div>
           </div>
         </SwiperSlide>

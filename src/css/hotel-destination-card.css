@@ -1,0 +1,27 @@
+.hotel-destination-card {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.hotel-destination-card-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+}
+
+.hotel-destination-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px 20px 0px 0px;  
+    transition: all 0.5s ease-in-out; 
+}
+
+.hotel-destination-card-image img:hover {
+    transform: scale(1.2);
+}

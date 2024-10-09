@@ -1,7 +1,4 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay, Pagination, Scrollbar } from "swiper/modules";
+import React from "react";
 
 import HotelImage1 from "../assets/6.jpg";
 import HotelImage2 from "../assets/9.jpg";
