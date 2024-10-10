@@ -76,9 +76,9 @@ const Navbar = () => {
               About
             </li>
             <li
-              className={isActive("/our-hotels")}
+              className={isActive("/our-city")}
               onClick={() => {
-                navigate("/our-hotels");
+                navigate("/our-city");
                 setIsOpen(false);
               }}
             >

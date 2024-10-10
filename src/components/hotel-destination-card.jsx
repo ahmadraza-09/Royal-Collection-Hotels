@@ -1,7 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../css/hotel-destination-card.css";
 
 const HotelDestinationCard = ({ image, title, description, properties }) => {
+  const navigate = useNavigate();
+
+  const handleExplore = () => {
+    navigate(`/our-hotels/${title.toLowerCase()}`);
+  };
   return (
     <div className="hotel-destination-card">
       <div className="hotel-destination-card-image">
@@ -14,7 +20,7 @@ const HotelDestinationCard = ({ image, title, description, properties }) => {
         </div>
         <div className="hotel-destination-card-content-footer">
           <h3>{properties} Properties</h3>
-          <button>Explore</button>
+          <button onClick={handleExplore}>Explore</button>
         </div>
       </div>
     </div>

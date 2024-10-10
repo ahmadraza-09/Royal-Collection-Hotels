@@ -5,15 +5,15 @@ import Footer from '../components/footer'
 import OurHotels from '../components/our-hotels'
 import HotelListSection from '../components/hotels-list-section'
 
-const OurHotelsPage = () => {
+const CityHotelsPage = () => {
     return (
         <>
             {<TopBanner />}
             {<Navbar />}
-            {<OurHotels />}
+            {<HotelListSection />}
             {<Footer />}
         </>
     )
 }
 
-export default OurHotelsPage
+export default CityHotelsPage

@@ -1,0 +1,24 @@
+.hotel-list-section {
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hotel-list-section>h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* responsive */
+@media (min-width: 320px) and (max-width: 480px) {
+    .hotel-list-section {
+        padding: 20px 0px;
+    }
+}

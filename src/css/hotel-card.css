@@ -1,6 +1,6 @@
 .hotel-card {
-    height: 500px;
-    width: 330px;
+    height: 520px;
+    width: 300px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 20px;
     color: #000;
@@ -78,13 +78,14 @@
 }
 
 .hotel-card-content-footer {
+    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-transform: uppercase;
     position: absolute;
     bottom: 10px;
-    gap: 90px;
+    gap: 50px;
 }
 
 .hotel-card-content-footer button{
@@ -106,5 +107,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 400px){
-    
+    .hotel-card {
+        width: 100%;
+    }
 }
