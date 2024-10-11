@@ -47,7 +47,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 90px;
+    gap: 80px;
     position: absolute;
     bottom: 10px;
     border-top: 1.5px solid rgba(0, 0, 0, 0.1);
