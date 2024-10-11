@@ -14,7 +14,7 @@ function App() {
           <Route path='/about' element={<AboutPage />} />
           <Route path='/our-city' element={<OurHotelsPage />} />
           {/* Dynamic route for each city */}
-          <Route path='/our-hotels/:cityName' element={<CityHotelsPage />} />
+          <Route path='/our-city/:cityName' element={<CityHotelsPage />} />
         </Routes>
       </BrowserRouter>
     </>

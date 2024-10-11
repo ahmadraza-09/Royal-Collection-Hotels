@@ -4,10 +4,9 @@ import "../css/hotel-list-section.css";
 import HotelCard from "./hotel-card";
 
 const HotelListSection = ({ hotels = [] }) => {
-  const { city } = useParams(); // Get city from URL
+  const { cityName } = useParams();
 
   const [filteredHotels, setFilteredHotels] = useState([]);
-
   const [selectedHotel, setSelectedHotel] = useState("");
   const [selectedStar, setSelectedStar] = useState("");
   const [selectedPrice, setSelectedPrice] = useState("");
@@ -36,7 +35,7 @@ const HotelListSection = ({ hotels = [] }) => {
 
   return (
     <div className="hotel-list-section">
-      <h2>{city}</h2> {/* Show city name dynamically */}
+      <h2>{cityName}</h2> {/* Show city name dynamically */}
       <div className="hotels-filter-cards-section">
         <div className="hotel-filter-section">
           <h3>Filter</h3>
@@ -80,6 +79,16 @@ const HotelListSection = ({ hotels = [] }) => {
               <option value="9000">₹7000 to ₹9000</option>
               <option value="12000">₹9000 to ₹12000</option>
             </select>
+            <div className="date-picker">
+              <label htmlFor="from-date-picker">From</label>
+              <br />
+              <input type="date" id="from-date-picker" placeholder="From" />
+            </div>
+            <div className="date-picker">
+              <label htmlFor="to-date-picker">To</label>
+              <br />
+              <input type="date" id="to-date-picker" placeholder="To" />
+            </div>
             <button type="button" onClick={handleSearch}>
               Search
             </button>

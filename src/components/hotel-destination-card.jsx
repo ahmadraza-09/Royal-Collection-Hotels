@@ -6,7 +6,7 @@ const HotelDestinationCard = ({ image, title, description, properties }) => {
   const navigate = useNavigate();
 
   const handleExplore = () => {
-    navigate(`/our-hotels/${title.toLowerCase()}`);
+    navigate(`/our-city/${title.toLowerCase()}`);
   };
   return (
     <div className="hotel-destination-card">
