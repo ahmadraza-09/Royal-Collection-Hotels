@@ -12,6 +12,23 @@ const HotelListSection = () => {
   const [selectedStar, setSelectedStar] = useState("");
   const [selectedPrice, setSelectedPrice] = useState("");
 
+  // Function to capitalize the first letter of the city name
+  const capitalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
+
+  // Set the document title with the capitalized city name
+
+  useEffect(() => {
+    document.title = `${capitalizeFirstLetter(
+      cityName
+    )} - Royal Collection Hotels`;
+
+    return () => {
+      document.title = "Royal Collection Hotels";
+    };
+  }, []);
+
   // Load original hotel data based on city name
   useEffect(() => {
     const cityHotels = hotelsData[cityName.toLowerCase()] || [];
