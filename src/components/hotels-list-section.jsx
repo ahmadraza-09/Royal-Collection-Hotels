@@ -2,36 +2,64 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "../css/hotel-list-section.css";
 import HotelCard from "./hotel-card";
+import { hotelsData } from "../data/hotelsdata"; // Import your data file
 
-const HotelListSection = ({ hotels = [] }) => {
+const HotelListSection = () => {
   const { cityName } = useParams();
-
+  const [originalHotels, setOriginalHotels] = useState([]); // To store original hotels
   const [filteredHotels, setFilteredHotels] = useState([]);
   const [selectedHotel, setSelectedHotel] = useState("");
   const [selectedStar, setSelectedStar] = useState("");
   const [selectedPrice, setSelectedPrice] = useState("");
 
+  // Load original hotel data based on city name
+  useEffect(() => {
+    const cityHotels = hotelsData[cityName.toLowerCase()] || [];
+    setOriginalHotels(cityHotels);
+    setFilteredHotels(cityHotels);
+  }, [cityName]);
+
+  // Function to filter hotels based on selected criteria
+  const filterHotels = () => {
+    let filtered = [...originalHotels];
+
+    // Filter by hotel name
+    if (selectedHotel) {
+      filtered = filtered.filter((hotel) =>
+        hotel.name.toLowerCase().includes(selectedHotel.toLowerCase())
+      );
+    }
+
+    // Filter by star rating
+    if (selectedStar) {
+      filtered = filtered.filter(
+        (hotel) => hotel.rating === parseInt(selectedStar)
+      );
+    }
+
+    // Filter by price
+    if (selectedPrice) {
+      filtered = filtered.filter(
+        (hotel) => hotel.price <= parseInt(selectedPrice)
+      );
+    }
+
+    return filtered;
+  };
+
   // Handle search/filter logic
   const handleSearch = () => {
-    const filtered = hotels.filter((hotel) => {
-      const matchesHotel =
-        selectedHotel === "" ||
-        hotel.name.toLowerCase().includes(selectedHotel.toLowerCase());
-      const matchesStar =
-        selectedStar === "" || hotel.rating === parseInt(selectedStar);
-      const matchesPrice =
-        selectedPrice === "" || hotel.price <= parseInt(selectedPrice);
-
-      return matchesHotel && matchesStar && matchesPrice;
-    });
-
+    const filtered = filterHotels();
     setFilteredHotels(filtered);
   };
 
-  useEffect(() => {
-    // Reset hotels when props change
-    setFilteredHotels(hotels);
-  }, [hotels]);
+  // Reset filters to show all hotels
+  const resetFilters = () => {
+    setSelectedHotel("");
+    setSelectedStar("");
+    setSelectedPrice("");
+    setFilteredHotels(originalHotels); // Reset to original hotels
+  };
 
   return (
     <div className="hotel-list-section">
@@ -43,11 +71,14 @@ const HotelListSection = ({ hotels = [] }) => {
             <select
               name="hotel"
               value={selectedHotel}
-              onChange={(e) => setSelectedHotel(e.target.value)}
+              onChange={(e) => {
+                setSelectedHotel(e.target.value);
+                handleSearch(); // Apply search whenever hotel selection changes
+              }}
             >
               <option value="">Select Hotel</option>
-              {hotels.length > 0 &&
-                hotels.map((hotel, index) => (
+              {originalHotels.length > 0 &&
+                originalHotels.map((hotel, index) => (
                   <option key={index} value={hotel.name}>
                     {hotel.name}
                   </option>
@@ -56,28 +87,34 @@ const HotelListSection = ({ hotels = [] }) => {
             <select
               name="star"
               value={selectedStar}
-              onChange={(e) => setSelectedStar(e.target.value)}
+              onChange={(e) => {
+                setSelectedStar(e.target.value);
+                handleSearch(); // Apply search whenever star selection changes
+              }}
             >
               <option value="">Select Star</option>
-              <option value="1">1 Star</option>
-              <option value="2">2 Star</option>
-              <option value="3">3 Star</option>
-              <option value="4">4 Star</option>
-              <option value="5">5 Star</option>
+              {[1, 2, 3, 4, 5].map((star) => (
+                <option key={star} value={star}>
+                  {star} Star
+                </option>
+              ))}
             </select>
             <select
               name="price"
               value={selectedPrice}
-              onChange={(e) => setSelectedPrice(e.target.value)}
+              onChange={(e) => {
+                setSelectedPrice(e.target.value);
+                handleSearch(); // Apply search whenever price selection changes
+              }}
             >
               <option value="">Select Price</option>
-              <option value="1000">Under ₹1000</option>
-              <option value="2000">₹1000 to ₹2000</option>
-              <option value="3000">₹2000 to ₹3000</option>
-              <option value="5000">₹3000 to ₹5000</option>
-              <option value="7000">₹5000 to ₹7000</option>
-              <option value="9000">₹7000 to ₹9000</option>
-              <option value="12000">₹9000 to ₹12000</option>
+              {[1000, 2000, 3000, 5000, 7000, 9000, 12000].map((price) => (
+                <option key={price} value={price}>
+                  {price === 1000
+                    ? "Under ₹1000"
+                    : `₹${price - 1000} to ₹${price}`}
+                </option>
+              ))}
             </select>
             <div className="date-picker">
               <label htmlFor="from-date-picker">From</label>

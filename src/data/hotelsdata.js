@@ -29,10 +29,10 @@ import SevenSeas from '../assets/35.jpg'
 import SnowArk from '../assets/36.jpg'
 import RockVilla from '../assets/37.jpg'
 import MohanPalace from '../assets/38.jpg'
-import Hotel42 from '../assets/39.jpg'
+import Hotel42 from '../assets/39.jpeg'
 import RvContinental from '../assets/40.jpg'
 import HotelShagun from '../assets/41.jpg'
-import HotelClarion from '../assets/42.jpg'
+import HotelClarion from '../assets/42.jpeg'
 import SailaniResort from '../assets/44.jpg'
 import GirNightResort from '../assets/girnightresort.jpeg'
 import MayaRegency from '../assets/mayaregency.jpeg'
@@ -80,7 +80,7 @@ export const hotelsData = {
             name: "Apple Orchard Resort Dhanaulti",
             price: 3999,
             rating: 3,
-            description: "Apple Orchard Resort is situated in the laps of beautiful Himalayas and placed amidst an apple orchard with stunning vistas of jungle and mountains. Teeming with wildlife and bathed in clouds and bright sunshine, the resort has tastefully decorated 20 Guest Rooms (Family Suite, Super Deluxe, Deluxe) and 4 Luxury Swiss Tent Houses, all with breathtaking views and luxurious interiors. Let the crisp air and fresh spring water rejuvenate your health and sprits.",
+            description: "Apple Orchard Resort, set in the stunning Himalayas, features 20 elegant guest rooms and 4 Luxury Swiss Tent Houses, all with breathtaking views. Enjoy the crisp air, fresh spring water, and a rejuvenating escape in nature.",
             rooms: 18
         },
     ],
@@ -120,7 +120,7 @@ export const hotelsData = {
             name: "Hotel Lohaghat Regency",
             price: 3999,
             rating: 3,
-            description: "Come and experience the magic of Hotel Lohaghat Regency. Let us take you on a journey of luxury, relaxation, and unforgettable memories. Book your stay with us today and get ready to embark on the adventure of a lifetime.At Hotel Lohaghat Regency, your comfort and satisfaction are our top priorities. We take pride in delivering an exceptional experience to each and every guest who walks through our doors.",
+            description: "Discover the magic of Hotel Lohaghat Regency, where luxury and relaxation await. Book now for an unforgettable experience focused on your comfort and satisfaction.",
             rooms: 18
         },
     ],
@@ -225,7 +225,7 @@ export const hotelsData = {
             name: "Hotel Sarthak Regency",
             price: 3999,
             rating: 3,
-            description: "Hotel Sarthak Regency, Manali, has immaculate rooms to suit the needs of leisure as well as business travellers. You can choose between the Premium Room, Premium Room Hill View with Balcony and Premium Room Beas View with Balcony as per your convenience. Fully furnished and spotlessly clean, the rooms ensure a classy stay.",
+            description: "Hotel Sarthak Regency, Manali, features immaculate rooms for leisure and business travelers.Choose from Premium Rooms or those with balconies offering hill or Beas views, all ensuring a classy stay.",
             rooms: 16
         },
         {
@@ -254,7 +254,7 @@ export const hotelsData = {
             name: "Mahaveer Shimla",
             price: 4999,
             rating: 3,
-            description: "Mahaveer Shimla By Royal Collection Hotels is more than just a hotel; it's an experience. A place where you can enjoy the simple pleasures of life, reconnect with nature, and rejuvenate your senses. With its unparalleled service, luxurious accommodations, and idyllic location, it truly stands out as the best hotel in Shimla.",
+            description: "Mahaveer Shimla by Royal Collection Hotels is an experience, not just a stay. Reconnect with nature and rejuvenate your senses in luxurious accommodations with exceptional service. It truly is the best hotel in Shimla.",
             rooms: 14
         },
         {
@@ -310,7 +310,7 @@ export const hotelsData = {
             name: "Hotel Chandani",
             price: 3999,
             rating: 3,
-            description: "Provides excellent service and takes care of guest so that they face no issue and are always happy with the hotel's service. This hotel is situated at an excellent location wherein one can spend his / her time in the hotel in the best possible manner that they desire",
+            description: "Provides excellent service and takes care of guest so that they face no issue and are always happy with the hotel's service. This hotel is situated at an excellent location wherein one can spend their time in the hotel in the best possible manner that they desire",
             rooms: 16
         },
         {
@@ -408,7 +408,7 @@ export const hotelsData = {
             name: "Gir Night Resort",
             price: 10499,
             rating: 3,
-            description: "Perfectly located in the heart of Gir Forest, The Gir Resort enjoys spectacular views of Flowing and roaring Hiran River and Spectacular jungle view and offers a unique experience for leisure and Nature Loving travelers. The Gir Resort is Located at main Junagadh- Sasan Highway on the River banks of Hiran River.",
+            description: "Perfectly situated in the heart of Gir Forest, The Gir Resort offers stunning views of the Hiran River and the surrounding jungle. Located on the Junagadh-Sasan Highway, it provides a unique experience for leisure and nature-loving travelers.",
             rooms: 20
         },
     ],
@@ -419,7 +419,7 @@ export const hotelsData = {
             name: "Maya Regency Bhimtal",
             price: 3999,
             rating: 3,
-            description: "Hotel Maya Regency is impressive with it's very own distinctive style and tells the story of it's hospitality through its architecture & design and through its high level of comfort & service.Hotel offers 18 spacious, well furnished & equipped with modern amenities rooms to ensure that guests should have the most comfortable and memorable stay.",
+            description: "Hotel Maya Regency boasts a unique architectural style that reflects its exceptional hospitality.With 18 spacious, well- furnished rooms equipped with modern amenities, it ensures a comfortable and memorable stay for all guests.",
             rooms: 18
         },
     ],
@@ -452,7 +452,7 @@ export const hotelsData = {
             name: "The Sun Resort",
             price: 3999,
             rating: 3,
-            description: "Fully furnished and Equipped with all modern amnesties like Climate Control, Western Toilets, Power Backup, Satellite TV, WI-FI, Intercom etc. If you chose to stay with us you will enjoy modern home comforts in a traditional setting. Whether you are looking for a short weekend break or a longer holiday, we offer a range of packages that will cater for all.",
+            description: "Our fully furnished rooms feature modern amenities such as climate control, Western toilets, power backup, satellite TV, Wi-Fi, and intercom. Enjoy home comforts in a traditional setting, with packages available for both weekend breaks and longer holidays.",
             rooms: 18
         },
     ],
@@ -463,7 +463,7 @@ export const hotelsData = {
             name: "Hotel Pine and Dine",
             price: 3999,
             rating: 3,
-            description: "Hotel Pine And Dine is situated in Almora. All rooms boast a TV with cable channels and a private bathroom. At the hotel, the rooms are fitted with a wardrobe. A continental breakfast is available each morning at Hotel Pine And Dine wit subject to availability. The reception at the accommodation can provide tips on the area. The nearest airport is Pantnagar Airport, 63 km fromHotel Pine And Dine.",
+            description: "Hotel Pine and Dine in Almora offers rooms with cable TV, private bathrooms, and wardrobes. Enjoy a continental breakfast each morning (subject to availability). The reception can provide local tips, and Pantnagar Airport is 63 km away.",
             rooms: 8
         },
         {
@@ -472,7 +472,7 @@ export const hotelsData = {
             name: "The Mountain Paradise Resort",
             price: 4999,
             rating: 3,
-            description: "The Mountain Paradise Resort is a Boutique Resort in Almora Binsar , offering Luxurious Amenities for Leisure Travellers. The Resort Has Beautiful Lawn Surrounded by Jungle, and The Resort Has Multi Cuisine Restaurant by the Name of Pine & Peak. Resort offering indoor outdoor activities for Kids and Adults. The Resort is situated in Almora near Binsar. Almora Mall Road is just 2kms away from the Resort.",
+            description: "The Mountain Paradise Resort in Almora Binsar offers luxurious amenities amidst jungle surroundings, featuring a lawn and the multi- cuisine restaurant Pine & Peak, just 2 km from Almora Mall Road.",
             rooms: 9
         },
     ],
