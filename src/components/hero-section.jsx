@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../css/hero-section.css";
 import Hotel from "../assets/icons/hotel.png";
 import Resort from "../assets/icons/resort.png";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+  const [hotelType, setHotelType] = useState("");
+  const [location, setLocation] = useState("");
+
+  const handleExplore = () => {
+    if (location) {
+      navigate(`/our-city/${location.toLowerCase()}`);
+    }
+  };
+
+  const handleSearch = () => {
+    if (location) {
+      navigate(`/our-city/${location.toLowerCase()}`);
+    }
+  };
+
   return (
     <div className="hero-section">
       <div className="overlay">
@@ -11,12 +28,20 @@ const HeroSection = () => {
         <div className="find-hotels">
           <h4>Find Great Places To Stay</h4>
           <div className="hotel-search-comp">
-            <select name="" id="">
+            <select
+              name="hotelType"
+              value={hotelType}
+              onChange={(e) => setHotelType(e.target.value)}
+            >
               <option value="">Choose Hotels & Resorts</option>
-              <option value="">Hotels</option>
-              <option value="">Resorts</option>
+              <option value="hotels">Hotels</option>
+              <option value="resorts">Resorts</option>
             </select>
-            <select name="" id="">
+            <select
+              name="location"
+              value={location}
+              onChange={(e) => setLocation(e.target.value)}
+            >
               <option value="">Choose Location</option>
               <option value="amritsar">Amritsar</option>
               <option value="bandhavgarh">Bandhavgarh</option>
@@ -33,17 +58,17 @@ const HeroSection = () => {
               <option value="ranikhet">Ranikhet</option>
               <option value="shimla">Shimla</option>
             </select>
-            <button>Search</button>
+            <button onClick={handleSearch}>Search</button>
           </div>
         </div>
         <div className="explore-hotels">
           <h3>Or Explore Our Hotels & Resorts</h3>
           <div className="explore-hotels-cards">
-            <div className="hotel-card">
+            <div className="hotel-card" onClick={() => setHotelType("hotels")}>
               <img src={Hotel} alt="" />
               <h3>Hotels</h3>
             </div>
-            <div className="hotel-card">
+            <div className="hotel-card" onClick={() => setHotelType("resorts")}>
               <img src={Resort} alt="" />
               <h3>Resorts</h3>
             </div>
