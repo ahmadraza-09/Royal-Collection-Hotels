@@ -1,5 +1,5 @@
 .hotel-destination-card {
-    width: 280px;
+    width: 320px;
     height: 400px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -47,7 +47,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 90px;
     position: absolute;
     bottom: 10px;
     border-top: 1.5px solid rgba(0, 0, 0, 0.1);
@@ -76,11 +76,11 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
     .hotel-destination-card {
-        width: 100%;
+        /* width: 100%; */
     }
 
     .hotel-destination-card-content-footer {
         /* justify-content: space-between; */
-        gap: 100px;
+        /* gap: 100px; */
     }
 }
