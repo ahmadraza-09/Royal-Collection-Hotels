@@ -1,5 +1,6 @@
 .hotel-list-section {
     width: 100%;
+    max-width: 1440px;
     height: fit-content;
     background-color: #fff;
     padding: 40px 20px;
@@ -8,6 +9,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+    margin: auto;
 }
 
 .hotel-list-section>h2 {
