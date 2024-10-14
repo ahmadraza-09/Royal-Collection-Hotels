@@ -84,8 +84,24 @@ const Navbar = () => {
             >
               Our Hotels
             </li>
-            <li onClick={() => setIsOpen(false)}>Careers</li>
-            <li onClick={() => setIsOpen(false)}>Contact</li>
+            <li
+              className={isActive("/career")}
+              onClick={() => {
+                navigate("/career");
+                setIsOpen(false);
+              }}
+            >
+              Careers
+            </li>
+            <li
+              className={isActive("/contact")}
+              onClick={() => {
+                navigate("/contact");
+                setIsOpen(false);
+              }}
+            >
+              Contact
+            </li>
           </ul>
 
           <div className="search-section">

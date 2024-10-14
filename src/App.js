@@ -4,6 +4,8 @@ import HomePage from './pages/homepage';
 import AboutPage from './pages/aboutpage';
 import OurHotelsPage from './pages/ourhotelspage';
 import CityHotelsPage from './pages/cityhotelspage';
+import CareerPage from './pages/careerpage';
+import ContactPage from './pages/contactpage';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<AboutPage />} />
           <Route path='/our-city' element={<OurHotelsPage />} />
+          <Route path='/career' element={<CareerPage />} />
+          <Route path='/contact' element={<ContactPage />} />
           {/* Dynamic route for each city */}
           <Route path='/our-city/:cityName' element={<CityHotelsPage />} />
         </Routes>

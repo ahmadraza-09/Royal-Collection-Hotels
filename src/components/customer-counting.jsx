@@ -21,7 +21,9 @@ const CustomerCounting = () => {
         <h2>
           <CountUp start={0} end={40} duration={5} />
         </h2>
-        <h2>Hotels</h2>
+        <h2>
+          Hotels <br /> Listed
+        </h2>
       </div>
       <div className="customer-counting-box">
         <h2>
