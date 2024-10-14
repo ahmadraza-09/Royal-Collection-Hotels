@@ -70,14 +70,14 @@ const Footer = () => {
             </a>
             <a
               onClick={() => {
-                navigate("/rooms");
+                navigate("/our-city");
               }}
             >
               Our Hotels
             </a>
             <a
               onClick={() => {
-                navigate("/gallery");
+                navigate("/career");
               }}
             >
               Careers
