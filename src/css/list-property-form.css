@@ -1,0 +1,79 @@
+.list-property-form-section {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    overflow-y: scroll;
+}
+
+.list-property-form-section form {
+    padding: 20px 40px;
+    max-width: 800px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.list-property-form-section form h2,
+.list-property-form-section form p {
+    text-align: center;
+}
+
+.list-property-form-section .form-header {
+    padding: 20px 0px;
+    border-bottom: 2px solid #ccc;
+}
+
+.list-property-form-section form .fa-circle-xmark{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000;
+    font-size: 40px;
+    cursor: pointer;
+    color: #b92100;
+}
+
+.business-name {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 5px;
+}
+
+.business-name input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #E1E8F0;
+    border: none;
+}
+
+.business-name input:focus {
+    outline: 3px solid #b92100;
+    background-color: #E1E8F0;
+}
+
+.business-name label {
+    font-size: 12px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .list-property-form-section {
+        padding: 10px;
+    }
+
+    .list-property-form-section form {
+        padding: 40px 10px;
+    }
+}

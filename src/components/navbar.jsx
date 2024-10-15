@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../css/navbar.css";
 import { useNavigate, useLocation } from "react-router-dom";
 import Logo from "../assets/logo.gif";
+import ListPropertyForm from "./list-property-form";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -28,9 +29,20 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const [showForm, setShowForm] = useState(false);
+
+  const handleShowForm = () => {
+    setShowForm(true);
+  };
+
+  const handleCloseForm = () => {
+    setShowForm(false);
+  };
+
   return (
     <>
       <div className="header-section">
+        {showForm && <ListPropertyForm onClose={handleCloseForm} />}
         <div
           className={
             navbarsection ? "navbar-section activated" : "navbar-section"
@@ -53,9 +65,7 @@ const Navbar = () => {
               <button>
                 <i className="fa-solid fa-magnifying-glass"></i>
               </button>
-              <button>
-                List Property <i className="fa-solid fa-handshake-simple"></i>
-              </button>
+              <button onClick={handleShowForm}>List Property</button>
             </div>
             <li
               className={isActive("/")}
@@ -108,8 +118,7 @@ const Navbar = () => {
             <button>
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
-            <button>List Property</button>
-
+            <button onClick={handleShowForm}>List Property</button>
             {/* Hamburger Icon */}
             <div className="menu-bars" onClick={toggleMenu}>
               {isOpen ? (
