@@ -3,6 +3,7 @@ import "../css/navbar.css";
 import { useNavigate, useLocation } from "react-router-dom";
 import Logo from "../assets/logo.gif";
 import ListPropertyForm from "./list-property-form";
+import SearchModal from "./search-modal";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -30,6 +31,15 @@ const Navbar = () => {
   };
 
   const [showForm, setShowForm] = useState(false);
+  const [showSearchModal, setShowSearchModal] = useState(false);
+
+  const handleSearchModal = () => {
+    setShowSearchModal(true);
+  };
+
+  const handleCloseSearchModal = () => {
+    setShowSearchModal(false);
+  };
 
   const handleShowForm = () => {
     setShowForm(true);
@@ -43,6 +53,7 @@ const Navbar = () => {
     <>
       <div className="header-section">
         {showForm && <ListPropertyForm onClose={handleCloseForm} />}
+        {showSearchModal && <SearchModal onClose={handleCloseSearchModal} />}
         <div
           className={
             navbarsection ? "navbar-section activated" : "navbar-section"
@@ -62,7 +73,7 @@ const Navbar = () => {
           {/* Conditionally render menu based on isOpen */}
           <ul className={`menu-section ${isOpen ? "show-menu" : ""}`}>
             <div className="none">
-              <button>
+              <button onClick={handleSearchModal}>
                 <i className="fa-solid fa-magnifying-glass"></i>
               </button>
               <button onClick={handleShowForm}>List Property</button>
@@ -115,7 +126,7 @@ const Navbar = () => {
           </ul>
 
           <div className="search-section">
-            <button>
+            <button onClick={handleSearchModal}>
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
             <button onClick={handleShowForm}>List Property</button>

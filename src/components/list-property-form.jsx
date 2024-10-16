@@ -162,7 +162,7 @@ const ListPropertyForm = ({ onClose }) => {
               <label htmlFor="">Number of Rooms</label>
               <input
                 type="number"
-                placeholder="ex: Haryana"
+                placeholder="ex: 100"
                 name="Numbers Of Rooms"
                 required
               />

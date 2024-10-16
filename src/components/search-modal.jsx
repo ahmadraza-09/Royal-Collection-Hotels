@@ -1,33 +1,28 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../css/hero-section.css";
+import "../css/search-modal.css";
 import Hotel from "../assets/icons/hotel.png";
 import Resort from "../assets/icons/resort.png";
 
-const HeroSection = () => {
+const SearchModal = ({ onClose }) => {
   const navigate = useNavigate();
   const [hotelType, setHotelType] = useState("");
   const [location, setLocation] = useState("");
-
-  const handleExplore = () => {
-    if (location) {
-      navigate(`/our-city/${location.toLowerCase()}`);
-    }
-  };
 
   const handleSearch = () => {
     if (location) {
       navigate(`/our-city/${location.toLowerCase()}`);
     }
   };
-
   return (
-    <div className="hero-section">
-      <div className="overlay">
-        <h2>Explore Amazing India</h2>
-        <div className="find-hotels">
+    <div className="search-modal-section">
+      <div className="search-modal">
+        <div className="hide-modal" onClick={onClose}>
+          <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+        <div className="find-hotels find-hotels-shadow">
           <h4>Find Great Places To Stay</h4>
-          <div className="hotel-search-comp">
+          <div className="hotel-search-comp hotel-search-comp2">
             <select
               name="hotelType"
               value={hotelType}
@@ -79,4 +74,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default SearchModal;

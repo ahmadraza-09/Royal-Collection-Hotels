@@ -29,7 +29,7 @@ const WhatWeOffer = () => {
         </div>
         <div className="what-we-offer-section-box">
           <img src={CustomerSupport} alt="" />
-          <h3>Our Customer Support</h3>
+          <h3>24/7 Customer Support</h3>
         </div>
       </div>
     </div>
