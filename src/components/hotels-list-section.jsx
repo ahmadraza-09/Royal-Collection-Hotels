@@ -82,7 +82,7 @@ const HotelListSection = () => {
     <div className="hotel-list-section">
       <h2>{cityName}</h2> {/* Show city name dynamically */}
       <div className="hotels-filter-cards-section">
-        <div className="hotel-filter-section">
+        <div className="hotel-filter-section swipe-left">
           <h3>Filter</h3>
           <form>
             <select

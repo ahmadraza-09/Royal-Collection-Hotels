@@ -3,7 +3,7 @@ import "../css/hotel-card.css";
 
 const HotelCard = ({ image, name, price, rating, description, rooms }) => {
   return (
-    <div className="hotel-card">
+    <div className="hotel-card swipe">
       <div className="hotel-card-image">
         <img src={image} alt={name} />
       </div>
