@@ -73,7 +73,7 @@ const OurHotels = () => {
       title: "Corbett",
       description:
         "Jim Corbett National Park is a premier spot for sighting of big cats",
-      properties: 1,
+      properties: 2,
     },
     {
       id: 7,
