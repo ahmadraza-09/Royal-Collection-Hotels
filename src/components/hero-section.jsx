@@ -24,8 +24,8 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <div className="overlay">
-        <h2>Explore Amazing India</h2>
-        <div className="find-hotels">
+        <h2 className="swipe">Explore Amazing India</h2>
+        <div className="find-hotels swipe">
           <h4>Find Great Places To Stay</h4>
           <div className="hotel-search-comp">
             <select
@@ -61,7 +61,7 @@ const HeroSection = () => {
             <button onClick={handleSearch}>Search</button>
           </div>
         </div>
-        <div className="explore-hotels">
+        <div className="explore-hotels swipe">
           <h3>Or Explore Our Hotels & Resorts</h3>
           <div className="explore-hotels-cards">
             <div className="hotel-card">

@@ -16,7 +16,7 @@ const SearchModal = ({ onClose }) => {
   };
   return (
     <div className="search-modal-section">
-      <div className="search-modal">
+      <div className="search-modal swipe">
         <div className="hide-modal" onClick={onClose}>
           <i class="fa-solid fa-circle-xmark"></i>
         </div>

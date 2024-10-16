@@ -33,6 +33,7 @@
     width: 50%;
     height: 300px;
     float: right;
+    border-radius: 10px;
 }
 
 .what-we-do-section p{

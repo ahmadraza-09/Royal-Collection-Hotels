@@ -8,6 +8,7 @@ const ListPropertyForm = ({ onClose }) => {
         action="https://api.web3forms.com/submit"
         // enctype="multipart/form-data"
         method="POST"
+        className="swipe"
       >
         <div className="hide-modal" onClick={onClose}>
           <i class="fa-solid fa-circle-xmark"></i>

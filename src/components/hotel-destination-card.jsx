@@ -9,7 +9,7 @@ const HotelDestinationCard = ({ image, title, description, properties }) => {
     navigate(`/our-city/${title.toLowerCase()}`);
   };
   return (
-    <div className="hotel-destination-card">
+    <div className="hotel-destination-card swipe">
       <div className="hotel-destination-card-image">
         <img src={image} alt={title} />
       </div>

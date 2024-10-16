@@ -189,7 +189,7 @@ const OurHotels = () => {
     <div className="our-hotels-section">
       <h2>Explore Our Hotels</h2>
       <div className="hotels-filter-cards-section">
-        <div className="hotel-filter-section">
+        <div className="hotel-filter-section swipe-left">
           <h3>Find Your City</h3>
           <form>
             <select

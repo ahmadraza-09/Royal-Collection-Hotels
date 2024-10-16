@@ -7,10 +7,10 @@ import Goal from "../assets/goal.avif";
 const AboutUs = () => {
   return (
     <div className="about-us-section">
-      <h2>What We Do</h2>
+      <h2 className="swipe-up">What We Do</h2>
       <div className="what-we-do-section">
-        <img src={WhatWeDo} alt="" />
-        <p>
+        <img src={WhatWeDo} alt="" className="swipe-left" />
+        <p className="swipe-right">
           <span>Royal Collection Hotels & Resorts</span> is a professional Hotel
           Branding Company. We serve both ends of the tourism industry spectrum.
           We provide Branding Solutions to hotels, helping them enhance their
