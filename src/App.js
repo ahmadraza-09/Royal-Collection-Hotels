@@ -6,6 +6,7 @@ import OurHotelsPage from './pages/ourhotelspage';
 import CityHotelsPage from './pages/cityhotelspage';
 import CareerPage from './pages/careerpage';
 import ContactPage from './pages/contactpage';
+import OnlyHotelsPage from './pages/onlyhotelspage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/our-city' element={<OurHotelsPage />} />
           <Route path='/career' element={<CareerPage />} />
           <Route path='/contact' element={<ContactPage />} />
+          <Route path='/hotels-list' element={<OnlyHotelsPage />} />
           {/* Dynamic route for each city */}
           <Route path='/our-city/:cityName' element={<CityHotelsPage />} />
         </Routes>

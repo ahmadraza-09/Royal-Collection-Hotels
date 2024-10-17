@@ -19,32 +19,31 @@ const DestinationSlider = () => {
         spaceBetween={10}
         navigation={true}
         autoplay={{ delay: 3000, disableOnInteraction: true }}
-        // pagination={{
-        //   clickable: true,
-        // }}
         breakpoints={{
           320: {
             slidesPerView: 1,
             spaceBetween: 20,
-            navigation: false,
+            navigation: false, // Hide navigation on mobile
           },
           480: {
             slidesPerView: 1,
             spaceBetween: 20,
-            navigation: false,
+            navigation: false, // Hide navigation on mobile
           },
           640: {
             slidesPerView: 2,
             spaceBetween: 20,
-            navigation: false,
+            navigation: false, // Hide navigation on smaller tablets
           },
           768: {
             slidesPerView: 3,
             spaceBetween: 40,
+            navigation: true, // Show navigation on larger devices
           },
           1024: {
             slidesPerView: 4,
             spaceBetween: 50,
+            navigation: true, // Show navigation on larger devices
           },
         }}
         modules={[Navigation, Autoplay, Pagination, Scrollbar]}

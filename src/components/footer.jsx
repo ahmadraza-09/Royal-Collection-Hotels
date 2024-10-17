@@ -112,7 +112,13 @@ const Footer = () => {
           </div>
           <div class="footer-col">
             <h4>Services</h4>
-            <a>Hotels</a>
+            <a
+              onClick={() => {
+                navigate("/hotels-list");
+              }}
+            >
+              Hotels
+            </a>
             <a>Resorts</a>
             <a>Tour Packages</a>
             <a>Travel</a>

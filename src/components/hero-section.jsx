@@ -64,7 +64,12 @@ const HeroSection = () => {
         <div className="explore-hotels swipe">
           <h3>Or Explore Our Hotels & Resorts</h3>
           <div className="explore-hotels-cards">
-            <div className="hotel-card">
+            <div
+              className="hotel-card"
+              onClick={() => {
+                navigate("/hotels-list");
+              }}
+            >
               <img src={Hotel} alt="" />
               <h3>Hotels</h3>
             </div>
