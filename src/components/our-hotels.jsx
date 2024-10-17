@@ -33,7 +33,7 @@ const OurHotels = () => {
       title: "Mussoorie",
       description:
         "The hill station is in the foothills of the Garhwal Himalayan range.",
-      properties: 7,
+      properties: 3,
     },
     {
       id: 2,
@@ -49,7 +49,7 @@ const OurHotels = () => {
       title: "Nainital",
       description:
         "Nainital is famous for the Naini Lake, the amazing view and the pleasant weather.",
-      properties: 5,
+      properties: 3,
     },
     {
       id: 4,
@@ -65,7 +65,7 @@ const OurHotels = () => {
       title: "Auli",
       description:
         "Auli is fondly referred to as a place where nature comes alive in all its glory and splendour.",
-      properties: 5,
+      properties: 1,
     },
     {
       id: 6,
@@ -81,7 +81,7 @@ const OurHotels = () => {
       title: "Manali",
       description:
         "Manali is a popular tourist destination in India and serves as the gateway to the Lahaul and Spiti district as well as the city of Leh in Ladakh.",
-      properties: 8,
+      properties: 3,
     },
     {
       id: 8,
@@ -97,7 +97,7 @@ const OurHotels = () => {
       title: "Dharamshala",
       description:
         "Dharamshala is one of the most frequented tourist places in India.",
-      properties: 6,
+      properties: 2,
     },
     {
       id: 10,
@@ -105,7 +105,7 @@ const OurHotels = () => {
       title: "Dalhousie",
       description:
         "Surrounded by beautiful snow-capped mountains, Dalhousie is named after its founder Lord Dalhousie, the British Governor-General in India.",
-      properties: 3,
+      properties: 2,
     },
     {
       id: 11,
@@ -113,7 +113,7 @@ const OurHotels = () => {
       title: "Amritsar",
       description:
         "Amritsar is the largest and most important city in Punjab and is a major commercial, cultural, and transportation centre.",
-      properties: 2,
+      properties: 3,
     },
     {
       id: 12,
@@ -121,16 +121,16 @@ const OurHotels = () => {
       title: "Chandigarh",
       description:
         "Chandigarh has been called the happiest and cleanest city in India, as evidenced by the surveys conducted in recent years.",
-      properties: 3,
+      properties: 2,
     },
-    {
-      id: 13,
-      image: Gujarat,
-      title: "Gujarat",
-      description:
-        "Gir National Park is the only place in the world outside Africa where a lion can be seen in its natural habitat.",
-      properties: 1,
-    },
+    // {
+    //   id: 13,
+    //   image: Gujarat,
+    //   title: "Gujarat",
+    //   description:
+    //     "Gir National Park is the only place in the world outside Africa where a lion can be seen in its natural habitat.",
+    //   properties: 1,
+    // },
     {
       id: 14,
       image: Bhimtal,
