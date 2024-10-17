@@ -32,11 +32,11 @@ const ListPropertyForm = ({ onClose }) => {
         <input
           type="hidden"
           name="access_key"
-          value="ac18f110-8548-4859-aa68-b7b13bdbd1b2"
+          value="bb0adeb9-5273-413b-be85-76cf74bd82a6"
         ></input>
 
         <div className="form-header">
-          <h2>LISTING PROPERTY FORM</h2>
+          <h2>PROPERTY LISTING FORM</h2>
           <p>
             If you would like to list your property with us then, please
             complete and submit this listing property form

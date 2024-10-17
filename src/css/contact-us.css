@@ -1,5 +1,7 @@
 .contact-us-section {
     width: 100%;
+    max-width: 1440px;
+    margin: auto;
     height: 100%;
     display: flex;
     flex-direction: column;

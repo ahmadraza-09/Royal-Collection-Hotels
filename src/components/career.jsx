@@ -89,7 +89,7 @@ const Career = () => {
             ></input>
 
             <div className="form-header">
-              <h2>Hiring Inquiry Form</h2>
+              <h2>Hiring Form</h2>
               <p>
                 If you would like to find out more about the positions
                 available, please complete and submit this inquiry form
