@@ -49,6 +49,7 @@ const DestinationSlider = () => {
         }}
         modules={[Navigation, Autoplay, Pagination, Scrollbar]}
         className="mySwiper destination-slider-swiper"
+        style={{ padding: "0px 40px" }}
       >
         <SwiperSlide className="swiper-overlay">
           <div className="swiper-overlay1 swiper-overlay">
