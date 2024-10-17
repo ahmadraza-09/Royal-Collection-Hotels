@@ -24,3 +24,12 @@
         padding: 20px 0px;
     }
 }
+
+@media (min-width: 480px) {
+
+    .hotel-filter-section,
+    .hotel-filter-section2 {
+        position: sticky;
+        top: 100px;
+    }
+}
