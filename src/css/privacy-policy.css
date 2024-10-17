@@ -1,0 +1,62 @@
+.privacy-policy-section {
+    width: 100%;
+    height: fit-content;
+    max-width: 1440px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.privacy-policy-content {
+    width: 100%;
+    height: 100%;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.privacy-policy-content>h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.privacy-policy-introduction {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0px;
+}
+
+.privacy-policy-introduction ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.privacy-policy-introduction ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .career-banner>h2{
+        font-size: 30px;
+    }
+
+    .privacy-policy-content {
+        padding: 0px 10px;
+    }
+}

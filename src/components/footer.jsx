@@ -100,7 +100,13 @@ const Footer = () => {
             >
               Contact
             </a>
-            <a>Privacy Policy</a>
+            <a
+              onClick={() => {
+                navigate("/privacy-policy");
+              }}
+            >
+              Privacy Policy
+            </a>
             <a
               onClick={() => {
                 navigate("/payment");
@@ -108,7 +114,13 @@ const Footer = () => {
             >
               {/* Payment Options */}
             </a>
-            <a>Cancellation & Refund Policy</a>
+            <a
+              onClick={() => {
+                navigate("/cancellation-policy");
+              }}
+            >
+              Cancellation & Refund Policy
+            </a>
           </div>
           <div class="footer-col">
             <h4>Services</h4>
