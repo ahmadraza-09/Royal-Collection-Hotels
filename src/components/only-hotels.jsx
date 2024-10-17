@@ -55,7 +55,7 @@ const OnlyHotels = () => {
     <div className="only-hotels-section">
       <h2>Hotels</h2>
       <div className="hotels-filter-cards-section">
-        <div className="hotel-filter-section swipe-left">
+        <div className="hotel-filter-section hotel-filter-section2 swipe-left">
           <h3>Filter</h3>
           <form>
             <select

@@ -36,6 +36,9 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: position 0.3s ease;
+    position: sticky;
+    top: 100px;
 }
 
 .hotel-filter-section h3 {
@@ -95,6 +98,8 @@
     padding: 0px;
 }
 
+
+
 /* Responsive */
 @media (min-width: 320px) and (max-width: 480px) {
     .our-hotels-section {
@@ -105,8 +110,10 @@
         flex-direction: column;
     }
 
-    .hotel-filter-section {
+    .hotel-filter-section,
+    .hotel-filter-section2 {
         width: 100%;
+        position: none;
     }
 
     .hotel-cards-section {
