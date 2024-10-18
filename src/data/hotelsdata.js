@@ -121,7 +121,7 @@ export const hotelsData = {
             price: 3999,
             rating: 3,
             description: "Discover the magic of Hotel Lohaghat Regency, where luxury and relaxation await. Book now for an unforgettable experience focused on your comfort and satisfaction.",
-            rooms: 18
+            rooms: 8
         },
     ],
     auli: [
