@@ -133,6 +133,7 @@
     /* Opera */
     transform: scale(1.5);
     padding: 10px;
+    background-color: #b92100;
 }
 
 .input-column label:first-of-type {

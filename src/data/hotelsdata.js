@@ -178,15 +178,15 @@ export const hotelsData = {
             description: "Corbett Aroma Park is ideal for a relaxing both in summer and winter holidays; nestled on the edge of beautiful mountains its splendid view of the Corbett guarantees the calming of frayed urban nerves.",
             rooms: 32
         },
-        {
-            id: 3,
-            image: ArtiVilla,
-            name: "Arti Villa Manali",
-            price: 0,
-            rating: 3,
-            description: "This charming property has everything required to make your stay memorable. It is exclusively designed with travelers requirements in mind. It encloses a comfortably furnished bedroom, with a snuggly bed covered with spotless linen.",
-            rooms: 0
-        },
+        // {
+        //     id: 3,
+        //     image: ArtiVilla,
+        //     name: "Arti Villa Manali",
+        //     price: 0,
+        //     rating: 3,
+        //     description: "This charming property has everything required to make your stay memorable. It is exclusively designed with travelers requirements in mind. It encloses a comfortably furnished bedroom, with a snuggly bed covered with spotless linen.",
+        //     rooms: 0
+        // },
         {
             id: 4,
             image: NehaPalace,
@@ -212,7 +212,7 @@ export const hotelsData = {
             price: 1299,
             rating: 3,
             description: "Hotel Manali Queen, Manali is a great choice for travellers looking for a 3 star star hotel in Manali. This Hotel stands out as one of the highly recommended hotel in Manali. Hotel is rated out of 5, which is considered as very good.",
-            rooms: 16
+            rooms: 20
         },
         // {
         //     id: 6,
@@ -378,11 +378,11 @@ export const hotelsData = {
         {
             id: 3,
             image: YonitInn,
-            name: "Hotel Yonit Inn",
-            price: 4599,
-            rating: 4,
+            name: "Hotel Belofte Yonit Inn",
+            price: 2000,
+            rating: 3,
             description: "Belofte Yonit Inn, Amritsar, is 750 meters from Amritsar Junction and near attractions like the Golden Temple. Rooms have flat-screen TVs and mini fridges. Amenities include internet, room service, and a restaurant serving local cuisine.",
-            rooms: 32
+            rooms: 25
         },
     ],
     chandigarh: [
@@ -418,10 +418,10 @@ export const hotelsData = {
         {
             id: 1,
             image: ParijatRetret,
-            name: "Parijat Retreat",
-            price: 10499,
+            name: "Hotel Parijat Retreat",
+            price: 3000,
             rating: 3,
-            description: "The Parijat Retreat offers 12 well-furnished rooms in a nature-friendly setting, ideal for exploring Kumaon, Uttarakhand. Enjoy stunning Himalayan views and sacred lakes, making it a peaceful haven for nature lovers and pilgrims.",
+            description: "PARIJAT RETREAT (30 KM FROM RANIKHET TOWARDS JIM CORBET) is a great choice for travellers looking for a 3 star star hotel in Khatoli. This Hotel stands out as one of the highly recommended hotel in Khatoli. Hotel is rated 4.2 out of 5, which is considered as very good.",
             rooms: 12
         },
     ],
