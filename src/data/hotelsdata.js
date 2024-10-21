@@ -41,6 +41,10 @@ import FloraHaridwar from '../assets/19.jpg'
 import SunResort from '../assets/43.jpg'
 import PineAndDine from '../assets/11.jpg'
 import MountainParadiseResort from '../assets/mountainparadise.jpg'
+import SatpanthResort from '../assets/satopanth.jpg'
+import ManaliQueen from '../assets/manali-queen.jpg'
+import ParijatRetret from '../assets/parijatresorts.jpg'
+import YonitInn from '../assets/yonit-inn.jpg'
 
 export const hotelsData = {
     mussoorie: [
@@ -127,21 +131,12 @@ export const hotelsData = {
     auli: [
         {
             id: 1,
-            image: VanasthaliJungle,
-            name: "Vanasthali Jungle Resort",
-            price: 4999,
-            rating: 3,
-            description: "Vanasthali Resort Jim Corbett, Ramnagar offers air-conditioned accommodation in Ramnagar. Among the facilities of this property are a restaurant, a 24-hour front desk and room service. Free private parking is available.",
-            rooms: 10
-        },
-        {
-            id: 2,
-            image: CorbettAroma,
-            name: "Corbett Aroma Park",
-            price: 5999,
-            rating: 3,
-            description: "Corbett Aroma Park is ideal for a relaxing both in summer and winter holidays; nestled on the edge of beautiful mountains its splendid view of the Corbett guarantees the calming of frayed urban nerves.",
-            rooms: 20
+            image: SatpanthResort,
+            name: "Satopanth The Auli Resort",
+            price: 6500,
+            rating: 4,
+            description: "Satopanth The Auli Resort, nestled in the dense oak forests of Chamoli, Uttarakhand, offers a serene escape just 10-15 minutes from Auli Slopes. Spanning 33,000 sq. ft., guests can enjoy stargazing, candlelight dinners, and bonfires away from city hustle.",
+            rooms: 12
         },
     ],
     corbett: [
@@ -212,31 +207,40 @@ export const hotelsData = {
         },
         {
             id: 6,
-            image: RigzinNest,
-            name: "Rigzin Nest Cottage",
-            price: 3599,
+            image: ManaliQueen,
+            name: "Hotel Manali Queen",
+            price: 1299,
             rating: 3,
-            description: "Rigzin Nest Cottage Manali is located in Manali. Vashist Springs is a local attraction and if an activity is on the agenda, Mall Road and Solang Valley are worth checking out",
+            description: "Hotel Manali Queen, Manali is a great choice for travellers looking for a 3 star star hotel in Manali. This Hotel stands out as one of the highly recommended hotel in Manali. Hotel is rated out of 5, which is considered as very good.",
             rooms: 16
         },
-        {
-            id: 7,
-            image: SarthakRegency,
-            name: "Hotel Sarthak Regency",
-            price: 3999,
-            rating: 3,
-            description: "Hotel Sarthak Regency, Manali, features immaculate rooms for leisure and business travelers.Choose from Premium Rooms or those with balconies offering hill or Beas views, all ensuring a classy stay.",
-            rooms: 16
-        },
-        {
-            id: 8,
-            image: SarthakResort,
-            name: "Hotel Sarthak Resort",
-            price: 3999,
-            rating: 3,
-            description: "Sarthak Resorts is a well-known chain being run by the elites of the hospitality industry. The group has grand properties in Manali. All the properties under this chain are well-appointed and decked out with all contemporary amenities for a delightful staying experience.",
-            rooms: 8
-        },
+        // {
+        //     id: 6,
+        //     image: RigzinNest,
+        //     name: "Rigzin Nest Cottage",
+        //     price: 3599,
+        //     rating: 3,
+        //     description: "Rigzin Nest Cottage Manali is located in Manali. Vashist Springs is a local attraction and if an activity is on the agenda, Mall Road and Solang Valley are worth checking out",
+        //     rooms: 16
+        // },
+        // {
+        //     id: 7,
+        //     image: SarthakRegency,
+        //     name: "Hotel Sarthak Regency",
+        //     price: 3999,
+        //     rating: 3,
+        //     description: "Hotel Sarthak Regency, Manali, features immaculate rooms for leisure and business travelers.Choose from Premium Rooms or those with balconies offering hill or Beas views, all ensuring a classy stay.",
+        //     rooms: 16
+        // },
+        // {
+        //     id: 8,
+        //     image: SarthakResort,
+        //     name: "Hotel Sarthak Resort",
+        //     price: 3999,
+        //     rating: 3,
+        //     description: "Sarthak Resorts is a well-known chain being run by the elites of the hospitality industry. The group has grand properties in Manali. All the properties under this chain are well-appointed and decked out with all contemporary amenities for a delightful staying experience.",
+        //     rooms: 8
+        // },
     ],
     shimla: [
         {
@@ -268,15 +272,15 @@ export const hotelsData = {
         },
     ],
     dharamshala: [
-        {
-            id: 1,
-            image: TriundDharamshala,
-            name: "Hotel Triund Dharamshala",
-            price: 4999,
-            rating: 3,
-            description: "Situated just 2 kms from the tourist destination of Mcleodganj, the hotel offers accommodation in spacious rooms. All rooms are fully-furnished and offer complete rooms facilities.",
-            rooms: 21
-        },
+        // {
+        //     id: 1,
+        //     image: TriundDharamshala,
+        //     name: "Hotel Triund Dharamshala",
+        //     price: 4999,
+        //     rating: 3,
+        //     description: "Situated just 2 kms from the tourist destination of Mcleodganj, the hotel offers accommodation in spacious rooms. All rooms are fully-furnished and offer complete rooms facilities.",
+        //     rooms: 21
+        // },
         {
             id: 2,
             image: TriundHeights,
@@ -304,15 +308,15 @@ export const hotelsData = {
             description: "RC Regency Dharamshala is a newly built luxury property in Dharamshala. Set high above the city, amidst open spaces and high-tech facilities, its a private zone. Mcleodganj is a hill station near Dharamshala, popular among trekkers.",
             rooms: 32
         },
-        {
-            id: 5,
-            image: HotelChandani,
-            name: "Hotel Chandani",
-            price: 3999,
-            rating: 3,
-            description: "Provides excellent service and takes care of guest so that they face no issue and are always happy with the hotel's service. This hotel is situated at an excellent location wherein one can spend their time in the hotel in the best possible manner that they desire",
-            rooms: 16
-        },
+        // {
+        //     id: 5,
+        //     image: HotelChandani,
+        //     name: "Hotel Chandani",
+        //     price: 3999,
+        //     rating: 3,
+        //     description: "Provides excellent service and takes care of guest so that they face no issue and are always happy with the hotel's service. This hotel is situated at an excellent location wherein one can spend their time in the hotel in the best possible manner that they desire",
+        //     rooms: 16
+        // },
         {
             id: 6,
             image: SevenSeas,
@@ -333,15 +337,15 @@ export const hotelsData = {
             description: "Hotel Snow Ark Dalhousie is located in Dalhousie. Khajji Naga Shrine and Panjpula are local attractions and Garam Sadak is worth checking out if an activity is on the agenda",
             rooms: 8
         },
-        {
-            id: 2,
-            image: RockVilla,
-            name: "Hotel Rock Villa",
-            price: 4999,
-            rating: 4,
-            description: "Rock Villa is a heaven located on Dalhousie-Chamba Road. We have captured the romance of luxury rooms which have always been an important part of exotic lifestyle.",
-            rooms: 10
-        },
+        // {
+        //     id: 2,
+        //     image: RockVilla,
+        //     name: "Hotel Rock Villa",
+        //     price: 4999,
+        //     rating: 4,
+        //     description: "Rock Villa is a heaven located on Dalhousie-Chamba Road. We have captured the romance of luxury rooms which have always been an important part of exotic lifestyle.",
+        //     rooms: 10
+        // },
         {
             id: 3,
             image: MohanPalace,
@@ -371,6 +375,15 @@ export const hotelsData = {
             description: "Hotel RV Continental is an excellent choice for travellers visiting Amritsar, offering a family-friendly environment alongside many helpful amenities designed to enhance your stay.",
             rooms: 32
         },
+        {
+            id: 3,
+            image: YonitInn,
+            name: "Hotel Yonit Inn",
+            price: 4599,
+            rating: 4,
+            description: "Belofte Yonit Inn, Amritsar, is 750 meters from Amritsar Junction and near attractions like the Golden Temple. Rooms have flat-screen TVs and mini fridges. Amenities include internet, room service, and a restaurant serving local cuisine.",
+            rooms: 32
+        },
     ],
     chandigarh: [
         {
@@ -391,27 +404,38 @@ export const hotelsData = {
             description: "Clarion Inn Sevilla is a part of the choice hotel international, the largest chain of hotels with 6300 hotels in 30 countries all over the world.",
             rooms: 105
         },
-        {
-            id: 3,
-            image: SailaniResort,
-            name: "Sailani Resort",
-            price: 0,
-            rating: 3,
-            description: "Sailani Resort at Kala Amb is not just a routine holiday resort.It is a paradise reserved for the connoisseurs only.",
-            rooms: 0
-        },
+        // {
+        //     id: 3,
+        //     image: SailaniResort,
+        //     name: "Sailani Resort",
+        //     price: 0,
+        //     rating: 3,
+        //     description: "Sailani Resort at Kala Amb is not just a routine holiday resort.It is a paradise reserved for the connoisseurs only.",
+        //     rooms: 0
+        // },
     ],
-    gujarat: [
+    ranikhet: [
         {
             id: 1,
-            image: GirNightResort,
-            name: "Gir Night Resort",
+            image: ParijatRetret,
+            name: "Parijat Retreat",
             price: 10499,
             rating: 3,
-            description: "Perfectly situated in the heart of Gir Forest, The Gir Resort offers stunning views of the Hiran River and the surrounding jungle. Located on the Junagadh-Sasan Highway, it provides a unique experience for leisure and nature-loving travelers.",
-            rooms: 20
+            description: "The Parijat Retreat offers 12 well-furnished rooms in a nature-friendly setting, ideal for exploring Kumaon, Uttarakhand. Enjoy stunning Himalayan views and sacred lakes, making it a peaceful haven for nature lovers and pilgrims.",
+            rooms: 12
         },
     ],
+    // gujarat: [
+    //     {
+    //         id: 1,
+    //         image: GirNightResort,
+    //         name: "Gir Night Resort",
+    //         price: 10499,
+    //         rating: 3,
+    //         description: "Perfectly situated in the heart of Gir Forest, The Gir Resort offers stunning views of the Hiran River and the surrounding jungle. Located on the Junagadh-Sasan Highway, it provides a unique experience for leisure and nature-loving travelers.",
+    //         rooms: 20
+    //     },
+    // ],
     bhimtal: [
         {
             id: 1,

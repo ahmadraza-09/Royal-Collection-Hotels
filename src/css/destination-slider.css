@@ -105,6 +105,7 @@
 
 .swiper-overlay {
     position: relative;
+    cursor: pointer;
 }
 
 .swiper-overlay .content{
@@ -217,6 +218,30 @@
 .swiper-overlay14 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
     url('../assets/shimla.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay15 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/almora.jpg') no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.swiper-overlay16 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/dhanaulti.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay17 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/lohaghat.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay18 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    url('../assets/auli.jpg') no-repeat;
     background-position: center;
     background-size: cover;
 }

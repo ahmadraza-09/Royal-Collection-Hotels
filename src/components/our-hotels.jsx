@@ -21,6 +21,7 @@ import Kausani from "../assets/kausani.jpg";
 import Haridwar from "../assets/haridwar.jpg";
 import Bandhavgarh from "../assets/bandhavgarh.jpg";
 import Almora from "../assets/almora.jpg";
+import Ranikhet from "../assets/ranikhet.jpg";
 
 const OurHotels = () => {
   const [selectedCity, setSelectedCity] = useState("");
@@ -81,7 +82,7 @@ const OurHotels = () => {
       title: "Manali",
       description:
         "Manali is a popular tourist destination in India and serves as the gateway to the Lahaul and Spiti district as well as the city of Leh in Ladakh.",
-      properties: 3,
+      properties: 6,
     },
     {
       id: 8,
@@ -97,7 +98,7 @@ const OurHotels = () => {
       title: "Dharamshala",
       description:
         "Dharamshala is one of the most frequented tourist places in India.",
-      properties: 2,
+      properties: 4,
     },
     {
       id: 10,
@@ -169,6 +170,14 @@ const OurHotels = () => {
       title: "Almora",
       description:
         "Almora is famous for its alluring beauty, panoramic view of the Himalayas, rich cultural heritage, unique handicrafts, and delicious cuisines.",
+      properties: 2,
+    },
+    {
+      id: 19,
+      image: Ranikhet,
+      title: "Ranikhet",
+      description:
+        "Ranikhet is a hill station in Uttarakhand State, northern India. It’s known for its views of the Himalayas. Hundreds of bells adorn Jhula Devi Temple, dedicated to the Hindu goddess Durga.",
       properties: 1,
     },
   ];
@@ -214,6 +223,7 @@ const OurHotels = () => {
               <option value="Manali">Manali</option>
               <option value="Mussoorie">Mussoorie</option>
               <option value="Nainital">Nainital</option>
+              <option value="Ranikhet">Ranikhet</option>
               <option value="Shimla">Shimla</option>
             </select>
             <div className="date-picker">

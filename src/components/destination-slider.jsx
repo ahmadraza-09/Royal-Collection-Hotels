@@ -1,9 +1,8 @@
 import React from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination, Scrollbar } from "swiper/modules";
+import { useNavigate } from "react-router-dom";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -12,6 +11,33 @@ import "swiper/css/scrollbar";
 import "../css/destination-slider.css";
 
 const DestinationSlider = () => {
+  const navigate = useNavigate();
+
+  const handleExplore = (cityName) => {
+    navigate(`/our-city/${cityName.toLowerCase()}`);
+  };
+
+  const destinations = [
+    { name: "Mussoorie", listings: "3" },
+    { name: "Nainital", listings: "3" },
+    { name: "Corbett", listings: "2" },
+    { name: "Manali", listings: "6" },
+    { name: "Bhimtal", listings: "1" },
+    { name: "Dharamshala", listings: "4" },
+    { name: "Amritsar", listings: "3" },
+    { name: "Kausani", listings: "1" },
+    { name: "Ranikhet", listings: "1" },
+    { name: "Dalhousie", listings: "2" },
+    { name: "Haridwar", listings: "1" },
+    { name: "Chandigarh", listings: "2" },
+    { name: "Bandhavgarh", listings: "1" },
+    { name: "Shimla", listings: "3" },
+    { name: "Almora", listings: "2" },
+    { name: "Dhanaulti", listings: "1" },
+    { name: "Lohaghat", listings: "1" },
+    { name: "Auli", listings: "1" },
+  ];
+
   return (
     <>
       <Swiper
@@ -23,145 +49,52 @@ const DestinationSlider = () => {
           320: {
             slidesPerView: 1,
             spaceBetween: 20,
-            navigation: false, // Hide navigation on mobile
+            navigation: false,
           },
           480: {
             slidesPerView: 1,
             spaceBetween: 20,
-            navigation: false, // Hide navigation on mobile
+            navigation: false,
           },
           640: {
             slidesPerView: 2,
             spaceBetween: 20,
-            navigation: false, // Hide navigation on smaller tablets
+            navigation: false,
           },
           768: {
             slidesPerView: 3,
             spaceBetween: 40,
-            navigation: true, // Show navigation on larger devices
+            navigation: true,
           },
           1024: {
             slidesPerView: 4,
             spaceBetween: 50,
-            navigation: true, // Show navigation on larger devices
+            navigation: true,
           },
         }}
         modules={[Navigation, Autoplay, Pagination, Scrollbar]}
         className="mySwiper destination-slider-swiper"
         style={{ padding: "0px 40px" }}
       >
-        <SwiperSlide className="swiper-overlay">
-          <div className="swiper-overlay1 swiper-overlay">
-            <div className="content">
-              <h2>Mussoorie</h2>
-              <h3>7 Listing</h3>
+        {destinations.map((destination, index) => (
+          <SwiperSlide
+            key={index}
+            className={`swiper-overlay swiper-overlay${index + 1}`}
+          >
+            <div
+              className={`swiper-overlay${index + 1} swiper-overlay`}
+              onClick={() => handleExplore(destination.name)}
+            >
+              <div className="content">
+                <h2>{destination.name}</h2>
+                <h3>
+                  {destination.listings} Listing
+                  {destination.listings > 1 ? "s" : ""}
+                </h3>
+              </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay2 swiper-overlay">
-            <div className="content">
-              <h2>Nainital</h2>
-              <h3>3 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay3 swiper-overlay">
-            <div className="content">
-              <h2>Corbett</h2>
-              <h3>4 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay4 swiper-overlay">
-            <div className="content">
-              <h2>Manali</h2>
-              <h3>5 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay5 swiper-overlay">
-            <div className="content">
-              <h2>Bhimtal</h2>
-              <h3>1 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay6 swiper-overlay">
-            <div className="content">
-              <h2>Dharamshala</h2>
-              <h3>5 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay7 swiper-overlay">
-            <div className="content">
-              <h2>Amritsar</h2>
-              <h3>2 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay8 swiper-overlay">
-            <div className="content">
-              <h2>Kausani</h2>
-              <h3>1 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay9 swiper-overlay">
-            <div className="content">
-              <h2>Ranikhet</h2>
-              <h3>1 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay10 swiper-overlay">
-            <div className="content">
-              <h2>Dalhousie</h2>
-              <h3>2 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay11 swiper-overlay">
-            <div className="content">
-              <h2>Haridwar</h2>
-              <h3>1 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay12 swiper-overlay">
-            <div className="content">
-              <h2>Chandigarh</h2>
-              <h3>2 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay13 swiper-overlay">
-            <div className="content">
-              <h2>Bandhavgarh</h2>
-              <h3>1 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-overlay14 swiper-overlay">
-            <div className="content">
-              <h2>Shimla</h2>
-              <h3>3 Listing</h3>
-            </div>
-          </div>
-        </SwiperSlide>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );
