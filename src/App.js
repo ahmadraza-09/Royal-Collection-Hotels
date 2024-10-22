@@ -9,6 +9,7 @@ import ContactPage from './pages/contactpage';
 import OnlyHotelsPage from './pages/onlyhotelspage';
 import PrivacyPolicyPage from './pages/privacypolicypage';
 import CancellationPolicyPage from './pages/cancellationpolicypage';
+import PaymentPage from './pages/paymentpage';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/hotels-list' element={<OnlyHotelsPage />} />
           <Route path='/privacy-policy' element={<PrivacyPolicyPage />} />
           <Route path='/cancellation-policy' element={<CancellationPolicyPage />} />
+          <Route path='/payment' element={<PaymentPage />} />
           {/* Dynamic route for each city */}
           <Route path='/our-city/:cityName' element={<CityHotelsPage />} />
         </Routes>

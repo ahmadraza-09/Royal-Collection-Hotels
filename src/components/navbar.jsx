@@ -115,6 +115,15 @@ const Navbar = () => {
               Careers
             </li>
             <li
+              className={isActive("/payment")}
+              onClick={() => {
+                navigate("/payment");
+                setIsOpen(false);
+              }}
+            >
+              Payment
+            </li>
+            <li
               className={isActive("/contact")}
               onClick={() => {
                 navigate("/contact");
