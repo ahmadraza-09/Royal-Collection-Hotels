@@ -82,7 +82,13 @@ const Footer = () => {
             >
               Careers
             </a>
-            <a>Payment Option</a>
+            <a
+              onClick={() => {
+                navigate("/payment");
+              }}
+            >
+              Payment Option
+            </a>
           </div>
           <div class="footer-col">
             <h4>get help</h4>
