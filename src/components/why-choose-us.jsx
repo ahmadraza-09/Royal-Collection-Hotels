@@ -5,7 +5,7 @@ import WhyChoose from "../assets/why-choose-us/why-choose-us.jpg";
 const WhyChooseUs = () => {
   return (
     <div className="why-choose-us-section">
-      <h2>Why Choose Us</h2>
+      <h2>who we are</h2>
       <div className="why-choose-us-contents">
         <div className="why-choose-us-left">
           <img src={WhyChoose} alt="" />

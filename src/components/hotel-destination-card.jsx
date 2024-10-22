@@ -15,7 +15,7 @@ const HotelDestinationCard = ({ image, title, description, properties }) => {
       </div>
       <div className="hotel-destination-card-content">
         <div className="hotel-destination-card-content-header">
-          <h3>{title}</h3>
+          <h1>{title}</h1>
           <p>{description}</p>
         </div>
         <div className="hotel-destination-card-content-footer">

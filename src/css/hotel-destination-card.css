@@ -31,8 +31,9 @@
     padding: 10px;
 }
 
-.hotel-destination-card-content-header h3 {
+.hotel-destination-card-content-header h1 {
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 .hotel-destination-card-content-header p {

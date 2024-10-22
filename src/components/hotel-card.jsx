@@ -9,7 +9,7 @@ const HotelCard = ({ image, name, price, rating, description, rooms }) => {
       </div>
       <div className="hotel-card-content">
         <div className="hotel-card-content-header">
-          <h2>{name}</h2>
+          <h1>{name}</h1>
           <h4>
             <span>₹ {price}</span> /Night
           </h4>

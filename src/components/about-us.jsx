@@ -7,7 +7,7 @@ import Goal from "../assets/goal.avif";
 const AboutUs = () => {
   return (
     <div className="about-us-section">
-      <h2 className="swipe-up">What We Do</h2>
+      <h1 className="swipe-up">What We Do</h1>
       <div className="what-we-do-section">
         <img src={WhatWeDo} alt="" className="swipe-left" />
         <p className="swipe-right">
@@ -26,7 +26,7 @@ const AboutUs = () => {
           value for money services.
         </p>
       </div>
-      <h2>Our Mission</h2>
+      <h1>Our Mission</h1>
       <div className="what-we-do-section">
         <p>
           Our mission is to provide best services to our guests at reasonable
@@ -35,7 +35,7 @@ const AboutUs = () => {
         </p>
         <img src={Mission} alt="" />
       </div>
-      <h2>Our Goal</h2>
+      <h1>Our Goal</h1>
       <div className="what-we-do-section">
         <img src={Goal} alt="" />
         <p>

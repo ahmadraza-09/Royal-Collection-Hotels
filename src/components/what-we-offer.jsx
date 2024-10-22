@@ -9,7 +9,7 @@ import CustomerSupport from "../assets/icons/services.png";
 const WhatWeOffer = () => {
   return (
     <div className="what-we-offer-section">
-      <h2>What We Offer</h2>
+      <h2>Why Choose Us</h2>
       <div className="what-we-offer-section-boxes">
         <div className="what-we-offer-section-box">
           <img src={Guarantee} alt="" />
