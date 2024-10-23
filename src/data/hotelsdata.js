@@ -55,7 +55,8 @@ export const hotelsData = {
             price: 3999,
             rating: 3,
             description: "Kahkashan Mussoorie is situated in Mussoorie, a picturesque hill station that offers enchanting view of capacious green grasslands and snow clad Himalayas. The hotel is located at an accessible distance of 550m from Library Bus Stand.",
-            rooms: 18
+            rooms: 18,
+            website: "https://hotelkahkashan.com"
         },
         {
             id: 2,
@@ -64,7 +65,8 @@ export const hotelsData = {
             price: 5999,
             rating: 3,
             description: "Shivalik Hills Mussoorie By Royal Collection Hotels is one of the elegantly designed luxury hotel in Mussoorie . We offers our guests premium luxury in Stay . Hotel is special attraction for families , corporates , honeymooners and Leisure groups .",
-            rooms: 45
+            rooms: 45,
+            website: "https://shivalikhillsmussoorie.com/"
         },
         {
             id: 3,
@@ -73,7 +75,8 @@ export const hotelsData = {
             price: 4999,
             rating: 3,
             description: "Occupying a part of the main road, lying right opposite to the Picture Palace you can find Apsara Hotel Mussoorie. It is near to the bus or taxi stand and its location is easily found as it is situated on a busy road.",
-            rooms: 25
+            rooms: 25,
+            website: "https://www.hotelapsaramussoorie.com/"
         },
 
     ],
@@ -85,7 +88,8 @@ export const hotelsData = {
             price: 3999,
             rating: 3,
             description: "Apple Orchard Resort, set in the stunning Himalayas, features 20 elegant guest rooms and 4 Luxury Swiss Tent Houses, all with breathtaking views. Enjoy the crisp air, fresh spring water, and a rejuvenating escape in nature.",
-            rooms: 18
+            rooms: 18,
+            website: "https://www.appleorchardresort.com/"
         },
     ],
     nainital: [
@@ -96,7 +100,8 @@ export const hotelsData = {
             price: 7999,
             rating: 3,
             description: "A complete family hotel Aroma Hotel established in 1967 is located in the tranquil woods of Ayarpata Nainital (approx. 300 mtrs from the Naini Lake).",
-            rooms: 25
+            rooms: 25,
+            website: "https://hotelaromanainital.com/"
         },
         {
             id: 2,
@@ -105,7 +110,8 @@ export const hotelsData = {
             price: 8999,
             rating: 4,
             description: "The palace belvedere, The summer palace of the erstwhile Rajas of awagarh, It is reminiscent of the bygone days of the 'Raj Era built nearly a century ago by Raja Balwant Singh OBE of Awagarh in the year 1897.",
-            rooms: 36
+            rooms: 36,
+            website: "https://www.thepalacebelvedere.com/"
         },
         {
             id: 3,
@@ -114,7 +120,8 @@ export const hotelsData = {
             price: 8999,
             rating: 3,
             description: "Manu Maharani Regency in Nainital is a luxurious hotel that offers an unparalleled experience of hospitality and comfort. Nestled amidst the picturesque mountains of Nainital, this hotel is one of the most sought-after destinations for tourists from all around the world.",
-            rooms: 12
+            rooms: 12,
+            website: "https://manumaharaniregency.com/"
         },
     ],
     lohaghat: [
@@ -125,7 +132,8 @@ export const hotelsData = {
             price: 3999,
             rating: 3,
             description: "Discover the magic of Hotel Lohaghat Regency, where luxury and relaxation await. Book now for an unforgettable experience focused on your comfort and satisfaction.",
-            rooms: 8
+            rooms: 8,
+            website: "https://www.lohaghatregency.com/"
         },
     ],
     auli: [
@@ -136,7 +144,8 @@ export const hotelsData = {
             price: 6500,
             rating: 4,
             description: "Satopanth The Auli Resort, nestled in the dense oak forests of Chamoli, Uttarakhand, offers a serene escape just 10-15 minutes from Auli Slopes. Spanning 33,000 sq. ft., guests can enjoy stargazing, candlelight dinners, and bonfires away from city hustle.",
-            rooms: 12
+            rooms: 12,
+            website: ""
         },
     ],
     corbett: [
@@ -147,7 +156,8 @@ export const hotelsData = {
             price: 4999,
             rating: 3,
             description: "Vanasthali Resort Jim Corbett, Ramnagar offers air-conditioned accommodation in Ramnagar. Among the facilities of this property are a restaurant, a 24-hour front desk and room service. Free private parking is available.",
-            rooms: 10
+            rooms: 10,
+            website: "https://vanasthalicorbett.com/"
         },
         {
             id: 2,
@@ -156,7 +166,8 @@ export const hotelsData = {
             price: 5999,
             rating: 3,
             description: "Corbett Aroma Park is ideal for a relaxing both in summer and winter holidays; nestled on the edge of beautiful mountains its splendid view of the Corbett guarantees the calming of frayed urban nerves.",
-            rooms: 20
+            rooms: 20,
+            website: "https://www.aromaparkcorbett.com/"
         },
     ],
     manali: [
@@ -167,7 +178,8 @@ export const hotelsData = {
             price: 3999,
             rating: 3,
             description: "Manali Grand has fascinating view from its rooms & terrace. The sunset visible from hotels premises is soul stirring with a view of river Beas just flowing next to hotel premises adjoining nearby",
-            rooms: 35
+            rooms: 35,
+            website: "https://hotelmanaligrand.com/"
         },
         {
             id: 2,
@@ -176,7 +188,8 @@ export const hotelsData = {
             price: 3999,
             rating: 3,
             description: "Corbett Aroma Park is ideal for a relaxing both in summer and winter holidays; nestled on the edge of beautiful mountains its splendid view of the Corbett guarantees the calming of frayed urban nerves.",
-            rooms: 32
+            rooms: 32,
+            website: ""
         },
         // {
         //     id: 3,
@@ -194,7 +207,8 @@ export const hotelsData = {
             price: 3599,
             rating: 3,
             description: "Neha Palace is one of the ventures of Group of Royal Hotels having been into Hospitality business from the last many years offering quality services to its guests. Today Manali is the main tourist destination of Kullu Valley.",
-            rooms: 32
+            rooms: 32,
+            website: ""
         },
         {
             id: 5,
@@ -203,7 +217,8 @@ export const hotelsData = {
             price: 3599,
             rating: 3,
             description: "Manali with its unspoilt scenic grandeur is extremely popular with the tourists, for a lavish display of natural scenery. Manali is situated at an altitude of 1,926 metres and spreads in 12.5 square km.",
-            rooms: 16
+            rooms: 16,
+            website: ""
         },
         {
             id: 6,
@@ -212,7 +227,8 @@ export const hotelsData = {
             price: 1299,
             rating: 3,
             description: "Hotel Manali Queen, Manali is a great choice for travellers looking for a 3 star star hotel in Manali. This Hotel stands out as one of the highly recommended hotel in Manali. Hotel is rated out of 5, which is considered as very good.",
-            rooms: 20
+            rooms: 20,
+            website: ""
         },
         // {
         //     id: 6,
@@ -250,7 +266,8 @@ export const hotelsData = {
             price: 5599,
             rating: 3,
             description: "Hotel CK Internation Shimla is within a 15-minute drive of Viceregal Lodge and Himachal Pradesh University. This hotel is 2.5 KM from Shimla Mall and 2 KM State Museum.",
-            rooms: 41
+            rooms: 41,
+            website: ""
         },
         {
             id: 2,
@@ -259,7 +276,8 @@ export const hotelsData = {
             price: 4999,
             rating: 3,
             description: "Mahaveer Shimla by Royal Collection Hotels is an experience, not just a stay. Reconnect with nature and rejuvenate your senses in luxurious accommodations with exceptional service. It truly is the best hotel in Shimla.",
-            rooms: 14
+            rooms: 14,
+            website: "https://mahaveershimla.com/"
         },
         {
             id: 3,
@@ -268,7 +286,8 @@ export const hotelsData = {
             price: 4999,
             rating: 3,
             description: "The Grand Madhushala is Located in the beautiful city of Shimla, Hotel has 25 well furnished rooms with balcony and other modern amenities. If you are looking for a fun filled holiday in the heart of Shimla.It is an exceptional blend of affordability",
-            rooms: 25
+            rooms: 25,
+            website: ""
         },
     ],
     dharamshala: [
@@ -288,7 +307,8 @@ export const hotelsData = {
             price: 6599,
             rating: 3,
             description: "Hotel Triund Heights is a speciality lodging in McLeod Ganj. It has free parking service with air conditioning room and flat screen TV.",
-            rooms: 16
+            rooms: 16,
+            website: ""
         },
         {
             id: 3,
@@ -297,7 +317,8 @@ export const hotelsData = {
             price: 4999,
             rating: 3,
             description: "Far far away, behind the word mountains, far from the countries",
-            rooms: 16
+            rooms: 16,
+            website: "https://rcregencydharamshala.com/"
         },
         {
             id: 4,
@@ -306,7 +327,8 @@ export const hotelsData = {
             price: 7299,
             rating: 4,
             description: "RC Regency Dharamshala is a newly built luxury property in Dharamshala. Set high above the city, amidst open spaces and high-tech facilities, its a private zone. Mcleodganj is a hill station near Dharamshala, popular among trekkers.",
-            rooms: 32
+            rooms: 32,
+            website: ""
         },
         // {
         //     id: 5,
@@ -324,7 +346,8 @@ export const hotelsData = {
             price: 4999,
             rating: 3,
             description: "Located in the heart of Upper Dharamshala, Hotel Seven Seas is a budget property known for its warm hospitality. The property is established in the lap of nature and provides a perfect retreat away from the city din.",
-            rooms: 30
+            rooms: 30,
+            website: ""
         },
     ],
     dalhousie: [
@@ -335,7 +358,8 @@ export const hotelsData = {
             price: 3999,
             rating: 3,
             description: "Hotel Snow Ark Dalhousie is located in Dalhousie. Khajji Naga Shrine and Panjpula are local attractions and Garam Sadak is worth checking out if an activity is on the agenda",
-            rooms: 8
+            rooms: 8,
+            website: "https://hotelsnowark.com/"
         },
         // {
         //     id: 2,
@@ -353,7 +377,8 @@ export const hotelsData = {
             price: 6999,
             rating: 3,
             description: "Hotel MOHAN Palace – Dalhousie is best choice for your stay in Dalhousie. Located on Khajiar Road, walking distance from Gandhi Chowk of Dalhousie.",
-            rooms: 10
+            rooms: 10,
+            website: ""
         },
     ],
     amritsar: [
@@ -364,7 +389,8 @@ export const hotelsData = {
             price: 3999,
             rating: 3,
             description: "Hotel 42 Amritsar is the most exclusive address, now a world of luxury, elegance & gracious efficiency. Amritsar Airport, Railway Station, Bus Stand and Golden Temple in Amritsar are just minutes away from the Hotel",
-            rooms: 5
+            rooms: 5,
+            website: ""
         },
         {
             id: 2,
@@ -373,7 +399,8 @@ export const hotelsData = {
             price: 4599,
             rating: 4,
             description: "Hotel RV Continental is an excellent choice for travellers visiting Amritsar, offering a family-friendly environment alongside many helpful amenities designed to enhance your stay.",
-            rooms: 32
+            rooms: 32,
+            website: ""
         },
         {
             id: 3,
@@ -382,7 +409,8 @@ export const hotelsData = {
             price: 2000,
             rating: 3,
             description: "Belofte Yonit Inn, Amritsar, is 750 meters from Amritsar Junction and near attractions like the Golden Temple. Rooms have flat-screen TVs and mini fridges. Amenities include internet, room service, and a restaurant serving local cuisine.",
-            rooms: 25
+            rooms: 25,
+            website: ""
         },
     ],
     chandigarh: [
@@ -393,7 +421,8 @@ export const hotelsData = {
             price: 4599,
             rating: 3,
             description: "Far far away, behind the word mountains, far from the countries",
-            rooms: 65
+            rooms: 65,
+            website: ""
         },
         {
             id: 2,
@@ -402,7 +431,8 @@ export const hotelsData = {
             price: 4999,
             rating: 3,
             description: "Clarion Inn Sevilla is a part of the choice hotel international, the largest chain of hotels with 6300 hotels in 30 countries all over the world.",
-            rooms: 105
+            rooms: 105,
+            website: ""
         },
         // {
         //     id: 3,
@@ -422,7 +452,8 @@ export const hotelsData = {
             price: 3000,
             rating: 3,
             description: "PARIJAT RETREAT (30 KM FROM RANIKHET TOWARDS JIM CORBET) is a great choice for travellers looking for a 3 star star hotel in Khatoli. This Hotel stands out as one of the highly recommended hotel in Khatoli. Hotel is rated 4.2 out of 5, which is considered as very good.",
-            rooms: 12
+            rooms: 12,
+            website: ""
         },
     ],
     // gujarat: [
@@ -444,7 +475,8 @@ export const hotelsData = {
             price: 3999,
             rating: 3,
             description: "Hotel Maya Regency boasts a unique architectural style that reflects its exceptional hospitality.With 18 spacious, well- furnished rooms equipped with modern amenities, it ensures a comfortable and memorable stay for all guests.",
-            rooms: 18
+            rooms: 18,
+            website: "https://hotelmayaregency.com/"
         },
     ],
     kausani: [
@@ -455,7 +487,8 @@ export const hotelsData = {
             price: 3999,
             rating: 3,
             description: "Natures Valley Resort features spotlessly clean and furnished rooms equipped with cable television, intercom facility, tea/coffee maker, refrigerator, ironing board, direct dial phone surcharge, sofa unit and room heater",
-            rooms: 18
+            rooms: 18,
+            website: ""
         },
     ],
     haridwar: [
@@ -466,7 +499,8 @@ export const hotelsData = {
             price: 3699,
             rating: 3,
             description: "Nestled in the city famous for its temples and ghats, Hotel Flora is one of the finest property in Haridwar. The nearest airport is the Jolly Grant Airport and the closest rail-head is the Haridwar Railway Station.",
-            rooms: 15
+            rooms: 15,
+            website: ""
         },
     ],
     bandhavgarh: [
@@ -477,7 +511,8 @@ export const hotelsData = {
             price: 3999,
             rating: 3,
             description: "Our fully furnished rooms feature modern amenities such as climate control, Western toilets, power backup, satellite TV, Wi-Fi, and intercom. Enjoy home comforts in a traditional setting, with packages available for both weekend breaks and longer holidays.",
-            rooms: 18
+            rooms: 18,
+            website: ""
         },
     ],
     almora: [
@@ -488,7 +523,8 @@ export const hotelsData = {
             price: 3999,
             rating: 3,
             description: "Hotel Pine and Dine in Almora offers rooms with cable TV, private bathrooms, and wardrobes. Enjoy a continental breakfast each morning (subject to availability). The reception can provide local tips, and Pantnagar Airport is 63 km away.",
-            rooms: 8
+            rooms: 8,
+            website: ""
         },
         {
             id: 2,
@@ -497,7 +533,8 @@ export const hotelsData = {
             price: 4999,
             rating: 3,
             description: "The Mountain Paradise Resort in Almora Binsar offers luxurious amenities amidst jungle surroundings, featuring a lawn and the multi- cuisine restaurant Pine & Peak, just 2 km from Almora Mall Road.",
-            rooms: 9
+            rooms: 9,
+            website: ""
         },
     ],
 };

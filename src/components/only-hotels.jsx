@@ -132,6 +132,7 @@ const OnlyHotels = () => {
                 rating={hotel.rating}
                 description={hotel.description}
                 rooms={hotel.rooms}
+                website={hotel.website}
               />
             ))
           ) : (

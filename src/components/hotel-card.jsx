@@ -1,7 +1,15 @@
 import React from "react";
 import "../css/hotel-card.css";
 
-const HotelCard = ({ image, name, price, rating, description, rooms }) => {
+const HotelCard = ({
+  image,
+  name,
+  price,
+  rating,
+  description,
+  rooms,
+  website,
+}) => {
   return (
     <div className="hotel-card swipe">
       <div className="hotel-card-image">
@@ -11,15 +19,23 @@ const HotelCard = ({ image, name, price, rating, description, rooms }) => {
         <div className="hotel-card-content-header">
           <h1>{name}</h1>
           <h4>
-            <span>₹ {price}</span> /Night <span>- Valid Only for Season</span>
+            <span>₹ {price}</span> /Night
+            {/* <span>- Valid Only for Season</span> */}
           </h4>
           <p>
-            <span>
-              {Array.from({ length: rating }, (_, index) => (
-                <i key={index} className="fa-solid fa-star"></i>
-              ))}
-            </span>
-            {` ${rating} Stars`}
+            <p>
+              <span>
+                {Array.from({ length: rating }, (_, index) => (
+                  <i key={index} className="fa-solid fa-star"></i>
+                ))}
+              </span>
+              {` ${rating} Stars`}
+            </p>
+            <p>
+              <a href={website} target="_blank">
+                Website <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </p>
           </p>
         </div>
         <div className="hotel-card-content-center">

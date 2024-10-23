@@ -29,6 +29,7 @@ const PopularHotels = () => {
           rating={3}
           description="The Manu Maharani is a premium hotel in Nainital providing top-class services comfortable rooms and picturesque visuals of the Naini Lake."
           rooms={9}
+          website={"https://manumaharaniregency.com/"}
         />
         <HotelCard
           image={HotelImage3}
@@ -37,6 +38,7 @@ const PopularHotels = () => {
           rating={3}
           description="Vanasthali Resort Jim Corbett, Ramnagar offers air-conditioned accommodation in Ramnagar. Among the facilities of this property are a restaurant, a 24-hour front desk and room service. Free private parking is available."
           rooms={10}
+          website={"https://vanasthalicorbett.com/"}
         />
         <HotelCard
           image={HotelImage4}
@@ -53,6 +55,7 @@ const PopularHotels = () => {
           rating={3}
           description="A complete family hotel Aroma Hotel established in 1967 is located in the tranquil woods of Ayarpata Nainital (approx. 300 mtrs from the Naini Lake)."
           rooms={25}
+          website={"https://hotelaromanainital.com/"}
         />
       </div>
     </div>

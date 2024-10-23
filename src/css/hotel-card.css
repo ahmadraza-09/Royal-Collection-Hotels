@@ -67,21 +67,39 @@
     border-radius: 5px;
 }
 
-.hotel-card-content-header>h4>span:last-of-type{
+/* .hotel-card-content-header>h4>span:last-of-type{
     font-size: 12px;
     color: #000;
     background-color: #FEC325;
     padding: 0px 5px;
     border-radius: 5px;
-}
+} */
 
 .hotel-card-content-header>p {
     display: flex;
+    justify-content: space-between;
     gap: 10px;
     font-weight: 600;
 }
 
-.hotel-card-content-header>p>span>i {
+.hotel-card-content-header p:last-of-type a {
+    color: #000;
+    cursor: pointer;
+    background-color: #FEC325;
+    padding: 0px 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.hotel-card-content-header p:last-of-type a i {
+    font-size: 14px;
+}
+
+.hotel-card-content-header>p>p>span>i {
     color: #B92100;
 }
 
