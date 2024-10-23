@@ -11,7 +11,7 @@ const HotelCard = ({ image, name, price, rating, description, rooms }) => {
         <div className="hotel-card-content-header">
           <h1>{name}</h1>
           <h4>
-            <span>₹ {price}</span> /Night
+            <span>₹ {price}</span> /Night <span>- Valid Only for Season</span>
           </h4>
           <p>
             <span>
