@@ -39,14 +39,18 @@ const SearchModal = ({ onClose }) => {
             >
               <option value="">Choose Location</option>
               <option value="amritsar">Amritsar</option>
+              <option value="auli">Auli</option>
+              <option value="almora">Almora</option>
               <option value="bandhavgarh">Bandhavgarh</option>
               <option value="bhimtal">Bhimtal</option>
               <option value="chandigarh">Chandigarh</option>
               <option value="corbett">Corbett</option>
+              <option value="dhanaulti">Dhanaulti</option>
               <option value="dalhousie">Dalhousie</option>
               <option value="dharamshala">Dharamshala</option>
               <option value="haridwar">Haridwar</option>
               <option value="kausani">Kausani</option>
+              <option value="lohaghat">Lohaghat</option>
               <option value="manali">Manali</option>
               <option value="mussoorie">Mussoorie</option>
               <option value="nainital">Nainital</option>

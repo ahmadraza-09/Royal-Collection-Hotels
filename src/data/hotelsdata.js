@@ -1,12 +1,12 @@
 
 import HotelKahkashan from '../assets/1.jpg'
-import ShivalikHills from '../assets/shivalik1.jpeg'
+import ShivalikHills from '../assets/shivalik2.jpeg'
 import HotelApsara from '../assets/3.jpg'
-import AppleOrchard from '../assets/appleorchard.jpg'
+import AppleOrchard from '../assets/appleorchardresort.jpg'
 import HotelAroma from '../assets/8.jpg'
 import PalaceBelvedere from '../assets/palace.jpg'
 import ManuMaharani from '../assets/manu.jpeg'
-import HotelLohaghat from '../assets/lohaghat.jpeg'
+import HotelLohaghat from '../assets/lohaghat-hotel.jpeg'
 import VanasthaliJungle from '../assets/15.jpg'
 import CorbettAroma from '../assets/corbettaroma.jpg'
 import ManaliGrand from '../assets/20.jpg'
@@ -81,7 +81,7 @@ export const hotelsData = {
         {
             id: 1,
             image: AppleOrchard,
-            name: "Apple Orchard Resort Dhanaulti",
+            name: "Apple Orchard Resort",
             price: 3999,
             rating: 3,
             description: "Apple Orchard Resort, set in the stunning Himalayas, features 20 elegant guest rooms and 4 Luxury Swiss Tent Houses, all with breathtaking views. Enjoy the crisp air, fresh spring water, and a rejuvenating escape in nature.",

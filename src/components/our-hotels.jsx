@@ -220,6 +220,7 @@ const OurHotels = () => {
               <option value="Gujarat">Gujarat</option>
               <option value="Haridwar">Haridwar</option>
               <option value="Kausani">Kausani</option>
+              <option value="lohaghat">Lohaghat</option>
               <option value="Manali">Manali</option>
               <option value="Mussoorie">Mussoorie</option>
               <option value="Nainital">Nainital</option>
