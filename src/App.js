@@ -13,23 +13,21 @@ import PaymentPage from './pages/paymentpage';
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/about' element={<AboutPage />} />
-          <Route path='/our-city' element={<OurHotelsPage />} />
-          <Route path='/career' element={<CareerPage />} />
-          <Route path='/contact' element={<ContactPage />} />
-          <Route path='/hotels-list' element={<OnlyHotelsPage />} />
-          <Route path='/privacy-policy' element={<PrivacyPolicyPage />} />
-          <Route path='/cancellation-policy' element={<CancellationPolicyPage />} />
-          <Route path='/payment' element={<PaymentPage />} />
-          {/* Dynamic route for each city */}
-          <Route path='/our-city/:cityName' element={<CityHotelsPage />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/about' element={<AboutPage />} />
+        <Route path='/our-city' element={<OurHotelsPage />} />
+        <Route path='/career' element={<CareerPage />} />
+        <Route path='/contact' element={<ContactPage />} />
+        <Route path='/hotels-list' element={<OnlyHotelsPage />} />
+        <Route path='/privacy-policy' element={<PrivacyPolicyPage />} />
+        <Route path='/cancellation-policy' element={<CancellationPolicyPage />} />
+        <Route path='/payment' element={<PaymentPage />} />
+        {/* Change the dynamic route to match the desired format */}
+        <Route path='/our-city/:cityName' element={<CityHotelsPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

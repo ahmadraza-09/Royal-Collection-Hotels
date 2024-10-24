@@ -6,8 +6,12 @@ const HotelDestinationCard = ({ image, title, description, properties }) => {
   const navigate = useNavigate();
 
   const handleExplore = () => {
-    navigate(`/our-city/${title.toLowerCase()}`);
+    // Format the title to be URL-friendly
+    const formattedTitle = title.toLowerCase();
+    // Navigate without a slash before cityName
+    navigate(`/our-city/${formattedTitle}`);
   };
+
   return (
     <div className="hotel-destination-card swipe">
       <div className="hotel-destination-card-image">
