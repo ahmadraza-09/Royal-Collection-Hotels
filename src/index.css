@@ -56,6 +56,6 @@
 
 .swipe {
     animation-name: swipeUp;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-direction: normal;
 }
