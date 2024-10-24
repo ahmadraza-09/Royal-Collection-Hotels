@@ -69,11 +69,11 @@ const SearchModal = ({ onClose }) => {
                 navigate("/hotels-list");
               }}
             >
-              <img src={Hotel} alt="" />
+              <img src={Hotel} alt="" loading="lazy" />
               <h3>Hotels</h3>
             </div>
             <div className="hotel-card">
-              <img src={Resort} alt="" />
+              <img src={Resort} alt="" loading="lazy" />
               <h3>Resorts</h3>
             </div>
           </div>

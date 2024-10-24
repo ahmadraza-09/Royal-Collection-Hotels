@@ -69,12 +69,22 @@ const HeroSection = () => {
                 navigate("/hotels-list");
               }}
             >
-              <img src={Hotel} alt="Hotel" onLoad={handleImageLoad} />{" "}
+              <img
+                src={Hotel}
+                alt="Hotel"
+                onLoad={handleImageLoad}
+                loading="lazy"
+              />{" "}
               {/* Trigger image load */}
               <h3>Hotels</h3>
             </div>
             <div className="hotel-card">
-              <img src={Resort} alt="Resort" onLoad={handleImageLoad} />
+              <img
+                src={Resort}
+                alt="Resort"
+                onLoad={handleImageLoad}
+                loading="lazy"
+              />
               <h3>Resorts</h3>
             </div>
           </div>

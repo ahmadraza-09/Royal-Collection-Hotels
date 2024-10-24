@@ -9,7 +9,7 @@ const AboutUs = () => {
     <div className="about-us-section">
       <h1 className="swipe-up">What We Do</h1>
       <div className="what-we-do-section">
-        <img src={WhatWeDo} alt="" className="swipe-left" />
+        <img src={WhatWeDo} alt="" className="swipe-left" loading="lazy" />
         <p className="swipe-right">
           <span>Royal Collection Hotels & Resorts</span> is a professional Hotel
           Branding Company. We serve both ends of the tourism industry spectrum.
@@ -33,11 +33,11 @@ const AboutUs = () => {
           prices . We want to bring luxury and comfort in everyone's reach . We
           beleive that holidays are right of everyone in the world.
         </p>
-        <img src={Mission} alt="" />
+        <img src={Mission} alt="" loading="lazy" />
       </div>
       <h1>Our Goal</h1>
       <div className="what-we-do-section">
-        <img src={Goal} alt="" />
+        <img src={Goal} alt="" loading="lazy" />
         <p>
           <span>Royal Collection Hotels</span> is one of the largest hotel
           company of North & Central India. Our goal is to become No. 1 hotel

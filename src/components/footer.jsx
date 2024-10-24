@@ -169,7 +169,7 @@ const Footer = () => {
 
         <div className="footer-copyright">
           <div className="footer-copyright-left">
-            <p>© 2024</p> <img src="" alt="" />
+            <p>© 2024</p> <img src="" alt="" loading="lazy" />
           </div>
 
           <div className="footer-copyright-right">All Rights Reserved</div>

@@ -31,7 +31,7 @@ const Career = () => {
       <div className="career-content">
         <h2>Join Our Team</h2>
         <div className="career-team-content">
-          <img src={Team} alt="" className="swipe-left" />
+          <img src={Team} alt="" className="swipe-left" loading="lazy" />
           <p className="swipe-right">
             <span>Royal Collection Hotels and Resorts</span>, we are a leading
             Hotel Branding Company dedicated to providing top-notch branding

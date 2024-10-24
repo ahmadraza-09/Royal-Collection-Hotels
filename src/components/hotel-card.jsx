@@ -13,7 +13,7 @@ const HotelCard = ({
   return (
     <div className="hotel-card swipe">
       <div className="hotel-card-image">
-        <img src={image} alt={name} />
+        <img src={image} alt={name} loading="lazy" />
       </div>
       <div className="hotel-card-content">
         <div className="hotel-card-content-header">
