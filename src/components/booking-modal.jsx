@@ -12,6 +12,7 @@ const BookingModal = ({ hotelName, onClose }) => {
           <img
             src="https://files.jotform.com/jufs/ugurg/form_files/hotel-banner.63885da4032201.67905415.png?md5=CPU4YwPmo5i09ZNIUzZzTA&expires=1729767274"
             alt=""
+            loading="lazy"
           />
         </div>
         <h2 className="booking-hotel-name">{hotelName}</h2>{" "}

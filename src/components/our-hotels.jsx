@@ -22,6 +22,8 @@ import Haridwar from "../assets/haridwar.jpg";
 import Bandhavgarh from "../assets/bandhavgarh.jpg";
 import Almora from "../assets/almora.jpg";
 import Ranikhet from "../assets/ranikhet.jpg";
+import Mukteshwar from "../assets/mukteshwar.jpeg";
+import Chail from "../assets/chail.jpeg";
 
 const OurHotels = () => {
   const [selectedCity, setSelectedCity] = useState("");
@@ -90,7 +92,7 @@ const OurHotels = () => {
       title: "Shimla",
       description:
         "One of the most stunning hill resorts, Shimla is one of the most popular hill stations in northern India.",
-      properties: 3,
+      properties: 5,
     },
     {
       id: 9,
@@ -178,6 +180,22 @@ const OurHotels = () => {
       title: "Ranikhet",
       description:
         "Ranikhet is a hill station in Uttarakhand State, northern India. It’s known for its views of the Himalayas. Hundreds of bells adorn Jhula Devi Temple, dedicated to the Hindu goddess Durga.",
+      properties: 1,
+    },
+    {
+      id: 20,
+      image: Mukteshwar,
+      title: "Mukteshwar",
+      description:
+        "Mukteshwar is a village and tourist destination in the Nainital district of Uttarakhand, India. It sits high in the Kumaon Hills at an altitude of 2171 meters, 51 km from Nainital, 72 km from Haldwani, and 343 km from Delhi.",
+      properties: 1,
+    },
+    {
+      id: 21,
+      image: Chail,
+      title: "Chail",
+      description:
+        "Chail is a hill station in Solan district of Himachal Pradesh, India. It is 45 kilometres from Solan city and 44 kilometres from Shimla. It is known for its salubrious beauty and forests.",
       properties: 1,
     },
   ];

@@ -45,6 +45,12 @@ import SatpanthResort from '../assets/satopanth.jpg'
 import ManaliQueen from '../assets/manali-queen.jpg'
 import ParijatRetret from '../assets/parijatresorts.jpg'
 import YonitInn from '../assets/yonit-inn.jpg'
+import OakViewShimla from '../assets/oak view shimla.jpeg'
+import ManlaHomeResort from '../assets/manla-home-resort.webp'
+import LaurantBanon from '../assets/laurant-banon.jfif'
+import HotelSukon from '../assets/hotel-sukon.jpg'
+import SnowValleyResort from '../assets/snow-valley-resort.webp'
+
 
 export const hotelsData = {
     mussoorie: [
@@ -187,7 +193,7 @@ export const hotelsData = {
             name: "Hotel Sitara International",
             price: 3999,
             rating: 3,
-            description: "Corbett Aroma Park is ideal for a relaxing both in summer and winter holidays; nestled on the edge of beautiful mountains its splendid view of the Corbett guarantees the calming of frayed urban nerves.",
+            description: "Hotel Sitara International is a great choice for travellers looking for a 3 star star hotel in Manali. This Hotel stands out as one of the highly recommended hotel in Manali. Hotel is rated 3.9 out of 5, which is considered as very good.",
             rooms: 32,
             website: ""
         },
@@ -216,7 +222,7 @@ export const hotelsData = {
             name: "Hotel Nitesh Manali",
             price: 3599,
             rating: 3,
-            description: "Manali with its unspoilt scenic grandeur is extremely popular with the tourists, for a lavish display of natural scenery. Manali is situated at an altitude of 1,926 metres and spreads in 12.5 square km.",
+            description: "Hotel Nitesh is located near Siyali Mahadev Temple(0.7 mi) and Ghatotkach Tree Temple(0.8 mi).It offers a 24-hour front desk, room service, a sun terrace, and an on- site restaurant, along with free parking.",
             rooms: 16,
             website: ""
         },
@@ -228,6 +234,16 @@ export const hotelsData = {
             rating: 3,
             description: "Hotel Manali Queen, Manali is a great choice for travellers looking for a 3 star star hotel in Manali. This Hotel stands out as one of the highly recommended hotel in Manali. Hotel is rated out of 5, which is considered as very good.",
             rooms: 20,
+            website: ""
+        },
+        {
+            id: 7,
+            image: LaurantBanon,
+            name: "Laurent & Banon Resorts",
+            price: 2599,
+            rating: 4,
+            description: "The Laurent and Banon by wishlist hospitality is a great choice for travellers looking for a 4 star star hotel in Manali. This Hotel stands out as one of the highly recommended hotel in Manali. Hotel is rated 4.2 out of 5, which is considered as very good.",
+            rooms: 23,
             website: ""
         },
         // {
@@ -289,6 +305,27 @@ export const hotelsData = {
             rooms: 25,
             website: ""
         },
+        {
+            id: 4,
+            image: OakViewShimla,
+            name: "Oak View Shimla",
+            price: 1299,
+            rating: 3,
+            description: "Oak View in Shimla offers 3-star accommodation with free WiFi, parking, and a restaurant, just 5.7 km from Victory Tunnel and 4.6 km from Tara Devi Mandir. Circular Road is 7.2 km away, and Simla Airport is 18 km, with each room featuring a flat-screen TV and private bathroom.",
+            rooms: 6,
+            website: "https://oakview.in/"
+        },
+        {
+            id: 5,
+            image: ManlaHomeResort,
+            name: "Manla Home Resort",
+            price: 0,
+            rating: 3,
+            description: "Manla Homes offers three- star accommodation near Shimla, featuring hotel rooms, huts, and villas with stunning Himalayan views and modern amenities.The resort includes a gym, spa, restaurant, and is 14 miles from central Shimla.",
+            rooms: 0,
+            website: ""
+        },
+
     ],
     dharamshala: [
         // {
@@ -516,16 +553,16 @@ export const hotelsData = {
         },
     ],
     almora: [
-        {
-            id: 1,
-            image: PineAndDine,
-            name: "Hotel Pine and Dine",
-            price: 3999,
-            rating: 3,
-            description: "Hotel Pine and Dine in Almora offers rooms with cable TV, private bathrooms, and wardrobes. Enjoy a continental breakfast each morning (subject to availability). The reception can provide local tips, and Pantnagar Airport is 63 km away.",
-            rooms: 8,
-            website: ""
-        },
+        // {
+        //     id: 1,
+        //     image: PineAndDine,
+        //     name: "Hotel Pine and Dine",
+        //     price: 3999,
+        //     rating: 3,
+        //     description: "Hotel Pine and Dine in Almora offers rooms with cable TV, private bathrooms, and wardrobes. Enjoy a continental breakfast each morning (subject to availability). The reception can provide local tips, and Pantnagar Airport is 63 km away.",
+        //     rooms: 8,
+        //     website: ""
+        // },
         {
             id: 2,
             image: MountainParadiseResort,
@@ -536,5 +573,31 @@ export const hotelsData = {
             rooms: 9,
             website: ""
         },
+    ],
+    mukteshwar: [
+        {
+            id: 1,
+            image: HotelSukon,
+            name: "Hotel Sukon",
+            price: 2999,
+            rating: 3,
+            description: "Located within 38 km of Bhimtal Lake and 47 km of Naini Lake in Mukteswar, Sukoon Retreat offers accommodation with seating area. This villa provides free private parking and a 24-hour front desk. The villa features family rooms.",
+            rooms: 0,
+            website: ""
+        },
+
+    ],
+    chail: [
+        {
+            id: 1,
+            image: SnowValleyResort,
+            name: "Snow Valley Resort",
+            price: 0,
+            rating: 3,
+            description: "Snow Valley Resorts Shimla is a modern hotel in a peaceful hilltop village, offering air-conditioned rooms with mountain views, a games room, and an on-site restaurant. It’s 2 km from Sankat Mochan Temple and 4 km from the city center, with free parking available.",
+            rooms: 0,
+            website: ""
+        },
+
     ],
 };

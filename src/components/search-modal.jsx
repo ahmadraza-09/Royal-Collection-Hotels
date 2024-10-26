@@ -56,6 +56,8 @@ const SearchModal = ({ onClose }) => {
               <option value="nainital">Nainital</option>
               <option value="ranikhet">Ranikhet</option>
               <option value="shimla">Shimla</option>
+              <option value="mukteshwar">Mukteshwar</option>
+              <option value="chail">Chail</option>
             </select>
             <button onClick={handleSearch}>Search</button>
           </div>

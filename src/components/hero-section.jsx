@@ -52,7 +52,23 @@ const HeroSection = () => {
               <option value="amritsar">Amritsar</option>
               <option value="auli">Auli</option>
               <option value="almora">Almora</option>
-              {/* More locations here */}
+              <option value="bandhavgarh">Bandhavgarh</option>
+              <option value="bhimtal">Bhimtal</option>
+              <option value="chandigarh">Chandigarh</option>
+              <option value="corbett">Corbett</option>
+              <option value="dhanaulti">Dhanaulti</option>
+              <option value="dalhousie">Dalhousie</option>
+              <option value="dharamshala">Dharamshala</option>
+              <option value="haridwar">Haridwar</option>
+              <option value="kausani">Kausani</option>
+              <option value="lohaghat">Lohaghat</option>
+              <option value="manali">Manali</option>
+              <option value="mussoorie">Mussoorie</option>
+              <option value="nainital">Nainital</option>
+              <option value="ranikhet">Ranikhet</option>
+              <option value="shimla">Shimla</option>
+              <option value="mukteshwar">Mukteshwar</option>
+              <option value="chail">Chail</option>
             </select>
             <button onClick={handleSearch}>Search</button>
           </div>
