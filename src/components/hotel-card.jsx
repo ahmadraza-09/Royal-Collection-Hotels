@@ -10,20 +10,30 @@ const HotelCard = ({
   description,
   rooms,
   website,
+  priceDetails,
+  validityDates,
+  contactDetails,
 }) => {
   const [showBookingModal, setShowBookingModal] = useState(false);
 
-  const handleBookinghModal = () => {
+  const handleBookingModal = () => {
     setShowBookingModal(true);
   };
 
   const handleCloseBookingModal = () => {
     setShowBookingModal(false);
   };
+
   return (
     <>
       {showBookingModal && (
-        <BookingModal hotelName={name} onClose={handleCloseBookingModal} />
+        <BookingModal
+          hotelName={name}
+          priceDetails={priceDetails}
+          contactDetails={contactDetails}
+          validityDates={validityDates}
+          onClose={handleCloseBookingModal}
+        />
       )}
       <div className="hotel-card swipe">
         <div className="hotel-card-image">
@@ -34,7 +44,6 @@ const HotelCard = ({
             <h1>{name}</h1>
             <h4>
               <span>₹ {price}</span> /Night
-              {/* <span>- Valid Only for Season</span> */}
             </h4>
             <p>
               <p>
@@ -57,7 +66,7 @@ const HotelCard = ({
           </div>
           <div className="hotel-card-content-footer">
             <h4>{rooms} Rooms</h4>
-            <button onClick={handleBookinghModal}>Book Now</button>
+            <button onClick={handleBookingModal}>Book Now</button>
           </div>
         </div>
       </div>

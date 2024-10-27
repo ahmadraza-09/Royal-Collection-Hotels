@@ -60,9 +60,105 @@
 .booking-hotel-name {
     text-transform: uppercase;
     font-weight: 800;
+    color: #B92100;
 }
 
 .booking-hotel-description {
     text-align: center;
     font-size: 14px;
+}
+
+.booking-price-validity-and-contact {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.room-price-validity h2 {
+    text-transform: uppercase;
+    color: #B92100;
+    font-size: 18px;
+    text-align: center;
+}
+
+.room-price-validity {
+    width: 60%;
+    /* border: 2px solid black; */
+    
+}
+
+.booking-contact-details {
+    width: 40%;
+    /* border: 2px solid black; */
+
+}
+
+.price-validity-date {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.price-validity-date span:nth-of-type(1),
+.price-validity-date span:nth-of-type(2) {
+    background-color: #B92100;
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.room-prices-list span span{
+    background-color: #008234;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.booking-contact-details h2{
+    font-size: 18px ;
+    color: #B92100;
+    text-align: start;
+    text-transform: uppercase;
+}
+
+.booking-contacts a{
+    color: #000;
+}
+
+.booking-contacts a i {
+    color: #B92100;
+}
+
+/* Responsive */
+@media (min-width: 320px) and (max-width: 480px) {
+    .booking-modal-section {
+        padding: 0px 10px;
+        align-items: center;
+    }
+
+    .booking-price-validity-and-contact {
+        flex-direction: column;
+    }
+
+    .room-price-validity {
+        width: 100%;
+    }
+
+    .booking-contact-details {
+        width: 100%;
+        align-items: center;
+    }
+
+    .booking-contact-details h2 {
+        text-align: center;
+    }
+
+    .booking-modal {
+        padding: 15px;
+    }
 }

@@ -62,29 +62,20 @@ export const hotelsData = {
             rating: 3,
             description: "Kahkashan Mussoorie is situated in Mussoorie, a picturesque hill station that offers enchanting view of capacious green grasslands and snow clad Himalayas. The hotel is located at an accessible distance of 550m from Library Bus Stand.",
             rooms: 18,
-            website: "https://hotelkahkashan.com"
-        },
-        {
-            id: 2,
-            image: ShivalikHills,
-            name: "Shivalik Hills Mussoorie",
-            price: 5999,
-            rating: 3,
-            description: "Shivalik Hills Mussoorie By Royal Collection Hotels is one of the elegantly designed luxury hotel in Mussoorie . We offers our guests premium luxury in Stay . Hotel is special attraction for families , corporates , honeymooners and Leisure groups .",
-            rooms: 45,
-            website: "https://shivalikhillsmussoorie.com/"
-        },
-        {
-            id: 3,
-            image: HotelApsara,
-            name: "Hotel Apsara Mussoorie",
-            price: 4999,
-            rating: 3,
-            description: "Occupying a part of the main road, lying right opposite to the Picture Palace you can find Apsara Hotel Mussoorie. It is near to the bus or taxi stand and its location is easily found as it is situated on a busy road.",
-            rooms: 25,
-            website: "https://www.hotelapsaramussoorie.com/"
-        },
-
+            website: "https://hotelkahkashan.com",
+            priceDetails: {
+                validityDates: ["6th-Jan to 31st March", "16th-July to 19th-Dec"],
+                roomPrices: [
+                    { type: "EPAI", price: 2500 },
+                    { type: "CPAI", price: 3000 },
+                    { type: "MAPAI", price: 3700 }
+                ]
+            },
+            contactDetails: {
+                phone: "8743000182",
+                email: "booking@rchronline.com"
+            }
+        }
     ],
     dhanaulti: [
         {

@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/booking-modal.css";
 
-const BookingModal = ({ hotelName, onClose }) => {
+const BookingModal = ({ hotelName, priceDetails, contactDetails, onClose }) => {
   return (
     <div className="booking-modal-section">
       <div className="booking-modal swipe">
@@ -15,11 +15,45 @@ const BookingModal = ({ hotelName, onClose }) => {
             loading="lazy"
           />
         </div>
-        <h2 className="booking-hotel-name">{hotelName}</h2>{" "}
-        {/* Updated to use hotelName */}
+        <h2 className="booking-hotel-name">{hotelName}</h2>
         <p className="booking-hotel-description">
           Book your stay at {hotelName} for an unforgettable escape!
         </p>
+        <br />
+        <div className="booking-price-validity-and-contact">
+          <div className="room-price-validity">
+            <h2 className="off-season-tariff">Off Season Tariff</h2>
+            <br />
+            <div className="price-validity-date">
+              {priceDetails?.validityDates?.map((date, index) => (
+                <span key={index}>{date}</span>
+              ))}
+            </div>
+            <br />
+            <div className="room-prices-list">
+              {priceDetails?.roomPrices?.map((room, index) => (
+                <span key={index}>
+                  <span>₹ {room.price}</span> {room.type} <br />
+                </span>
+              ))}{" "}
+            </div>
+          </div>
+          <div className="booking-contact-details">
+            <h2>Booking Contact Details</h2>
+            <br />
+            <div className="booking-contacts">
+              <a href={`tel:+91${contactDetails.phone}`}>
+                <i className="fa-solid fa-phone"></i>&nbsp;&nbsp; +91{" "}
+                {contactDetails.phone}
+              </a>
+              <br />
+              <a href={`mailto:${contactDetails.email}`}>
+                <i className="fa-solid fa-envelope"></i>&nbsp;&nbsp;
+                {contactDetails.email}
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
