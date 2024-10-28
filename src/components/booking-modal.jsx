@@ -43,7 +43,7 @@ const BookingModal = ({ hotelName, priceDetails, contactDetails, onClose }) => {
             <br />
             <div className="booking-contacts">
               <a href={`tel:+91${contactDetails.phone}`}>
-                <i className="fa-solid fa-phone"></i>&nbsp;&nbsp; +91{" "}
+                <i className="fa-solid fa-phone"></i>&nbsp;&nbsp;+91{" "}
                 {contactDetails.phone}
               </a>
               <br />
