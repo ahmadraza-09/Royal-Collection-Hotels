@@ -133,6 +133,9 @@ const OnlyHotels = () => {
                 description={hotel.description}
                 rooms={hotel.rooms}
                 website={hotel.website}
+                priceDetails={hotel.priceDetails}
+                validityDates={hotel.priceDetails.validityDates}
+                contactDetails={hotel.contactDetails}
               />
             ))
           ) : (

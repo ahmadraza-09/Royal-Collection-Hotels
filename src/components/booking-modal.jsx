@@ -35,18 +35,21 @@ const BookingModal = ({ hotelName, priceDetails, contactDetails, onClose }) => {
                 <span key={index}>
                   <span>₹ {room.price}</span> {room.type} <br />
                 </span>
-              ))}{" "}
+              ))}
             </div>
           </div>
           <div className="booking-contact-details">
             <h2>Booking Contact Details</h2>
             <br />
             <div className="booking-contacts">
-              <a href={`tel:+91${contactDetails.phone}`}>
-                <i className="fa-solid fa-phone"></i>&nbsp;&nbsp;+91{" "}
-                {contactDetails.phone}
-              </a>
-              <br />
+              {contactDetails.phone?.map((phone, index) => (
+                <a key={index} href={`tel:+91${phone.number}`}>
+                  <i className="fa-solid fa-phone"></i>&nbsp;&nbsp;+91{" "}
+                  {phone.number}
+                  <br />
+                </a>
+              ))}
+
               <a href={`mailto:${contactDetails.email}`}>
                 <i className="fa-solid fa-envelope"></i>&nbsp;&nbsp;
                 {contactDetails.email}

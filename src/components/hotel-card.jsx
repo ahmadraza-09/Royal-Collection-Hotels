@@ -43,7 +43,10 @@ const HotelCard = ({
           <div className="hotel-card-content-header">
             <h1>{name}</h1>
             <h4>
-              <span>₹ {price}</span> /Night
+              <span>
+                <span>₹ {price}</span> /Night
+              </span>{" "}
+              <span onClick={handleBookingModal}>Check Price Validity</span>
             </h4>
             <p>
               <p>
@@ -54,11 +57,11 @@ const HotelCard = ({
                 </span>
                 {` ${rating} Stars`}
               </p>
-              <p>
-                <a href={website} target="_blank">
+              <a href={website} target="_blank">
+                <span>
                   Website <i class="fa-solid fa-up-right-from-square"></i>
-                </a>
-              </p>
+                </span>
+              </a>
             </p>
           </div>
           <div className="hotel-card-content-center">

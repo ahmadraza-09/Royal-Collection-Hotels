@@ -73,7 +73,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "8743000182",
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000182",
+                    },
+                    {
+                        id: 2,
+                        number: "9971834101",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -95,7 +104,20 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834101",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9971834101",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000181",
+                    },
+                    {
+                        id: 3,
+                        number: "8743000182",
+                    }
+                ],
                 email: "kgm@royalcollectionhotels.com"
             }
         },
@@ -117,7 +139,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "8743000182",
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000182",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000181",
+                    }
+                ],
                 email: "mussoorie@rchr.in"
             }
         },
@@ -163,7 +194,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9958140101",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9958140101",
+                    },
+                    {
+                        id: 2,
+                        number: "9971834101",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -187,7 +227,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "8743000120",
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000120",
+                    },
+                    {
+                        id: 2,
+                        number: "9971855186",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -209,7 +258,20 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971845270",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9971845270",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000181",
+                    },
+                    {
+                        id: 3,
+                        number: "8743000182",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -231,7 +293,20 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "7835834101",
+                phone: [
+                    {
+                        id: 1,
+                        number: "7835834101",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000120",
+                    },
+                    {
+                        id: 3,
+                        number: "8743000197",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -255,7 +330,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "7669834101",
+                phone: [
+                    {
+                        id: 1,
+                        number: "7669834101",
+                    },
+                    {
+                        id: 2,
+                        number: "8745034101",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -279,7 +363,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "7669834101",
+                phone: [
+                    {
+                        id: 1,
+                        number: "7669834101",
+                    },
+                    {
+                        id: 2,
+                        number: "9971834101",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -303,7 +396,24 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9717534101",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9717534101",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000197",
+                    },
+                    {
+                        id: 3,
+                        number: "8743000182",
+                    },
+                    {
+                        id: 4,
+                        number: "8510934101",
+                    },
+                ],
                 email: "vanasthali@royalcollectionhotels.com"
             }
         },
@@ -325,7 +435,20 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9958866101",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9958866101",
+                    },
+                    {
+                        id: 2,
+                        number: "9971855186",
+                    },
+                    {
+                        id: 3,
+                        number: "8743000197",
+                    }
+                ],
                 email: "aromacorbett@royalcollectionhotels.com"
             }
         },
@@ -349,7 +472,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9971834111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000120",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -371,8 +503,17 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
-                email: "booking@rchronline.com"
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
+                email: "manali@rchr.in"
             }
         },
         // {
@@ -519,8 +660,17 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
-                email: "booking@rchronline.com"
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
+                email: "shimla@rchr.in"
             }
         },
         {
@@ -541,7 +691,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "8743064101",
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743064101",
+                    },
+                    {
+                        id: 2,
+                        number: "9971834111",
+                    }
+                ],
                 email: "shimla@rchr.in"
             }
         },
@@ -563,8 +722,17 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
-                email: "booking@rchronline.com"
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
+                email: "shimla@rchr.in"
             }
         },
         {
@@ -585,7 +753,12 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9971834111",
+                    }
+                ],
                 email: "shimla@rchr.in"
             }
         },
@@ -607,7 +780,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000182",
+                    },
+                    {
+                        id: 2,
+                        number: "9971834101",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -641,7 +823,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -663,7 +854,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9971834111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -685,7 +885,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000182",
+                    },
+                    {
+                        id: 2,
+                        number: "9971834101",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -716,7 +925,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000182",
+                    },
+                    {
+                        id: 2,
+                        number: "9971834101",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -740,7 +958,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000182",
+                    },
+                    {
+                        id: 2,
+                        number: "9971834101",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -771,7 +998,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000182",
+                    },
+                    {
+                        id: 2,
+                        number: "9971834101",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -795,7 +1031,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -817,7 +1062,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000182",
+                    },
+                    {
+                        id: 2,
+                        number: "9971834101",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -839,7 +1093,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -863,7 +1126,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -885,7 +1157,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -918,7 +1199,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9971855186",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000120",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -953,7 +1243,20 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9650709101",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9650709101",
+                    },
+                    {
+                        id: 2,
+                        number: "9971855186",
+                    },
+                    {
+                        id: 3,
+                        number: "8743000197",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -977,8 +1280,17 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
-                email: "booking@rchronline.com"
+                phone: [
+                    {
+                        id: 1,
+                        number: "9318484617",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
+                email: "kausaniretreat@gmail.com"
             }
         },
     ],
@@ -1001,7 +1313,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9971834101",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000615",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -1025,7 +1346,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000615",
+                    },
+                    {
+                        id: 2,
+                        number: "9971834101",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -1059,7 +1389,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -1083,7 +1422,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
@@ -1108,7 +1456,16 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
                 email: "booking@rchronline.com"
             }
         },
