@@ -8,8 +8,7 @@ import DestinationSliderSection from '../components/destination-slider-section';
 import CustomerCounting from '../components/customer-counting';
 import PopularHotels from '../components/popular-hotels';
 import Loader from "../assets/loader/loader2.gif";
-
-const HeroSection = lazy(() => import("../components/hero-section"));
+import HeroSection from "../components/hero-section";
 
 const HomePage = () => {
     const [loading, setLoading] = useState(true);
