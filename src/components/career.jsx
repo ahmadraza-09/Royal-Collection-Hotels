@@ -148,6 +148,42 @@ const Career = () => {
               </div>
             </div>
             <br />
+            <div className="form-fullname ">
+              <div className="fullname-inputs input-flex">
+                <div className="firstname input-column">
+                  <label htmlFor="">Experience</label>
+                  <input
+                    type="text"
+                    placeholder="ex: 1 year 6 months"
+                    name="experience"
+                    required
+                  />
+                  <label htmlFor="">ex: 1 Year 6 Months</label>
+                </div>
+                <div className="lastname input-column">
+                  <label htmlFor="">Skills</label>
+                  <input
+                    type="text"
+                    placeholder="ex: Basic Computer, Excell, Sales & etc"
+                    name="skills"
+                    required
+                  />
+                  <label htmlFor="">
+                    ex: Basic Computer, Excell, Sales & etc
+                  </label>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className="input-column form-textarea">
+              <label htmlFor="">Qualification</label>
+              <textarea
+                name="qualification"
+                rows={3}
+                placeholder="ex: Bachelor’s Degree in Computer Science, 2019 - XYZ University; Certified Data Analyst, ABC Institute"
+              ></textarea>
+            </div>
+            <br />
             <div className="form-fullname">
               <label htmlFor="">Please select your job role</label>
               <div className="input-checkbox">
@@ -194,6 +230,45 @@ const Career = () => {
                   <input
                     type="checkbox"
                     value="Another Field"
+                    name="others"
+                    id=""
+                  />
+                  <label htmlFor="">Others</label>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className="form-fullname">
+              <label htmlFor="">Please select known languages</label>
+              <div className="input-checkbox">
+                <div className="input-checkbox-flex">
+                  <input type="checkbox" name="hindi" value="Yes" id="" />
+                  <label htmlFor="">Hindi</label>
+                </div>
+                <div className="input-checkbox-flex">
+                  <input type="checkbox" name="english" id="" value="Yes" />
+                  <label htmlFor="">English</label>
+                </div>
+              </div>
+              <div className="input-checkbox">
+                <div className="input-checkbox-flex">
+                  <input type="checkbox" name="tamil" value="Yes" id="" />
+                  <label htmlFor="">Tamil</label>
+                </div>
+                <div className="input-checkbox-flex">
+                  <input type="checkbox" name="Bengali" id="" value="Yes" />
+                  <label htmlFor="">Bengali</label>
+                </div>
+              </div>
+              <div className="input-checkbox">
+                <div className="input-checkbox-flex">
+                  <input type="checkbox" value="Yes" name="marathi" id="" />
+                  <label htmlFor="">Marathi</label>
+                </div>
+                <div className="input-checkbox-flex">
+                  <input
+                    type="checkbox"
+                    value="Other Language"
                     name="others"
                     id=""
                   />
@@ -301,12 +376,12 @@ const Career = () => {
             </div>
             <br />
             <div className="input-column form-textarea">
-              <label htmlFor="">Additional Notes</label>
+              <label htmlFor="">Cover Letter</label>
               <textarea
                 name="message"
                 id=""
                 rows={5}
-                placeholder="Enter your message !"
+                placeholder="Your cover letter"
               ></textarea>
             </div>
             <br />

@@ -366,12 +366,8 @@ export const hotelsData = {
                 phone: [
                     {
                         id: 1,
-                        number: "7669834101",
+                        number: "9971854175",
                     },
-                    {
-                        id: 2,
-                        number: "9971834101",
-                    }
                 ],
                 email: "booking@rchronline.com"
             }
@@ -543,8 +539,17 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
-                email: "booking@rchronline.com"
+                phone: [
+                    {
+                        id: 1,
+                        number: "9971834111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607 ",
+                    }
+                ],
+                email: "manali@rchr.in"
             }
         },
         {
@@ -565,8 +570,17 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
-                email: "booking@rchronline.com"
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
+                email: "manali@rchr.in"
             }
         },
         {
@@ -587,8 +601,17 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
-                email: "booking@rchronline.com"
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
+                email: "manali@rchr.in"
             }
         },
         {
@@ -609,8 +632,17 @@ export const hotelsData = {
                 ]
             },
             contactDetails: {
-                phone: "9971834111",
-                email: "booking@rchronline.com"
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
+                email: "manali@rchr.in"
             }
         },
         // {
@@ -783,14 +815,14 @@ export const hotelsData = {
                 phone: [
                     {
                         id: 1,
-                        number: "8743000182",
+                        number: "9978134111",
                     },
                     {
                         id: 2,
-                        number: "9971834101",
+                        number: "8743000607",
                     }
                 ],
-                email: "booking@rchronline.com"
+                email: "shimla@rchr.in"
             }
         },
 
@@ -888,11 +920,11 @@ export const hotelsData = {
                 phone: [
                     {
                         id: 1,
-                        number: "8743000182",
+                        number: "9978134111",
                     },
                     {
                         id: 2,
-                        number: "9971834101",
+                        number: "8743000607",
                     }
                 ],
                 email: "booking@rchronline.com"
@@ -928,11 +960,11 @@ export const hotelsData = {
                 phone: [
                     {
                         id: 1,
-                        number: "8743000182",
+                        number: "9978134111",
                     },
                     {
                         id: 2,
-                        number: "9971834101",
+                        number: "8743000607",
                     }
                 ],
                 email: "booking@rchronline.com"
@@ -1001,11 +1033,11 @@ export const hotelsData = {
                 phone: [
                     {
                         id: 1,
-                        number: "8743000182",
+                        number: "9978134111",
                     },
                     {
                         id: 2,
-                        number: "9971834101",
+                        number: "8743000607",
                     }
                 ],
                 email: "booking@rchronline.com"
@@ -1065,11 +1097,11 @@ export const hotelsData = {
                 phone: [
                     {
                         id: 1,
-                        number: "8743000182",
+                        number: "9978134111",
                     },
                     {
                         id: 2,
-                        number: "9971834101",
+                        number: "8743000607",
                     }
                 ],
                 email: "booking@rchronline.com"
@@ -1425,12 +1457,8 @@ export const hotelsData = {
                 phone: [
                     {
                         id: 1,
-                        number: "9978134111",
+                        number: "9971855186",
                     },
-                    {
-                        id: 2,
-                        number: "8743000607",
-                    }
                 ],
                 email: "booking@rchronline.com"
             }
@@ -1459,14 +1487,14 @@ export const hotelsData = {
                 phone: [
                     {
                         id: 1,
-                        number: "9978134111",
+                        number: "9971834111",
                     },
                     {
                         id: 2,
                         number: "8743000607",
                     }
                 ],
-                email: "booking@rchronline.com"
+                email: "shimla@rchr.in"
             }
         },
 

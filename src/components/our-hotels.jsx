@@ -172,7 +172,7 @@ const OurHotels = () => {
       title: "Almora",
       description:
         "Almora is famous for its alluring beauty, panoramic view of the Himalayas, rich cultural heritage, unique handicrafts, and delicious cuisines.",
-      properties: 2,
+      properties: 1,
     },
     {
       id: 19,
