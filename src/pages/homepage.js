@@ -13,34 +13,38 @@ import HeroSection from "../components/hero-section";
 const HomePage = () => {
     const [loading, setLoading] = useState(true);
 
-
     useEffect(() => {
-        const timer = setTimeout(() => {
-            setLoading(false);
-        }, 500);
+        const isFirstVisit = localStorage.getItem('firstVisit');
 
-        return () => clearTimeout(timer);
+        if (!isFirstVisit) {
+            const timer = setTimeout(() => {
+                setLoading(false);
+                localStorage.setItem('firstVisit', 'true'); // Set the flag for future visits
+            }, 1000); // Adjust the loading duration as needed
+
+            return () => clearTimeout(timer); // Cleanup the timer
+        } else {
+            setLoading(false); // Skip loader if it's not the first visit
+        }
     }, []);
 
     return (
         <>
-            {loading ? (
+            {loading && (
                 <div className="loader">
                     <img src={Loader} alt="Loading..." />
                 </div>
-            ) : (
-                <>
-                    <TopBanner />
-                    <Navbar />
-                    <HeroSection />
-                    <WhyChooseUs />
-                    <WhatWeOffer />
-                    <DestinationSliderSection />
-                    <CustomerCounting />
-                    <PopularHotels />
-                    <Footer />
-                </>
             )}
+            <TopBanner />
+            <Navbar />
+            <HeroSection />
+            <WhyChooseUs />
+            <WhatWeOffer />
+            <DestinationSliderSection />
+            <CustomerCounting />
+            <PopularHotels />
+            <Footer />
+
         </>
     );
 };
