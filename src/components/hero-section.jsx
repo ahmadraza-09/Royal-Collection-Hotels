@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "../css/hero-section.css";
 import Hotel from "../assets/icons/hotel.png";
 import Resort from "../assets/icons/resort.png";
+import Loader from "../assets/loader/loader.gif";
 
 const HeroSection = () => {
   const navigate = useNavigate();
@@ -34,7 +35,9 @@ const HeroSection = () => {
   return (
     <>
       {loading ? (
-        <div className="loader">Loading...</div>
+        <div className="loader">
+          <img src={Loader} alt="" />
+        </div>
       ) : (
         <div className="hero-section">
           <div className="overlay">

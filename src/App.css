@@ -17,3 +17,15 @@ body {
   /* background-color: #E2E8F0; */
   background-color: #fff;
 }
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.loader img {
+  width: 200px;
+  height: 200px;
+}
