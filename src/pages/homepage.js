@@ -8,6 +8,7 @@ import WhyChooseUs from '../components/why-choose-us'
 import DestinationSliderSection from '../components/destination-slider-section'
 import CustomerCounting from '../components/customer-counting'
 import PopularHotels from '../components/popular-hotels'
+import Loader from "../assets/loader/loader2.gif";
 const HeroSection = lazy(() => import("../components/hero-section"));
 
 const HomePage = () => {
@@ -16,7 +17,7 @@ const HomePage = () => {
         <>
             {<TopBanner />}
             {<Navbar />}
-            <Suspense fallback={<div className="loader">Loading...</div>}>
+            <Suspense fallback={<div className="loader"><img src={Loader} alt="" /></div>}>
                 {<HeroSection />}
             </Suspense>
             {<WhyChooseUs />}

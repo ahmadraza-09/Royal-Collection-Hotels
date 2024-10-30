@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import "../css/hero-section.css";
 import Hotel from "../assets/icons/hotel.png";
 import Resort from "../assets/icons/resort.png";
-import Loader from "../assets/loader/loader.gif";
 
 const HeroSection = () => {
   const navigate = useNavigate();
