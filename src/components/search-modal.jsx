@@ -24,7 +24,7 @@ const SearchModal = ({ onClose }) => {
           <h4>Find Great Places To Stay</h4>
           <div className="hotel-search-comp hotel-search-comp2">
             <select
-              name="Choose Hotels & Resorts"
+              aria-label="Choose Hotels & Resorts"
               value={hotelType}
               onChange={(e) => setHotelType(e.target.value)}
             >
@@ -33,7 +33,7 @@ const SearchModal = ({ onClose }) => {
               <option value="resorts">Resorts</option>
             </select>
             <select
-              name="Choose Location"
+              aria-label="Choose Location"
               value={location}
               onChange={(e) => setLocation(e.target.value)}
             >
@@ -59,7 +59,7 @@ const SearchModal = ({ onClose }) => {
               <option value="mukteshwar">Mukteshwar</option>
               <option value="chail">Chail</option>
             </select>
-            <button onClick={handleSearch} name="search">
+            <button onClick={handleSearch} aria-label="search">
               Search
             </button>
           </div>

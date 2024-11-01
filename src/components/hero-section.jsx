@@ -36,7 +36,7 @@ const HeroSection = () => {
             <h4>Find Great Places To Stay</h4>
             <div className="hotel-search-comp">
               <select
-                name="Choose Hotels & Resorts"
+                aria-label="Choose Hotels & Resorts"
                 value={hotelType}
                 onChange={(e) => setHotelType(e.target.value)}
               >
@@ -45,7 +45,7 @@ const HeroSection = () => {
                 <option value="resorts">Resorts</option>
               </select>
               <select
-                name="choose location"
+                aria-label="choose location"
                 value={location}
                 onChange={(e) => setLocation(e.target.value)}
               >
@@ -71,7 +71,7 @@ const HeroSection = () => {
                 <option value="mukteshwar">Mukteshwar</option>
                 <option value="chail">Chail</option>
               </select>
-              <button onClick={handleSearch} name="search">
+              <button onClick={handleSearch} aria-label="search">
                 Search
               </button>
             </div>
