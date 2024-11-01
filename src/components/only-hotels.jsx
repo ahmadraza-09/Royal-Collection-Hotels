@@ -116,7 +116,7 @@ const OnlyHotels = () => {
               <br />
               <input type="date" id="to-date-picker" placeholder="To" />
             </div>
-            <button type="button" onClick={handleSearch}>
+            <button type="button" onClick={handleSearch} name="search">
               Search
             </button>
           </form>

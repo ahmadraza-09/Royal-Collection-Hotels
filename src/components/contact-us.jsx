@@ -57,7 +57,9 @@ const ContactUs = () => {
               <textarea name="message" placeholder="Enter your query here..." />
 
               {/* Submit Button */}
-              <button type="submit">Send Message</button>
+              <button type="submit" name="submit">
+                Send Message
+              </button>
             </form>
           </div>
           {/* Contact Info Section */}
@@ -93,6 +95,7 @@ const ContactUs = () => {
                   href="mailto:booking@rchronline.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="mail us for hotel booking"
                 >
                   booking@rchronline.com
                 </a>
@@ -109,6 +112,7 @@ const ContactUs = () => {
                   href="tel:+91 9971834101"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="call us for hotel booking"
                 >
                   +91 9971834101
                 </a>
@@ -116,6 +120,7 @@ const ContactUs = () => {
                   href="tel:+91 9971834111"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="call us for hotel booking"
                 >
                   +91 9971834111
                 </a>

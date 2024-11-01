@@ -55,7 +55,10 @@ const Career = () => {
             Inventory & Channel Manager Guest Relations Officer How to Apply: If
             you are interested in any of the open positions, please send your
             resume and a brief cover letter to{" "}
-            <a href="mailto:sales@royalcollectionhotels.com">
+            <a
+              href="mailto:sales@royalcollectionhotels.com"
+              aria-label="mail us for job requirement"
+            >
               sales@royalcollectionhotels.com
             </a>{" "}
           </p>
@@ -189,7 +192,7 @@ const Career = () => {
               <div className="input-checkbox">
                 <div className="input-checkbox-flex">
                   <input type="checkbox" name="sales" value="Yes" id="" />
-                  <label htmlFor="">Sales </label>
+                  <label htmlFor="">Sales</label>
                 </div>
                 <div className="input-checkbox-flex">
                   <input
@@ -386,7 +389,9 @@ const Career = () => {
             </div>
             <br />
             <div className="form-footer">
-              <button type="submit">Submit Form</button>
+              <button type="submit" name="submit">
+                Submit Form
+              </button>
             </div>
           </form>
         </div>

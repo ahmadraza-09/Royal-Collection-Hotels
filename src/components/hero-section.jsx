@@ -36,7 +36,7 @@ const HeroSection = () => {
             <h4>Find Great Places To Stay</h4>
             <div className="hotel-search-comp">
               <select
-                name="hotelType"
+                name="Choose Hotels & Resorts"
                 value={hotelType}
                 onChange={(e) => setHotelType(e.target.value)}
               >
@@ -45,7 +45,7 @@ const HeroSection = () => {
                 <option value="resorts">Resorts</option>
               </select>
               <select
-                name="location"
+                name="choose location"
                 value={location}
                 onChange={(e) => setLocation(e.target.value)}
               >
@@ -71,7 +71,9 @@ const HeroSection = () => {
                 <option value="mukteshwar">Mukteshwar</option>
                 <option value="chail">Chail</option>
               </select>
-              <button onClick={handleSearch}>Search</button>
+              <button onClick={handleSearch} name="search">
+                Search
+              </button>
             </div>
           </div>
 

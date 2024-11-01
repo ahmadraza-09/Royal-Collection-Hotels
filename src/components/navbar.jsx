@@ -73,10 +73,12 @@ const Navbar = () => {
           {/* Conditionally render menu based on isOpen */}
           <ul className={`menu-section ${isOpen ? "show-menu" : ""}`}>
             <li className="none">
-              <button onClick={handleSearchModal}>
+              <button onClick={handleSearchModal} name="search-magnifyer-icon">
                 <i className="fa-solid fa-magnifying-glass"></i>
               </button>
-              <button onClick={handleShowForm}>List Property</button>
+              <button onClick={handleShowForm} className="list-property-button">
+                List Property
+              </button>
             </li>
             <li
               className={isActive("/")}
@@ -135,10 +137,12 @@ const Navbar = () => {
           </ul>
 
           <div className="search-section">
-            <button onClick={handleSearchModal}>
+            <button onClick={handleSearchModal} name="search-magnifying-button">
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
-            <button onClick={handleShowForm}>List Property</button>
+            <button onClick={handleShowForm} className="list-property-button">
+              List Property
+            </button>
             {/* Hamburger Icon */}
             <div className="menu-bars" onClick={toggleMenu}>
               {isOpen ? (

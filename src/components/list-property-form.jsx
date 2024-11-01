@@ -217,7 +217,9 @@ const ListPropertyForm = ({ onClose }) => {
               )}
             </div> */}
         <div className="form-footer">
-          <button type="submit">Submit Form</button>
+          <button type="submit" name="submit-form">
+            Submit Form
+          </button>
         </div>
       </form>
     </div>

@@ -43,14 +43,18 @@ const BookingModal = ({ hotelName, priceDetails, contactDetails, onClose }) => {
             <br />
             <div className="booking-contacts">
               {contactDetails.phone?.map((phone, index) => (
-                <a key={index} href={`tel:+91${phone.number}`}>
+                <a
+                  key={index}
+                  href={`tel:+91${phone.number}`}
+                  aria-label="call-us"
+                >
                   <i className="fa-solid fa-phone"></i>&nbsp;&nbsp;+91{" "}
                   {phone.number}
                   <br />
                 </a>
               ))}
 
-              <a href={`mailto:${contactDetails.email}`}>
+              <a href={`mailto:${contactDetails.email}`} aria-label="mail-us">
                 <i className="fa-solid fa-envelope"></i>&nbsp;&nbsp;
                 {contactDetails.email}
               </a>

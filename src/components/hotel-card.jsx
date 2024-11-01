@@ -57,7 +57,11 @@ const HotelCard = ({
                 </span>
                 {` ${rating} Stars`}
               </p>
-              <a href={website} target="_blank">
+              <a
+                href={website}
+                target="_blank"
+                aria-label="explore this hotel website"
+              >
                 <span>
                   Website <i class="fa-solid fa-up-right-from-square"></i>
                 </span>
@@ -69,7 +73,9 @@ const HotelCard = ({
           </div>
           <div className="hotel-card-content-footer">
             <h4>{rooms} Rooms</h4>
-            <button onClick={handleBookingModal}>Book Now</button>
+            <button onClick={handleBookingModal} name="book-now">
+              Book Now
+            </button>
           </div>
         </div>
       </div>

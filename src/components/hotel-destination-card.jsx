@@ -24,7 +24,9 @@ const HotelDestinationCard = ({ image, title, description, properties }) => {
         </div>
         <div className="hotel-destination-card-content-footer">
           <h3>{properties} Properties</h3>
-          <button onClick={handleExplore}>Explore</button>
+          <button onClick={handleExplore} name="explore">
+            Explore
+          </button>
         </div>
       </div>
     </div>
