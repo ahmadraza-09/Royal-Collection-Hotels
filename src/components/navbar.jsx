@@ -73,10 +73,16 @@ const Navbar = () => {
           {/* Conditionally render menu based on isOpen */}
           <ul className={`menu-section ${isOpen ? "show-menu" : ""}`}>
             <li className="none">
-              <button onClick={handleSearchModal} name="search-magnifyer-icon">
+              <button
+                onClick={handleSearchModal}
+                aria-label="search-magnifying-icon"
+              >
                 <i className="fa-solid fa-magnifying-glass"></i>
               </button>
-              <button onClick={handleShowForm} className="list-property-button">
+              <button
+                onClick={handleShowForm}
+                aria-label="list-property-button"
+              >
                 List Property
               </button>
             </li>
@@ -137,10 +143,13 @@ const Navbar = () => {
           </ul>
 
           <div className="search-section">
-            <button onClick={handleSearchModal} name="search-magnifying-button">
+            <button
+              onClick={handleSearchModal}
+              aria-label="search-magnifying-button"
+            >
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
-            <button onClick={handleShowForm} className="list-property-button">
+            <button onClick={handleShowForm} aria-label="list-property-button">
               List Property
             </button>
             {/* Hamburger Icon */}
