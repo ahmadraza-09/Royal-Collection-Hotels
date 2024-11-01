@@ -3,12 +3,13 @@ import { useNavigate } from "react-router-dom";
 import "../css/hero-section.css";
 import Hotel from "../assets/icons/hotel.png";
 import Resort from "../assets/icons/resort.png";
+import Loader from "../assets/loader/loader2.gif";
 
 const HeroSection = () => {
   const navigate = useNavigate();
   const [hotelType, setHotelType] = useState("");
   const [location, setLocation] = useState("");
-  const [loading, setLoading] = useState(true); // Manage loading state
+  const [loading, setLoading] = useState(true);
 
   // Function to handle image loading
   const handleImageLoad = () => {
@@ -27,8 +28,28 @@ const HeroSection = () => {
     }
   };
 
+  useEffect(() => {
+    const isFirstVisit = localStorage.getItem("firstVisit");
+
+    if (!isFirstVisit) {
+      const timer = setTimeout(() => {
+        setLoading(false);
+        localStorage.setItem("firstVisit", "true"); // Set the flag for future visits
+      }, 500); // Adjust the loading duration as needed
+
+      return () => clearTimeout(timer); // Cleanup the timer
+    } else {
+      setLoading(false); // Skip loader if it's not the first visit
+    }
+  }, []);
+
   return (
     <>
+      {loading && (
+        <div className="loader">
+          <img src={Loader} alt="Loading..." />
+        </div>
+      )}
       <div className="hero-section">
         <div className="overlay">
           <h2 className="swipe">Explore Amazing India</h2>
