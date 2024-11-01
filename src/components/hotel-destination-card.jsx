@@ -15,7 +15,7 @@ const HotelDestinationCard = ({ image, title, description, properties }) => {
   return (
     <div className="hotel-destination-card swipe">
       <div className="hotel-destination-card-image">
-        <img src={image} alt={title} loading="lazy" />
+        <img src={image} alt={title} loading="lazy" fetchPriority="high" />
       </div>
       <div className="hotel-destination-card-content">
         <div className="hotel-destination-card-content-header">

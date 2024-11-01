@@ -37,7 +37,7 @@ const HotelCard = ({
       )}
       <div className="hotel-card swipe">
         <div className="hotel-card-image">
-          <img src={image} alt={name} loading="lazy" />
+          <img src={image} alt={name} loading="lazy" fetchPriority="high" />
         </div>
         <div className="hotel-card-content">
           <div className="hotel-card-content-header">

@@ -66,7 +66,7 @@ const Navbar = () => {
               navigate("/");
             }}
           >
-            <img src={Logo} alt="" loading="lazy" />
+            <img src={Logo} alt="" loading="lazy" fetchPriority="high" />
             <h2>Royal Collection Hotels</h2>
           </div>
 

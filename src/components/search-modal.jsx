@@ -73,11 +73,11 @@ const SearchModal = ({ onClose }) => {
                 navigate("/hotels-list");
               }}
             >
-              <img src={Hotel} alt="" loading="lazy" />
+              <img src={Hotel} alt="" loading="lazy" fetchPriority="high" />
               <h3>Hotels</h3>
             </div>
             <div className="hotel-card">
-              <img src={Resort} alt="" loading="lazy" />
+              <img src={Resort} alt="" loading="lazy" fetchPriority="high" />
               <h3>Resorts</h3>
             </div>
           </div>

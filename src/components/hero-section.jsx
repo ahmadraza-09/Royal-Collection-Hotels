@@ -113,6 +113,7 @@ const HeroSection = () => {
                   alt="Hotel"
                   onLoad={handleImageLoad}
                   loading="lazy"
+                  fetchPriority="low"
                 />{" "}
                 {/* Trigger image load */}
                 <h3>Hotels</h3>
@@ -123,6 +124,7 @@ const HeroSection = () => {
                   alt="Resort"
                   onLoad={handleImageLoad}
                   loading="lazy"
+                  fetchPriority="low"
                 />
                 <h3>Resorts</h3>
               </div>

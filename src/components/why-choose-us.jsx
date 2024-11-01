@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
       <h2>who we are</h2>
       <div className="why-choose-us-contents">
         <div className="why-choose-us-left">
-          <img src={WhyChoose} alt="" loading="lazy" />
+          <img src={WhyChoose} alt="" loading="lazy" fetchPriority="high" />
         </div>
         <div className="why-choose-us-right">
           <p>
