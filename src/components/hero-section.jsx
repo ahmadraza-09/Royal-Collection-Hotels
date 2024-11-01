@@ -35,7 +35,7 @@ const HeroSection = () => {
       const timer = setTimeout(() => {
         setLoading(false);
         localStorage.setItem("firstVisit", "true"); // Set the flag for future visits
-      }, 500); // Adjust the loading duration as needed
+      }, 1000); // Adjust the loading duration as needed
 
       return () => clearTimeout(timer); // Cleanup the timer
     } else {
@@ -47,7 +47,7 @@ const HeroSection = () => {
     <>
       {loading && (
         <div className="loader">
-          <img src={Loader} alt="Loading..." />
+          <img src={Loader} alt="Loading..." fetchPriority="high" />
         </div>
       )}
       <div className="hero-section">
