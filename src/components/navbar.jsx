@@ -72,12 +72,12 @@ const Navbar = () => {
 
           {/* Conditionally render menu based on isOpen */}
           <ul className={`menu-section ${isOpen ? "show-menu" : ""}`}>
-            <div className="none">
+            <li className="none">
               <button onClick={handleSearchModal}>
                 <i className="fa-solid fa-magnifying-glass"></i>
               </button>
               <button onClick={handleShowForm}>List Property</button>
-            </div>
+            </li>
             <li
               className={isActive("/")}
               onClick={() => {
