@@ -78,7 +78,8 @@ footer .row {
     /* border: 2px solid #ccc; */
 }
 
-.footer-col a {
+.footer-col a,
+.footer-col span {
     color: #687799;
     display: flex;
     font-weight: 450;
@@ -87,7 +88,8 @@ footer .row {
     transition: all 0.3s ease-in-out;
 }
 
-.footer-col a:hover {
+.footer-col a:hover,
+.footer-col span:hover {
     transform: translateX(5px);
     color: #b81104;
 }

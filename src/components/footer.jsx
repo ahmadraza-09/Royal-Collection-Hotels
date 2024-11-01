@@ -66,92 +66,92 @@ const Footer = () => {
           </div>
           <div class="footer-col">
             <h4>menu</h4>
-            <a
+            <span
               onClick={() => {
                 navigate("/");
               }}
             >
               Home
-            </a>
-            <a
+            </span>
+            <span
               onClick={() => {
                 navigate("/about");
               }}
             >
               About
-            </a>
-            <a
+            </span>
+            <span
               onClick={() => {
                 navigate("/our-city");
               }}
             >
               Our Hotels
-            </a>
-            <a
+            </span>
+            <span
               onClick={() => {
                 navigate("/career");
               }}
             >
               Careers
-            </a>
-            <a
+            </span>
+            <span
               onClick={() => {
                 navigate("/payment");
               }}
             >
               Payment Option
-            </a>
+            </span>
           </div>
           <div class="footer-col">
             <h4>get help</h4>
-            <a
+            <span
               onClick={() => {
                 navigate("/");
               }}
             >
               FAQ
-            </a>
-            <a
+            </span>
+            <span
               onClick={() => {
                 navigate("/contact");
               }}
             >
               Contact
-            </a>
-            <a
+            </span>
+            <span
               onClick={() => {
                 navigate("/privacy-policy");
               }}
             >
               Privacy Policy
-            </a>
-            <a
+            </span>
+            <span
               onClick={() => {
                 navigate("/payment");
               }}
             >
               {/* Payment Options */}
-            </a>
-            <a
+            </span>
+            <span
               onClick={() => {
                 navigate("/cancellation-policy");
               }}
             >
               Cancellation & Refund Policy
-            </a>
+            </span>
           </div>
           <div class="footer-col">
             <h4>Services</h4>
-            <a
+            <span
               onClick={() => {
                 navigate("/hotels-list");
               }}
             >
               Hotels
-            </a>
-            <a>Resorts</a>
-            <a>Tour Packages</a>
-            <a>Travel</a>
+            </span>
+            <span>Resorts</span>
+            <span>Tour Packages</span>
+            <span>Travel</span>
           </div>
           <div class="footer-col">
             <h4>Connect With Us</h4>
