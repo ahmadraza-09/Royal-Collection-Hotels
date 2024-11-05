@@ -53,12 +53,17 @@
 }
 
 .payment-note {
-    background-color: red;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     font-weight: 500;
     width: fit-content;
     padding: 0px 10px;
     border-radius: 5px;
+}
+
+.payment-note span {
+    color: red;
+    font-weight: 700;
 }
 
 /* Responsive */

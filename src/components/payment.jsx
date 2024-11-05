@@ -12,7 +12,12 @@ const Payment = () => {
 
         <div className="bank-details">
           <p className="payment-note">
-            Note: Company will not responsible payment done in other accounts.
+            <span>IMPORTANT NOTICE:</span> Payments should only be made using
+            the official account number and scanner provided above. We do not
+            accept cash deposits or physical payments in any form. The company
+            is not responsible for any payments made to other accounts, other
+            scanners, or any cash given to individuals. Please ensure all
+            payments are directed through the official account and scanner only.
           </p>
           <div className="bank-details-left">
             <h3>HDFC Bank Account Details</h3>
