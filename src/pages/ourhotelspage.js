@@ -3,6 +3,7 @@ import TopBanner from '../components/top-banner'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import OurHotels from '../components/our-hotels'
+import SocialMediaFixed from '../components/socialmedia-fixed'
 
 
 const OurHotelsPage = () => {
@@ -19,6 +20,7 @@ const OurHotelsPage = () => {
             {<Navbar />}
             {<OurHotels />}
             {<Footer />}
+            {<SocialMediaFixed />}
         </>
     )
 }

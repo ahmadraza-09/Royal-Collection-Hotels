@@ -3,6 +3,7 @@ import TopBanner from '../components/top-banner'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Career from '../components/career'
+import SocialMediaFixed from '../components/socialmedia-fixed';
 
 const CareerPage = () => {
     useEffect(() => {
@@ -18,6 +19,7 @@ const CareerPage = () => {
             {<Navbar />}
             {<Career />}
             {<Footer />}
+            {<SocialMediaFixed />}
         </>
     )
 }

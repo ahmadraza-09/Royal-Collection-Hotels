@@ -152,28 +152,28 @@ export const hotelsData = {
                 email: "mussoorie@rchr.in"
             }
         },
-        {
-            id: 4,
-            image: Shilton,
-            name: "Hotel Shilton Mussoorie",
-            price: 6999,
-            rating: 4,
-            description: "The hotel at the heart of the town (Library Chowk, Mussoorie) will spell bound you with the picturesque view of the Doon valley. The hotel reflects true value of warmth, luxury and comfort with hospitable staff and flawless service.",
-            rooms: 49,
-            website: "",
-            priceDetails: {
-                validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
-                roomPrices: [
-                    { type: "EPAI", price: 2299 },
-                    { type: "CPAI", price: 2799 },
-                    { type: "MAPAI", price: 3299 }
-                ]
-            },
-            contactDetails: {
-                phone: "8743000182",
-                email: "mussoorie@rchr.in"
-            }
-        }
+        // {
+        //     id: 4,
+        //     image: Shilton,
+        //     name: "Hotel Shilton Mussoorie",
+        //     price: 6999,
+        //     rating: 4,
+        //     description: "The hotel at the heart of the town (Library Chowk, Mussoorie) will spell bound you with the picturesque view of the Doon valley. The hotel reflects true value of warmth, luxury and comfort with hospitable staff and flawless service.",
+        //     rooms: 49,
+        //     website: "",
+        //     priceDetails: {
+        //         validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
+        //         roomPrices: [
+        //             { type: "EPAI", price: 2299 },
+        //             { type: "CPAI", price: 2799 },
+        //             { type: "MAPAI", price: 3299 }
+        //         ]
+        //     },
+        //     contactDetails: {
+        //         phone: "8743000182",
+        //         email: "mussoorie@rchr.in"
+        //     }
+        // }
     ],
     dhanaulti: [
         {

@@ -3,6 +3,7 @@ import TopBanner from '../components/top-banner'
 import Navbar from '../components/navbar'
 import ContactUs from '../components/contact-us'
 import Footer from '../components/footer'
+import SocialMediaFixed from '../components/socialmedia-fixed';
 
 const ContactPage = () => {
     useEffect(() => {
@@ -18,6 +19,7 @@ const ContactPage = () => {
             {<Navbar />}
             {<ContactUs />}
             {<Footer />}
+            {<SocialMediaFixed />}
         </>
     )
 }

@@ -6,7 +6,7 @@ import HotelCard from "./hotel-card";
 const PopularHotels = () => {
   const selectedHotels = [
     hotelsData.mussoorie.find(
-      (hotel) => hotel.name === "Hotel Shilton Mussoorie"
+      (hotel) => hotel.name === "Shivalik Hills Mussoorie"
     ),
     hotelsData.nainital.find((hotel) => hotel.name === "Manu Maharani Regency"),
     hotelsData.corbett.find(

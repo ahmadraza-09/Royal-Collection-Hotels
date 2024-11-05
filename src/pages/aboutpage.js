@@ -3,6 +3,7 @@ import Navbar from '../components/navbar'
 import TopBanner from '../components/top-banner'
 import AboutUs from '../components/about-us'
 import Footer from '../components/footer'
+import SocialMediaFixed from '../components/socialmedia-fixed';
 
 const AboutPage = () => {
     useEffect(() => {
@@ -18,6 +19,7 @@ const AboutPage = () => {
             {<Navbar />}
             {<AboutUs />}
             {<Footer />}
+            {<SocialMediaFixed />}
         </>
     )
 }

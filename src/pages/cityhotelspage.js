@@ -4,6 +4,7 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import OurHotels from '../components/our-hotels'
 import HotelListSection from '../components/hotels-list-section'
+import SocialMediaFixed from '../components/socialmedia-fixed'
 
 const CityHotelsPage = () => {
     return (
@@ -12,6 +13,7 @@ const CityHotelsPage = () => {
             {<Navbar />}
             {<HotelListSection />}
             {<Footer />}
+            {<SocialMediaFixed />}
         </>
     )
 }

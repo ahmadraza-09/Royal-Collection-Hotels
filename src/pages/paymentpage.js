@@ -3,6 +3,7 @@ import Navbar from '../components/navbar'
 import TopBanner from '../components/top-banner'
 import Footer from '../components/footer'
 import Payment from '../components/payment';
+import SocialMediaFixed from '../components/socialmedia-fixed';
 
 const PaymentPage = () => {
     useEffect(() => {
@@ -18,6 +19,7 @@ const PaymentPage = () => {
             {<Navbar />}
             {<Payment />}
             {<Footer />}
+            {<SocialMediaFixed />}
         </>
     )
 }

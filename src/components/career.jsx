@@ -94,7 +94,7 @@ const Career = () => {
             <input
               type="hidden"
               name="access_key"
-              value="ac18f110-8548-4859-aa68-b7b13bdbd1b2"
+              value="6f647945-dab4-4f7b-b35c-ab1a2cd84697"
             ></input>
 
             <div className="form-header">
@@ -197,43 +197,38 @@ const Career = () => {
               <label htmlFor="">Please select your job role</label>
               <div className="input-checkbox">
                 <div className="input-checkbox-flex">
-                  <input type="checkbox" name="sales" value="Yes" id="" />
-                  <label htmlFor="">Sales</label>
+                  <input type="checkbox" name="Accounts" value="Yes" id="" />
+                  <label htmlFor="">Accounts</label>
                 </div>
                 <div className="input-checkbox-flex">
                   <input
                     type="checkbox"
-                    name="digital-marketing"
+                    name="Travel Operation"
                     id=""
                     value="Yes"
                   />
-                  <label htmlFor="">Digital Marketing</label>
+                  <label htmlFor="">Travel Operation</label>
                 </div>
               </div>
               <div className="input-checkbox">
                 <div className="input-checkbox-flex">
-                  <input
-                    type="checkbox"
-                    name="guest-relation-officer"
-                    value="Yes"
-                    id=""
-                  />
-                  <label htmlFor="">Guest Relations Officer</label>
+                  <input type="checkbox" name="Hotel Sales" value="Yes" id="" />
+                  <label htmlFor="">Hotel Sales</label>
                 </div>
                 <div className="input-checkbox-flex">
                   <input
                     type="checkbox"
-                    name="Website Developer"
+                    name="Hotel Operation"
                     id=""
                     value="Yes"
                   />
-                  <label htmlFor="">Website Developer</label>
+                  <label htmlFor="">Hotel Operation</label>
                 </div>
               </div>
               <div className="input-checkbox">
                 <div className="input-checkbox-flex">
-                  <input type="checkbox" value="Yes" name="acountant" id="" />
-                  <label htmlFor="">Acountant</label>
+                  <input type="checkbox" value="Yes" name="IT" id="" />
+                  <label htmlFor="">IT</label>
                 </div>
                 <div className="input-checkbox-flex">
                   <input
