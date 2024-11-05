@@ -27,8 +27,8 @@ jobs:
       - name: Deploy to Hostinger
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: ftp://yourdomain.com  # Replace with your Hostinger domain
-          username: ${{ secrets.hosting.rchr@gmail.com }}
+          server: ftp://royalcollectionhotels.com  # Replace with your Hostinger domain
+          username: ${{ secrets.u155940902.royalcollectionhotels.com }}
           password: ${{ secrets.Amit@6565 }}
           local-dir: build  # The directory containing the built React app
           server-dir: public_html  # Adjust according to where you want to deploy
