@@ -66,8 +66,13 @@
     background-color: #fff;
 }
 
+.hotel-card-content-header>h4 .price-na {
+    color: #B92100;
+    border-radius: 5px;
+}
 
-.hotel-card-content-header>h4>span>span{
+
+.hotel-card-content-header>h4>span>span {
     font-size: 18px;
     color: #fff;
     background-color: #008234;
@@ -75,7 +80,7 @@
     border-radius: 5px;
 }
 
-.hotel-card-content-header>h4>span:last-of-type{
+.hotel-card-content-header>h4>span:last-of-type {
     font-size: 12px;
     color: #000;
     background-color: #FEC325;
@@ -129,7 +134,7 @@
     gap: 90px;
 }
 
-.hotel-card-content-footer button{
+.hotel-card-content-footer button {
     padding: 0px 10px;
     border-radius: 5px;
     border: none;
@@ -147,7 +152,7 @@
     cursor: pointer;
 }
 
-@media (min-width: 320px) and (max-width: 400px){
+@media (min-width: 320px) and (max-width: 400px) {
     .hotel-card {
         /* width: 100%; */
     }

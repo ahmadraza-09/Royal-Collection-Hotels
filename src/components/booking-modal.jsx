@@ -34,7 +34,7 @@ const BookingModal = ({ hotelName, priceDetails, contactDetails, onClose }) => {
             <div className="room-prices-list">
               {priceDetails?.roomPrices?.map((room, index) => (
                 <span key={index}>
-                  <span>₹ {room.price}</span> {room.type} <br />
+                  <span>₹ {room.price}</span> {room.type} - Exclude GST <br />
                 </span>
               ))}
             </div>

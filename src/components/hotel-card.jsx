@@ -43,9 +43,13 @@ const HotelCard = ({
           <div className="hotel-card-content-header">
             <h1>{name}</h1>
             <h4>
-              <span>
-                <span>₹ {price}</span> /Night
-              </span>{" "}
+              {price > 0 ? (
+                <span>
+                  <span>₹ {price}</span> / Night
+                </span>
+              ) : (
+                <span className="price-na">Contact for Price</span>
+              )}
               <span onClick={handleBookingModal}>Check Price Validity</span>
             </h4>
             <p>
