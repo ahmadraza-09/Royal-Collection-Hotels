@@ -13,7 +13,7 @@ const CustomerCounting = () => {
       </div>
       <div className="customer-counting-box">
         <h2>
-          <CountUp start={0} end={14} duration={5} />
+          <CountUp start={0} end={20} duration={5} />
         </h2>
         <h2>Destination Places</h2>
       </div>

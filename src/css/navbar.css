@@ -134,8 +134,8 @@ li {
     gap: 10px;
 }
 
-.navbar-section .search-section button, 
-.none button{
+.navbar-section .search-section button,
+.none button {
     background-color: #B92100;
     color: #fff;
     text-transform: uppercase;
@@ -144,7 +144,7 @@ li {
     font-family: 'Montserrat', sans-serif;
     padding: 5px 10px;
     border: none;
-    border-radius: 5px;   
+    border-radius: 5px;
     outline: none;
     cursor: pointer;
 }
@@ -164,7 +164,7 @@ li {
     display: none;
 }
 
-input[type="checkbox"]:checked ~ .menu-section {
+input[type="checkbox"]:checked~.menu-section {
     right: 0%;
 }
 
@@ -183,13 +183,13 @@ input[type="checkbox"]:checked ~ .menu-section {
     .top-banner {
         display: none;
     }
-    
+
     .navbar-section {
         height: 60px;
         padding: 0px 10px;
         /* overflow: hidden; */
     }
-    
+
     .navbar-section .menu-section {
         display: flex;
         flex-direction: column;
@@ -208,11 +208,11 @@ input[type="checkbox"]:checked ~ .menu-section {
         text-align: center;
         gap: 30px;
     }
-    
+
     .navbar-section .logo-section {
         font-size: 12px;
     }
-    
+
     .navbar-section .search-section .menu-bars {
         display: block;
     }
@@ -221,11 +221,15 @@ input[type="checkbox"]:checked ~ .menu-section {
         display: block;
     }
 
-    .search-section button {
+    .search-section .list-button {
         display: none;
     }
 
+    .search-section .search-button {
+        display: flex;
+    }
+
     .navbar-section .search-section button:first-of-type {
-        display: none;
+        display: flex;
     }
 }

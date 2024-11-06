@@ -146,10 +146,15 @@ const Navbar = () => {
             <button
               onClick={handleSearchModal}
               aria-label="search-magnifying-button"
+              className="search-button"
             >
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
-            <button onClick={handleShowForm} aria-label="list-property-button">
+            <button
+              onClick={handleShowForm}
+              aria-label="list-property-button"
+              className="list-button"
+            >
               List Property
             </button>
             {/* Hamburger Icon */}

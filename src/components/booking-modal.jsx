@@ -32,11 +32,18 @@ const BookingModal = ({ hotelName, priceDetails, contactDetails, onClose }) => {
             </div>
             <br />
             <div className="room-prices-list">
-              {priceDetails?.roomPrices?.map((room, index) => (
-                <span key={index}>
-                  <span>₹ {room.price}</span> {room.type} - Exclude GST <br />
-                </span>
-              ))}
+              {priceDetails?.roomPrices?.price > 0 ? (
+                <>
+                  {priceDetails?.roomPrices?.map((room, index) => (
+                    <span key={index}>
+                      <span>₹ {room.price}</span> {room.type} - Exclude GST{" "}
+                      <br />
+                    </span>
+                  ))}
+                </>
+              ) : (
+                <span className="price-na">Contact Us for Price Inquery</span>
+              )}
             </div>
           </div>
           <div className="booking-contact-details">
