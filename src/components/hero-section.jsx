@@ -11,11 +11,6 @@ const HeroSection = () => {
   const [location, setLocation] = useState("");
   const [loading, setLoading] = useState(true);
 
-  // Function to handle image loading
-  const handleImageLoad = () => {
-    setLoading(false); // Set loading to false once the image is loaded
-  };
-
   const handleExplore = () => {
     if (location) {
       navigate(`/our-city/${location.toLowerCase()}`);
@@ -111,7 +106,6 @@ const HeroSection = () => {
                 <img
                   src={Hotel}
                   alt="Hotel"
-                  onLoad={handleImageLoad}
                   loading="lazy"
                   fetchPriority="low"
                 />{" "}
@@ -122,7 +116,6 @@ const HeroSection = () => {
                 <img
                   src={Resort}
                   alt="Resort"
-                  onLoad={handleImageLoad}
                   loading="lazy"
                   fetchPriority="low"
                 />

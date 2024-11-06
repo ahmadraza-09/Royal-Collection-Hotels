@@ -1,12 +1,10 @@
 import React from "react";
 import "../css/payment.css";
+import UPI from "../assets/royal-collection-hotels-scanner.jpg";
 
 const Payment = () => {
   return (
     <div className="payment-section">
-      <div className="payment-section-left swipe-left">
-        {/* <img src={UPI} alt="" /> */}
-      </div>
       <div className="payment-section-right swipe">
         <h2>Bank Account Deatils</h2>
 
@@ -74,6 +72,9 @@ const Payment = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="payment-section-left swipe-left">
+        <img src={UPI} alt="" />
       </div>
     </div>
   );
