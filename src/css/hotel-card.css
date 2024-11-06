@@ -62,7 +62,8 @@
 }
 
 .hotel-card-content-header>h4>span {
-    color: #A0A0A0;
+    color: #000;
+    /* color: #A0A0A0; */
     background-color: #fff;
 }
 
