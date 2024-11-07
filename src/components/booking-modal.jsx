@@ -1,7 +1,13 @@
 import React from "react";
 import "../css/booking-modal.css";
 
-const BookingModal = ({ hotelName, priceDetails, contactDetails, onClose }) => {
+const BookingModal = ({
+  hotelName,
+  hotelPrice,
+  priceDetails,
+  contactDetails,
+  onClose,
+}) => {
   return (
     <div className="booking-modal-section">
       <div className="booking-modal swipe">
@@ -32,7 +38,7 @@ const BookingModal = ({ hotelName, priceDetails, contactDetails, onClose }) => {
             </div>
             <br />
             <div className="room-prices-list">
-              {priceDetails?.roomPrices?.price > 0 ? (
+              {hotelPrice > 0 ? (
                 <>
                   {priceDetails?.roomPrices?.map((room, index) => (
                     <span key={index}>

@@ -29,6 +29,7 @@ const HotelCard = ({
       {showBookingModal && (
         <BookingModal
           hotelName={name}
+          hotelPrice={price}
           priceDetails={priceDetails}
           contactDetails={contactDetails}
           validityDates={validityDates}
