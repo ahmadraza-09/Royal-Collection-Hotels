@@ -6,10 +6,9 @@ const HotelDestinationCard = ({ image, title, description, properties }) => {
   const navigate = useNavigate();
 
   const handleExplore = () => {
-    // Format the title to be URL-friendly
+    // Format the title to be URL-friendly and navigate with 'hotels-in-' prefix
     const formattedTitle = title.toLowerCase();
-    // Navigate without a slash before cityName
-    navigate(`/our-city/${formattedTitle}`);
+    navigate(`/our-city/hotels-in-${formattedTitle}`);
   };
 
   return (
