@@ -49,27 +49,22 @@ const DestinationSlider = () => {
           320: {
             slidesPerView: 1,
             spaceBetween: 20,
-            navigation: false,
           },
           480: {
             slidesPerView: 1,
             spaceBetween: 20,
-            navigation: false,
           },
           640: {
             slidesPerView: 2,
             spaceBetween: 20,
-            navigation: false,
           },
           768: {
             slidesPerView: 3,
             spaceBetween: 40,
-            navigation: true,
           },
           1024: {
             slidesPerView: 4,
-            spaceBetween: 50,
-            navigation: true,
+            spaceBetween: 40,
           },
         }}
         modules={[Navigation, Autoplay, Pagination, Scrollbar]}
