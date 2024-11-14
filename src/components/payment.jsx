@@ -73,7 +73,7 @@ const Payment = () => {
           </div>
         </div>
       </div>
-      <div className="payment-section-left swipe-left">
+      <div className="payment-section-left swipe">
         <img src={UPI} alt="" />
       </div>
     </div>

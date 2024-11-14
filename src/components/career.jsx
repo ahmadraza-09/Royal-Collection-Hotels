@@ -34,11 +34,11 @@ const Career = () => {
           <img
             src={Team}
             alt=""
-            className="swipe-left"
+            className="swipe"
             loading="lazy"
             fetchPriority="high"
           />
-          <p className="swipe-right">
+          <p className="swipe">
             <span>Royal Collection Hotels and Resorts</span>, we are a leading
             Hotel Branding Company dedicated to providing top-notch branding
             solutions that boost sales, profitability, and visibility for our
