@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../css/hero-section.css";
-import Hotel from "../assets/icons/hotel.png";
-import Resort from "../assets/icons/resort.png";
+import Hotel from "../assets/icons/hotel.webp";
+import Resort from "../assets/icons/resort.webp";
 import Loader from "../assets/loader/loader2.gif";
 
 const HeroSection = () => {

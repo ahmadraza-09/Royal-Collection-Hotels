@@ -1,8 +1,8 @@
 import React from "react";
 import "../css/about-us.css";
-import WhatWeDo from "../assets/why-choose-us/why-choose-us.jpg";
-import Mission from "../assets/mission.jpg";
-import Goal from "../assets/goal.avif";
+import WhatWeDo from "../assets/why-choose-us/why-choose-us.webp";
+import Mission from "../assets/mission.webp";
+import Goal from "../assets/goal.webp";
 
 const AboutUs = () => {
   return (

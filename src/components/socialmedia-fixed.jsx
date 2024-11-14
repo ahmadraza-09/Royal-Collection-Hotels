@@ -1,8 +1,8 @@
 // SocialMediaFixed.js
 import React from "react";
 import "../css/socialmedia-fixed.css";
-import Call from "../assets/icons/phone-call.png";
-import Whatsapp from "../assets/icons/whatsapp.png";
+import Call from "../assets/icons/phone-call.webp";
+import Whatsapp from "../assets/icons/whatsapp.webp";
 
 const SocialMediaFixed = () => {
   return (

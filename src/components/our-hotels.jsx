@@ -3,27 +3,27 @@ import "../css/our-hotels.css";
 import HotelDestinationCard from "./hotel-destination-card";
 
 // Images
-import Mussoorie from "../assets/mussoorie.jpg";
-import Dhanaulti from "../assets/dhanaulti.jpg";
-import Nainital from "../assets/nainital.jpg";
-import Lohaghat from "../assets/lohaghat.jpeg";
-import Auli from "../assets/auli.jpg";
-import Corbett from "../assets/corbett.jpg";
-import Manali from "../assets/manali.jpg";
-import Shimla from "../assets/shimla.jpg";
-import Dharamshala from "../assets/dharamshala.jpg";
-import Dalhousie from "../assets/dalhousie.jpg";
-import Amritsar from "../assets/amritsar.jpg";
-import Chandigarh from "../assets/chandigarh.jpg";
-import Gujarat from "../assets/sasangir.jpg";
-import Bhimtal from "../assets/bhimtal.jpg";
-import Kausani from "../assets/kausani.jpg";
-import Haridwar from "../assets/haridwar.jpg";
-import Bandhavgarh from "../assets/bandhavgarh.jpg";
-import Almora from "../assets/almora.jpg";
-import Ranikhet from "../assets/ranikhet.jpg";
-import Mukteshwar from "../assets/mukteshwar.jpeg";
-import Chail from "../assets/chail.jpeg";
+import Mussoorie from "../assets/mussoorie.webp";
+import Dhanaulti from "../assets/dhanaulti.webp";
+import Nainital from "../assets/nainital.webp";
+import Lohaghat from "../assets/lohaghat.webp";
+import Auli from "../assets/auli.webp";
+import Corbett from "../assets/corbett.webp";
+import Manali from "../assets/manali.webp";
+import Shimla from "../assets/shimla.webp";
+import Dharamshala from "../assets/dharamshala.webp";
+import Dalhousie from "../assets/dalhousie.webp";
+import Amritsar from "../assets/amritsar.webp";
+import Chandigarh from "../assets/chandigarh.webp";
+// import Gujarat from "../assets/sasangir.webp";
+import Bhimtal from "../assets/bhimtal.webp";
+import Kausani from "../assets/kausani.webp";
+import Haridwar from "../assets/haridwar.webp";
+import Bandhavgarh from "../assets/bandhavgarh.webp";
+import Almora from "../assets/almora.webp";
+import Ranikhet from "../assets/ranikhet.webp";
+import Mukteshwar from "../assets/mukteshwar.webp";
+import Chail from "../assets/chail.webp";
 
 const OurHotels = () => {
   const [selectedCity, setSelectedCity] = useState("");

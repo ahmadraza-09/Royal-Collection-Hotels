@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/why-choose-us.css";
-import WhyChoose from "../assets/why-choose-us/why-choose-us.jpg";
+import WhyChoose from "../assets/why-choose-us/why-choose-us.webp";
 
 const WhyChooseUs = () => {
   return (

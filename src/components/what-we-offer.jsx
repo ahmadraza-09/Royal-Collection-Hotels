@@ -1,10 +1,10 @@
 import React from "react";
 import "../css/what-we-offer.css";
-import Guarantee from "../assets/icons/guarantee.png";
-import Trust from "../assets/icons/trust.png";
-import Agent from "../assets/icons/man-in-suit-and-tie.png";
-import Hotel from "../assets/icons/hotel2.png";
-import CustomerSupport from "../assets/icons/services.png";
+import Guarantee from "../assets/icons/guarantee.webp";
+import Trust from "../assets/icons/trust.webp";
+import Agent from "../assets/icons/man-in-suit-and-tie.webp";
+import Hotel from "../assets/icons/hotel2.webp";
+import CustomerSupport from "../assets/icons/services.webp";
 
 const WhatWeOffer = () => {
   return (

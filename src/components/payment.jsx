@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/payment.css";
-import UPI from "../assets/royal-collection-hotels-scanner.jpg";
+import UPI from "../assets/royal-collection-hotels-scanner.webp";
 
 const Payment = () => {
   return (

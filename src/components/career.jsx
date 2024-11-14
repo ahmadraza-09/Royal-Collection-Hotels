@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../css/career.css";
-import Team from "../assets/team.jpg";
+import Team from "../assets/team.webp";
 
 const Career = () => {
   const currentYear = new Date().getFullYear();

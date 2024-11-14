@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../css/search-modal.css";
-import Hotel from "../assets/icons/hotel.png";
-import Resort from "../assets/icons/resort.png";
+import Hotel from "../assets/icons/hotel.webp";
+import Resort from "../assets/icons/resort.webp";
 
 const SearchModal = ({ onClose }) => {
   const navigate = useNavigate();
