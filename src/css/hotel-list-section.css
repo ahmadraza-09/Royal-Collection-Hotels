@@ -23,6 +23,11 @@
     .hotel-list-section {
         padding: 20px 0px;
     }
+
+    .hotel-list-section>h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
 }
 
 @media (min-width: 480px) {

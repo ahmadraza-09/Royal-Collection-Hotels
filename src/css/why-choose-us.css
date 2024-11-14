@@ -13,7 +13,6 @@
 
 .why-choose-us-section>h2 {
     font-size: 30px;
-    /* font-family: "Montserrat", sans-serif; */
     font-weight: 800;
     text-transform: uppercase;
     position: relative;
@@ -42,7 +41,7 @@
     width: 50%;
 }
 
-.why-choose-us-section .why-choose-us-left img{
+.why-choose-us-section .why-choose-us-left img {
     width: 100%;
     border-radius: 20px;
 }
@@ -57,7 +56,7 @@
 }
 
 /* Responsive */
-@media (min-width: 320px) and (max-width: 768px){
+@media (min-width: 320px) and (max-width: 768px) {
     .why-choose-us-section {
         padding: 20px;
     }
@@ -65,7 +64,7 @@
     .why-choose-us-section h2 {
         font-size: 25px;
     }
-    
+
     .why-choose-us-contents {
         flex-direction: column;
         gap: 20px;
