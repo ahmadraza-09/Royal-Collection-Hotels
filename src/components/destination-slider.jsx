@@ -14,7 +14,7 @@ const DestinationSlider = () => {
   const navigate = useNavigate();
 
   const handleExplore = (cityName) => {
-    navigate(`/our-city/${cityName.toLowerCase()}`);
+    navigate(`/our-city/hotels-in-${cityName.toLowerCase()}`);
   };
 
   const destinations = [

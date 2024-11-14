@@ -13,13 +13,14 @@ const HeroSection = () => {
 
   const handleExplore = () => {
     if (location) {
-      navigate(`/our-city/${location.toLowerCase()}`);
+      navigate(`/our-city/hotels-in-${location.toLowerCase()}`);
     }
   };
 
   const handleSearch = () => {
     if (location) {
-      navigate(`/our-city/${location.toLowerCase()}`);
+      // navigate(`/our-city/${location.toLowerCase()}`);
+      navigate(`/our-city/hotels-in-${location.toLowerCase()}`);
     }
   };
 
