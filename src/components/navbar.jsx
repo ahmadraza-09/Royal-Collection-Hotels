@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../css/navbar.css";
 import { useNavigate, useLocation } from "react-router-dom";
-import Logo from "../assets/logo.gif";
+import Logo from "../assets/logo.webp";
 import ListPropertyForm from "./list-property-form";
 import SearchModal from "./search-modal";
 

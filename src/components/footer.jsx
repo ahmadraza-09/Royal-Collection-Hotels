@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/footer.css";
 import { useNavigate } from "react-router-dom";
-import Logo from "../assets/logo.gif";
+import Logo from "../assets/logo.webp";
 
 const Footer = () => {
   const navigate = useNavigate();

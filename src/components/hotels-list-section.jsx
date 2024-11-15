@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import React, { lazy, Suspense, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "../css/hotel-list-section.css";
 import "../css/our-hotels.css";
-import HotelCard from "./hotel-card";
 import { hotelsData } from "../data/hotelsdata";
+import SkeletonHotelCard from "./skeleton-hotel-card";
+const HotelCard = React.lazy(() => import("./hotel-card"));
 
 const HotelListSection = () => {
   const { cityName } = useParams();
@@ -142,19 +143,21 @@ const HotelListSection = () => {
         <div className="hotel-cards-section">
           {filteredHotels.length > 0 ? (
             filteredHotels.map((hotel, index) => (
-              <HotelCard
-                key={index}
-                image={hotel.image}
-                name={hotel.name}
-                price={hotel.price}
-                rating={hotel.rating}
-                description={hotel.description}
-                rooms={hotel.rooms}
-                website={hotel.website}
-                priceDetails={hotel.priceDetails}
-                validityDates={hotel.priceDetails.validityDates}
-                contactDetails={hotel.contactDetails}
-              />
+              <Suspense fallback={<SkeletonHotelCard />} key={index}>
+                <HotelCard
+                  key={index}
+                  image={hotel.image}
+                  name={hotel.name}
+                  price={hotel.price}
+                  rating={hotel.rating}
+                  description={hotel.description}
+                  rooms={hotel.rooms}
+                  website={hotel.website}
+                  priceDetails={hotel.priceDetails}
+                  validityDates={hotel.priceDetails.validityDates}
+                  contactDetails={hotel.contactDetails}
+                />
+              </Suspense>
             ))
           ) : (
             <p>No hotels found.</p>
