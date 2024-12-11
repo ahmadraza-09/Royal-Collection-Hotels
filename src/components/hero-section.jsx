@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import SkeletonHero from "./skeleton-hero";
-import Hero from "../assets/hero/hero-bg3.webp";
 import "../css/hero-section.css";
 import Hotel from "../assets/icons/hotel.webp";
 import Resort from "../assets/icons/resort.webp";
@@ -12,11 +10,6 @@ const HeroSection = () => {
   const [hotelType, setHotelType] = useState("");
   const [location, setLocation] = useState("");
   const [loading, setLoading] = useState(true);
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-
-  const handleVideoLoad = () => {
-    setIsVideoLoaded(true); // Video is loaded, show the video
-  };
 
   const handleExplore = () => {
     if (location) {
@@ -54,14 +47,7 @@ const HeroSection = () => {
         </div>
       )}
       <div className="hero-section">
-      {!isVideoLoaded && <SkeletonHero />}
-        <div className="image-background">
-        <img
-          src={Hero}
-          preload="auto"
-          onLoad={handleVideoLoad} // When video is ready to play, mark it as loaded
-        />
-        <div className="overlay-content">
+        <div className="overlay">
           <h2 className="swipe">Explore Amazing India</h2>
           <div className="find-hotels swipe">
             <h4>Find Great Places To Stay</h4>
@@ -107,6 +93,7 @@ const HeroSection = () => {
               </button>
             </div>
           </div>
+
           <div className="explore-hotels swipe">
             <h3>Or Explore Our Hotels & Resorts</h3>
             <div className="explore-hotels-cards">
@@ -137,10 +124,6 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-        </div>
-          
-
-          
         </div>
       </div>
     </>
