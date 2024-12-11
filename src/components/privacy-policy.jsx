@@ -298,8 +298,7 @@ const PrivacyPolicy = () => {
           <h2>CONTACT INFORMATION</h2>
           <p>
             Please direct any questions or comments about this privacy statement
-            and our privacy practices to us G-24, F/F, Shyam Park Nawada Near
-            Nawada Metro Gate No 2 | New Delhi 110059
+            and our privacy practices to us 110,111, UNITECH COMMERCIAL TOWER-2 Block-B Greenwood City, Sector 45, Gurugram, Haryana 122003
           </p>
         </div>
       </div>
