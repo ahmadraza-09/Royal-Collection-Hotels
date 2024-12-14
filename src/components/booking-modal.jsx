@@ -43,7 +43,7 @@ const BookingModal = ({
                 <>
                   {priceDetails?.roomPrices?.map((room, index) => (
                     <span key={index}>
-                      <span>₹ {room.price}</span> {room.type} - Exclude GST{" "}
+                      <span>₹ {room.price}</span> {room.type}{" "}
                       <br />
                     </span>
                   ))}
