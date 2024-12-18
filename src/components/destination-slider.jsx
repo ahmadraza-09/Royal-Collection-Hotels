@@ -19,7 +19,7 @@ const DestinationSlider = () => {
 
   const destinations = [
     { name: "Mussoorie", listings: "3" },
-    { name: "Nainital", listings: "3" },
+    { name: "Nainital", listings: "4" },
     { name: "Corbett", listings: "2" },
     { name: "Manali", listings: "6" },
     { name: "Bhimtal", listings: "1" },
@@ -31,8 +31,8 @@ const DestinationSlider = () => {
     { name: "Haridwar", listings: "1" },
     { name: "Chandigarh", listings: "2" },
     { name: "Bandhavgarh", listings: "1" },
-    { name: "Shimla", listings: "3" },
-    { name: "Almora", listings: "2" },
+    { name: "Shimla", listings: "5" },
+    { name: "Almora", listings: "1" },
     { name: "Dhanaulti", listings: "1" },
     { name: "Lohaghat", listings: "1" },
     { name: "Auli", listings: "1" },

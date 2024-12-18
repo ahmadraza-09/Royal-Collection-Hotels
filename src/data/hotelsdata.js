@@ -50,7 +50,7 @@ import ManlaHomeResort from '../assets/manla-home-resort.webp'
 import LaurantBanon from '../assets/laurant-banon.jfif'
 import HotelSukon from '../assets/hotel-sukon.webp'
 import SterlingShivalikChail from '../assets/sterling-chail.webp'
-// import Shilton from '../assets/6.webp'
+import TheHiveCottageNainital from '../assets/thehivecottagenainital.jpg'
 
 
 export const hotelsData = {
@@ -213,7 +213,7 @@ export const hotelsData = {
             id: 1,
             image: HotelAroma,
             name: "Hotel Aroma Nainital",
-            price: 2999,
+            price: 3999,
             rating: 3,
             description: "A complete family hotel Aroma Hotel established in 1967 is located in the tranquil woods of Ayarpata Nainital (approx. 300 mtrs from the Naini Lake).",
             rooms: 35,
@@ -221,9 +221,9 @@ export const hotelsData = {
             priceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
-                    { type: "EPAI", price: 2999 },
-                    { type: "CPAI", price: 3499 },
-                    { type: "MAPAI", price: 3999 }
+                    { type: "EPAI", price: 3999 },
+                    { type: "CPAI", price: 4999 },
+                    { type: "MAPAI", price: 5999 }
                 ]
             },
             contactDetails: {
@@ -279,7 +279,7 @@ export const hotelsData = {
             id: 3,
             image: ManuMaharani,
             name: "Manu Maharani Regency",
-            price: 3999,
+            price: 5999,
             rating: 3,
             description: "Manu Maharani Regency in Nainital is a luxurious hotel that offers an unparalleled experience of hospitality and comfort. Nestled amidst the picturesque mountains of Nainital, this hotel is one of the most sought-after destinations for tourists from all around the world.",
             rooms: 12,
@@ -287,9 +287,9 @@ export const hotelsData = {
             priceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
-                    { type: "EPAI", price: 3999 },
-                    { type: "CPAI", price: 4499 },
-                    { type: "MAPAI", price: 4999 }
+                    { type: "EPAI", price: 5999 },
+                    { type: "CPAI", price: 6999 },
+                    { type: "MAPAI", price: 7999 }
                 ]
             },
             contactDetails: {
@@ -305,6 +305,45 @@ export const hotelsData = {
                     {
                         id: 3,
                         number: "8743000197",
+                    }
+                ],
+                email: "booking@rchronline.com"
+            }
+        },
+        {
+            id: 4,
+            image: TheHiveCottageNainital,
+            name: "The Hive Cottage Nainital",
+            price: 5999,
+            rating: 3,
+            description: "The Hive Cottage offers room service and easy access to Nainital's landmarks, dining, and attractions like Raj Bhawan. Enjoy a comfortable stay while exploring the best of the city!",
+            rooms: 8,
+            website: "https://thehivecottagenainital.com/",
+            priceDetails: {
+                validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
+                roomPrices: [
+                    { type: "EPAI", price: 5999 },
+                    { type: "CPAI", price: 6499 },
+                    { type: "MAPAI", price: 7499 }
+                ]
+            },
+            contactDetails: {
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000181",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000120",
+                    },
+                    {
+                        id: 3,
+                        number: "8743000197",
+                    },
+                    {
+                        id: 4,
+                        number: "8743000182",
                     }
                 ],
                 email: "booking@rchronline.com"

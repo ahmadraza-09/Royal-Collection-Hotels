@@ -52,7 +52,7 @@ const OurHotels = () => {
       title: "Nainital",
       description:
         "Nainital is famous for the Naini Lake, the amazing view and the pleasant weather.",
-      properties: 3,
+      properties: 4,
     },
     {
       id: 4,

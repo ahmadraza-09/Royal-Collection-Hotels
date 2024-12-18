@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "../css/navbar.css";
 import { useNavigate, useLocation } from "react-router-dom";
-import Logo from "../assets/logo.webp";
+// import Logo from "../assets/logo.webp";
+import Logo from "../assets/festive-img/cristmas-logo.png";
 import ListPropertyForm from "./list-property-form";
 import SearchModal from "./search-modal";
 

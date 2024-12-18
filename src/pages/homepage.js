@@ -11,6 +11,8 @@ import PopularHotels from '../components/popular-hotels';
 import HeroSection from "../components/hero-section";
 import SocialMediaFixed from "../components/socialmedia-fixed";
 import NewsLetter from "../components/newsletter";
+import CristmasModal from "../components/cristmas-modal";
+import FestiveModalContainer from "../components/festive-modal-container";
 
 const HomePage = () => {
 
@@ -34,6 +36,9 @@ const HomePage = () => {
                 </script>
             </Helmet>
 
+            {/* Festive Modal */}
+            <FestiveModalContainer />
+
             <TopBanner />
             <Navbar />
             <HeroSection />
@@ -42,7 +47,7 @@ const HomePage = () => {
             <DestinationSliderSection />
             <CustomerCounting />
             <PopularHotels />
-            <NewsLetter/>
+            <NewsLetter />
             <Footer />
             <SocialMediaFixed />
         </>
