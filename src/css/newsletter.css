@@ -1,0 +1,132 @@
+.newsletter-section {
+    width: 100%;
+    height: 250px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-container {
+    width: 800px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-container h2 {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.newsletter-container p {
+    max-width: 500px;
+    text-align: center;
+    font-style: italic;
+}
+
+.newsletter-input-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.newsletter-input-button input {
+    background-color: #E1E8F0;
+    width: 550px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.newsletter-input-button button {
+    background-color: #B81104;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.newsletter-input-button button:hover {
+    background-color: #960D02;
+}
+
+/* Responsive */
+@media (min-width: 480px) and (max-width: 768px) {
+    .newsletter-container {
+        width: 550px;
+    }
+    
+    .newsletter-input-button input {
+        width: 300px;
+        font-size: 16px;
+    }
+    
+    .newsletter-input-button button {
+        width: 120px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .newsletter-section {
+        height: fit-content;
+        padding: 30px 20px;
+    }
+    
+    .newsletter-container {
+        width: 100%;
+        height: fit-content;
+        padding: 10px 10px;
+    }
+    
+    .newsletter-container h2 {
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .newsletter-container h2 i {
+        font-size: 30px;
+    }
+    
+    .newsletter-container p {
+        font-style: italic;
+        font-size: 12px;
+    }
+
+    .newsletter-input-button {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .newsletter-input-button input {
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    .newsletter-input-button button {
+        font-size: 14px;
+        height: 40px;
+        padding: 0px;
+    }
+}

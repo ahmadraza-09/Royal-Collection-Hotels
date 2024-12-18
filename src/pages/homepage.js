@@ -10,6 +10,7 @@ import CustomerCounting from '../components/customer-counting';
 import PopularHotels from '../components/popular-hotels';
 import HeroSection from "../components/hero-section";
 import SocialMediaFixed from "../components/socialmedia-fixed";
+import NewsLetter from "../components/newsletter";
 
 const HomePage = () => {
 
@@ -41,6 +42,7 @@ const HomePage = () => {
             <DestinationSliderSection />
             <CustomerCounting />
             <PopularHotels />
+            <NewsLetter/>
             <Footer />
             <SocialMediaFixed />
         </>
