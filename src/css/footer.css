@@ -236,6 +236,10 @@ footer .row {
     font-size: 15px;
 }
 
+.footer-copyright p a {
+    text-decoration: underline;
+}
+
 .footer-copyright-right {
     font-size: 15px;
 }
@@ -270,8 +274,8 @@ footer .row {
 
     .footer-copyright {
         height: fit-content;
-        /* flex-direction: column; */
-
+        flex-direction: column;
+        text-align: center;
         padding: 5px 20px;
     }
 

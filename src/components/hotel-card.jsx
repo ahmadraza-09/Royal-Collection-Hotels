@@ -10,7 +10,8 @@ const HotelCard = ({
   description,
   rooms,
   website,
-  priceDetails,
+  OffSeasonPriceDetails,
+  SeasonPriceDetails,
   validityDates,
   contactDetails,
 }) => {
@@ -30,7 +31,8 @@ const HotelCard = ({
         <BookingModal
           hotelName={name}
           hotelPrice={price}
-          priceDetails={priceDetails}
+          OffSeasonPriceDetails={OffSeasonPriceDetails}
+          SeasonPriceDetails={SeasonPriceDetails}
           contactDetails={contactDetails}
           validityDates={validityDates}
           onClose={handleCloseBookingModal}

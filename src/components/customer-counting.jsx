@@ -9,7 +9,13 @@ const CustomerCounting = () => {
         <h2>
           <CountUp start={0} end={500} duration={5} />K
         </h2>
-        <h2>Happy Customers</h2>
+        <h2>Happy <br/> Guests</h2>
+      </div>
+      <div className="customer-counting-box">
+        <h2>
+          <CountUp start={0} end={50} duration={5} />K
+        </h2>
+        <h2>Happy Agents</h2>
       </div>
       <div className="customer-counting-box">
         <h2>
@@ -19,7 +25,7 @@ const CustomerCounting = () => {
       </div>
       <div className="customer-counting-box">
         <h2>
-          <CountUp start={0} end={40} duration={5} />
+          <CountUp start={0} end={42} duration={5} />
         </h2>
         <h2>
           Hotels <br /> Listed

@@ -24,6 +24,7 @@ import Almora from "../assets/almora.webp";
 import Ranikhet from "../assets/ranikhet.webp";
 import Mukteshwar from "../assets/mukteshwar.webp";
 import Chail from "../assets/chail.webp";
+import Rishikesh from "../assets/rishikesh.jpeg";
 
 const OurHotels = () => {
   const [selectedCity, setSelectedCity] = useState("");
@@ -32,38 +33,6 @@ const OurHotels = () => {
   const hotelsDestinationLists = [
     {
       id: 1,
-      image: Mussoorie,
-      title: "Mussoorie",
-      description:
-        "The hill station is in the foothills of the Garhwal Himalayan range.",
-      properties: 3,
-    },
-    {
-      id: 2,
-      image: Dhanaulti,
-      title: "Dhanaulti",
-      description:
-        "Discover Dhanaulti: serene Himalayan getaway, stunning views, adventure trails, and tranquil ambiance for perfect relaxation",
-      properties: 1,
-    },
-    {
-      id: 3,
-      image: Nainital,
-      title: "Nainital",
-      description:
-        "Nainital is famous for the Naini Lake, the amazing view and the pleasant weather.",
-      properties: 4,
-    },
-    {
-      id: 4,
-      image: Lohaghat,
-      title: "Lohaghat",
-      description:
-        "Lohaghat, a serene hill station in Uttarakhand, India, is renowned for its lush greenery, ancient temples, and scenic landscapes.",
-      properties: 1,
-    },
-    {
-      id: 5,
       image: Auli,
       title: "Auli",
       description:
@@ -71,47 +40,7 @@ const OurHotels = () => {
       properties: 1,
     },
     {
-      id: 6,
-      image: Corbett,
-      title: "Corbett",
-      description:
-        "Jim Corbett National Park is a premier spot for sighting of big cats",
-      properties: 2,
-    },
-    {
-      id: 7,
-      image: Manali,
-      title: "Manali",
-      description:
-        "Manali is a popular tourist destination in India and serves as the gateway to the Lahaul and Spiti district as well as the city of Leh in Ladakh.",
-      properties: 6,
-    },
-    {
-      id: 8,
-      image: Shimla,
-      title: "Shimla",
-      description:
-        "One of the most stunning hill resorts, Shimla is one of the most popular hill stations in northern India.",
-      properties: 5,
-    },
-    {
-      id: 9,
-      image: Dharamshala,
-      title: "Dharamshala",
-      description:
-        "Dharamshala is one of the most frequented tourist places in India.",
-      properties: 4,
-    },
-    {
-      id: 10,
-      image: Dalhousie,
-      title: "Dalhousie",
-      description:
-        "Surrounded by beautiful snow-capped mountains, Dalhousie is named after its founder Lord Dalhousie, the British Governor-General in India.",
-      properties: 2,
-    },
-    {
-      id: 11,
+      id: 2,
       image: Amritsar,
       title: "Amritsar",
       description:
@@ -119,47 +48,15 @@ const OurHotels = () => {
       properties: 3,
     },
     {
-      id: 12,
-      image: Chandigarh,
-      title: "Chandigarh",
+      id: 3,
+      image: Almora,
+      title: "Almora",
       description:
-        "Chandigarh has been called the happiest and cleanest city in India, as evidenced by the surveys conducted in recent years.",
-      properties: 2,
-    },
-    // {
-    //   id: 13,
-    //   image: Gujarat,
-    //   title: "Gujarat",
-    //   description:
-    //     "Gir National Park is the only place in the world outside Africa where a lion can be seen in its natural habitat.",
-    //   properties: 1,
-    // },
-    {
-      id: 14,
-      image: Bhimtal,
-      title: "Bhimtal",
-      description:
-        "The major attraction in Bhimtal is the Bhimtal Lake, which has an island at its centre.",
+        "Almora is famous for its alluring beauty, panoramic view of the Himalayas, rich cultural heritage, unique handicrafts, and delicious cuisines.",
       properties: 1,
     },
     {
-      id: 15,
-      image: Kausani,
-      title: "Kausani",
-      description:
-        "It is famous for its scenic splendour and its spectacular 300 km-wide panoramic view of Himalayan peaks",
-      properties: 1,
-    },
-    {
-      id: 16,
-      image: Haridwar,
-      title: "Haridwar",
-      description:
-        "Haridwar is regarded as a holy place for Hindus, hosting important religious events and serving as a gateway to several prominent places of worship.",
-      properties: 1,
-    },
-    {
-      id: 17,
+      id: 4,
       image: Bandhavgarh,
       title: "Bandhavgarh",
       description:
@@ -167,12 +64,116 @@ const OurHotels = () => {
       properties: 1,
     },
     {
-      id: 18,
-      image: Almora,
-      title: "Almora",
+      id: 5,
+      image: Bhimtal,
+      title: "Bhimtal",
       description:
-        "Almora is famous for its alluring beauty, panoramic view of the Himalayas, rich cultural heritage, unique handicrafts, and delicious cuisines.",
+        "The major attraction in Bhimtal is the Bhimtal Lake, which has an island at its centre.",
       properties: 1,
+    },
+    {
+      id: 6,
+      image: Chail,
+      title: "Chail",
+      description:
+        "Chail is a hill station in Solan district of Himachal Pradesh, India. It is 45 kilometres from Solan city and 44 kilometres from Shimla. It is known for its salubrious beauty and forests.",
+      properties: 1,
+    },
+    {
+      id: 7,
+      image: Chandigarh,
+      title: "Chandigarh",
+      description:
+        "Chandigarh has been called the happiest and cleanest city in India, as evidenced by the surveys conducted in recent years.",
+      properties: 2,
+    },
+    {
+      id: 8,
+      image: Corbett,
+      title: "Corbett",
+      description:
+        "Jim Corbett National Park is a premier spot for sighting of big cats",
+      properties: 2,
+    },
+    {
+      id: 9,
+      image: Dalhousie,
+      title: "Dalhousie",
+      description:
+        "Surrounded by beautiful snow-capped mountains, Dalhousie is named after its founder Lord Dalhousie, the British Governor-General in India.",
+      properties: 2,
+    },
+    {
+      id: 10,
+      image: Dhanaulti,
+      title: "Dhanaulti",
+      description:
+        "Discover Dhanaulti: serene Himalayan getaway, stunning views, adventure trails, and tranquil ambiance for perfect relaxation",
+      properties: 1,
+    },
+    {
+      id: 11,
+      image: Dharamshala,
+      title: "Dharamshala",
+      description:
+        "Dharamshala is one of the most frequented tourist places in India.",
+      properties: 4,
+    },
+    {
+      id: 12,
+      image: Haridwar,
+      title: "Haridwar",
+      description:
+        "Haridwar is regarded as a holy place for Hindus, hosting important religious events and serving as a gateway to several prominent places of worship.",
+      properties: 1,
+    },
+    {
+      id: 13,
+      image: Kausani,
+      title: "Kausani",
+      description:
+        "It is famous for its scenic splendour and its spectacular 300 km-wide panoramic view of Himalayan peaks",
+      properties: 1,
+    },
+    {
+      id: 14,
+      image: Lohaghat,
+      title: "Lohaghat",
+      description:
+        "Lohaghat, a serene hill station in Uttarakhand, India, is renowned for its lush greenery, ancient temples, and scenic landscapes.",
+      properties: 1,
+    },
+    {
+      id: 15,
+      image: Manali,
+      title: "Manali",
+      description:
+        "Manali is a popular tourist destination in India and serves as the gateway to the Lahaul and Spiti district as well as the city of Leh in Ladakh.",
+      properties: 6,
+    },
+    {
+      id: 16,
+      image: Mukteshwar,
+      title: "Mukteshwar",
+      description:
+        "Mukteshwar is a village and tourist destination in the Nainital district of Uttarakhand, India. It sits high in the Kumaon Hills at an altitude of 2171 meters, 51 km from Nainital, 72 km from Haldwani, and 343 km from Delhi.",
+      properties: 1,
+    },
+    {
+      id: 17,
+      image: Mussoorie,
+      title: "Mussoorie",
+      description:
+        "The hill station is in the foothills of the Garhwal Himalayan range.",
+      properties: 3,
+    },
+    {
+      id: 18,
+      image: Nainital,
+      title: "Nainital",
+      description:
+        "Nainital is famous for the Naini Lake, the amazing view and the pleasant weather.",
+      properties: 4,
     },
     {
       id: 19,
@@ -184,21 +185,22 @@ const OurHotels = () => {
     },
     {
       id: 20,
-      image: Mukteshwar,
-      title: "Mukteshwar",
+      image: Rishikesh,
+      title: "Rishikesh",
       description:
-        "Mukteshwar is a village and tourist destination in the Nainital district of Uttarakhand, India. It sits high in the Kumaon Hills at an altitude of 2171 meters, 51 km from Nainital, 72 km from Haldwani, and 343 km from Delhi.",
+        "Rishikesh, located in Uttarakhand, India, is renowned as the Capital of Yoga and Meditation. It attracts visitors seeking spiritual enlightenment and adventure.",
       properties: 1,
     },
     {
       id: 21,
-      image: Chail,
-      title: "Chail",
+      image: Shimla,
+      title: "Shimla",
       description:
-        "Chail is a hill station in Solan district of Himachal Pradesh, India. It is 45 kilometres from Solan city and 44 kilometres from Shimla. It is known for its salubrious beauty and forests.",
-      properties: 1,
+        "One of the most stunning hill resorts, Shimla is one of the most popular hill stations in northern India.",
+      properties: 5,
     },
   ];
+
 
   // Filter hotels based on selected city
   const handleSearch = () => {
@@ -226,24 +228,28 @@ const OurHotels = () => {
               onChange={(e) => setSelectedCity(e.target.value)}
             >
               <option value="">Select City</option>
+              <option value="Almora">Almora</option>
               <option value="Amritsar">Amritsar</option>
               <option value="Auli">Auli</option>
-              <option value="Almora">Almora</option>
               <option value="Bandhavgarh">Bandhavgarh</option>
               <option value="Bhimtal">Bhimtal</option>
+              <option value="Chail">Chail</option>
               <option value="Chandigarh">Chandigarh</option>
               <option value="Corbett">Corbett</option>
               <option value="Dalhousie">Dalhousie</option>
+              <option value="Dhanaulti">Dhanaulti</option>
               <option value="Dharamshala">Dharamshala</option>
-              <option value="Gujarat">Gujarat</option>
               <option value="Haridwar">Haridwar</option>
               <option value="Kausani">Kausani</option>
-              <option value="lohaghat">Lohaghat</option>
+              <option value="Lohaghat">Lohaghat</option>
               <option value="Manali">Manali</option>
+              <option value="Mukteshwar">Mukteshwar</option>
               <option value="Mussoorie">Mussoorie</option>
               <option value="Nainital">Nainital</option>
               <option value="Ranikhet">Ranikhet</option>
+              <option value="Rishikesh">Rishikesh</option>
               <option value="Shimla">Shimla</option>
+
             </select>
             <div className="date-picker">
               <label htmlFor="from-date-picker">From</label>

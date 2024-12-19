@@ -97,6 +97,7 @@ li {
 
 .navbar-section .logo-section h2 {
     font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
 }
 
 .navbar-section .logo-section img {

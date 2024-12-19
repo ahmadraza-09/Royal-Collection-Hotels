@@ -11,7 +11,7 @@ import VanasthaliJungle from '../assets/15.webp'
 import CorbettAroma from '../assets/corbettaroma.webp'
 import ManaliGrand from '../assets/20.webp'
 import SitaraInternational from '../assets/21.webp'
-// import ArtiVilla from '../assets/45.webp'
+import SkRegencyRishikesh from '../assets/skregencyrishikesh.webp'
 import NehaPalace from '../assets/22.webp'
 import HotelNitesh from '../assets/23.webp'
 // import RigzinNest from '../assets/24.webp'
@@ -64,8 +64,16 @@ export const hotelsData = {
             description: "Kahkashan Mussoorie is situated in Mussoorie, a picturesque hill station that offers enchanting view of capacious green grasslands and snow clad Himalayas. The hotel is located at an accessible distance of 550m from Library Bus Stand.",
             rooms: 18,
             website: "https://hotelkahkashan.com",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
                     { type: "EPAI", price: 2499 },
                     { type: "CPAI", price: 2999 },
@@ -95,12 +103,20 @@ export const hotelsData = {
             description: "Shivalik Hills Mussoorie By Royal Collection Hotels is one of the elegantly designed luxury hotel in Mussoorie . We offers our guests premium luxury in Stay . Hotel is special attraction for families , corporates , honeymooners and Leisure groups .",
             rooms: 46,
             website: "https://shivalikhillsmussoorie.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 3299 },
                     { type: "CPAI", price: 3799 },
                     { type: "MAPAI", price: 4299 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -130,12 +146,20 @@ export const hotelsData = {
             description: "Occupying a part of the main road, lying right opposite to the Picture Palace you can find Apsara Hotel Mussoorie. It is near to the bus or taxi stand and its location is easily found as it is situated on a busy road.",
             rooms: 25,
             website: "https://hotelapsaramussoorie.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2299 },
                     { type: "CPAI", price: 2799 },
                     { type: "MAPAI", price: 3299 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -161,7 +185,7 @@ export const hotelsData = {
         //     description: "The hotel at the heart of the town (Library Chowk, Mussoorie) will spell bound you with the picturesque view of the Doon valley. The hotel reflects true value of warmth, luxury and comfort with hospitable staff and flawless service.",
         //     rooms: 49,
         //     website: "",
-        //     priceDetails: {
+        //     OffSeasonPriceDetails: {
         //         validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
         //         roomPrices: [
         //             { type: "EPAI", price: 2299 },
@@ -185,12 +209,20 @@ export const hotelsData = {
             description: "Apple Orchard Resort, set in the stunning Himalayas, features 20 elegant guest rooms and 4 Luxury Swiss Tent Houses, all with breathtaking views. Enjoy the crisp air, fresh spring water, and a rejuvenating escape in nature.",
             rooms: 20,
             website: "https://www.appleorchardresort.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 3499 },
                     { type: "CPAI", price: 3999 },
                     { type: "MAPAI", price: 4499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -218,12 +250,20 @@ export const hotelsData = {
             description: "A complete family hotel Aroma Hotel established in 1967 is located in the tranquil woods of Ayarpata Nainital (approx. 300 mtrs from the Naini Lake).",
             rooms: 35,
             website: "https://hotelaromanainital.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 3999 },
                     { type: "CPAI", price: 4999 },
                     { type: "MAPAI", price: 5999 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -249,12 +289,20 @@ export const hotelsData = {
             description: "The palace belvedere, The summer palace of the erstwhile Rajas of awagarh, It is reminiscent of the bygone days of the 'Raj Era built nearly a century ago by Raja Balwant Singh OBE of Awagarh in the year 1897.",
             rooms: 26,
             website: "https://www.thepalacebelvedere.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 5499 },
                     { type: "CPAI", price: 5999 },
                     { type: "MAPAI", price: 6499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -284,12 +332,20 @@ export const hotelsData = {
             description: "Manu Maharani Regency in Nainital is a luxurious hotel that offers an unparalleled experience of hospitality and comfort. Nestled amidst the picturesque mountains of Nainital, this hotel is one of the most sought-after destinations for tourists from all around the world.",
             rooms: 12,
             website: "https://manumaharaniregency.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 5999 },
                     { type: "CPAI", price: 6999 },
                     { type: "MAPAI", price: 7999 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -319,12 +375,20 @@ export const hotelsData = {
             description: "The Hive Cottage offers room service and easy access to Nainital's landmarks, dining, and attractions like Raj Bhawan. Enjoy a comfortable stay while exploring the best of the city!",
             rooms: 8,
             website: "https://thehivecottagenainital.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 5999 },
                     { type: "CPAI", price: 6499 },
                     { type: "MAPAI", price: 7499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -350,6 +414,47 @@ export const hotelsData = {
             }
         },
     ],
+    rishikesh: [
+        {
+            id: 1,
+            image: SkRegencyRishikesh,
+            name: "Sk Regency Rishikesh",
+            price: 2499,
+            rating: 3,
+            description: "Budget-friendly stay with clean rooms, polite staff, and ample parking. Conveniently located on the Kedarnath-Badrinath highway. Some issues with AC, water, and food quality.",
+            rooms: 18,
+            website: "https://skregencyrishikesh.com/",
+            OffSeasonPriceDetails: {
+                validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 3499 },
+                    { type: "MAPAI", price: 4499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
+                ]
+            },
+            contactDetails: {
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000181",
+                    },
+                    {
+                        id: 2,
+                        number: "9971834101",
+                    }
+                ],
+                email: "booking@rchronline.com"
+            }
+        },
+    ],
     lohaghat: [
         {
             id: 1,
@@ -360,11 +465,19 @@ export const hotelsData = {
             description: "Discover the magic of Hotel Lohaghat Regency, where luxury and relaxation await. Book now for an unforgettable experience focused on your comfort and satisfaction.",
             rooms: 8,
             website: "https://www.lohaghatregency.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2699 },
                     { type: "CPAI", price: 3199 },
+                    { type: "MAPAI", price: 3499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
                     { type: "MAPAI", price: 3499 }
                 ]
             },
@@ -393,11 +506,19 @@ export const hotelsData = {
             description: "Satopanth The Auli Resort, nestled in the dense oak forests of Chamoli, Uttarakhand, offers a serene escape just 10-15 minutes from Auli Slopes. Spanning 33,000 sq. ft., guests can enjoy stargazing, candlelight dinners, and bonfires away from city hustle.",
             rooms: 12,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2699 },
                     { type: "CPAI", price: 3199 },
+                    { type: "MAPAI", price: 3499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
                     { type: "MAPAI", price: 3499 }
                 ]
             },
@@ -422,12 +543,20 @@ export const hotelsData = {
             description: "Vanasthali Resort Jim Corbett, Ramnagar offers air-conditioned accommodation in Ramnagar. Among the facilities of this property are a restaurant, a 24-hour front desk and room service. Free private parking is available.",
             rooms: 14,
             website: "https://vanasthalicorbett.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 3499 },
                     { type: "CPAI", price: 3999 },
                     { type: "MAPAI", price: 4499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -461,12 +590,20 @@ export const hotelsData = {
             description: "Corbett Aroma Park is ideal for a relaxing both in summer and winter holidays; nestled on the edge of beautiful mountains its splendid view of the Corbett guarantees the calming of frayed urban nerves.",
             rooms: 18,
             website: "https://www.aromaparkcorbett.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 3499 },
                     { type: "CPAI", price: 3999 },
                     { type: "MAPAI", price: 4499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -498,10 +635,18 @@ export const hotelsData = {
             description: "Manali Grand has fascinating view from its rooms & terrace. The sunset visible from hotels premises is soul stirring with a view of river Beas just flowing next to hotel premises adjoining nearby",
             rooms: 32,
             website: "https://hotelmanaligrand.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2699 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
                     { type: "CPAI", price: 2999 },
                     { type: "MAPAI", price: 3499 }
                 ]
@@ -529,12 +674,20 @@ export const hotelsData = {
             description: "Hotel Sitara International is a great choice for travellers looking for a 3 star star hotel in Manali. This Hotel stands out as one of the highly recommended hotel in Manali. Hotel is rated 3.9 out of 5, which is considered as very good.",
             rooms: 32,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 1899 },
                     { type: "CPAI", price: 2299 },
                     { type: "MAPAI", price: 2699 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -569,12 +722,20 @@ export const hotelsData = {
             description: "Neha Palace is one of the ventures of Group of Royal Hotels having been into Hospitality business from the last many years offering quality services to its guests. Today Manali is the main tourist destination of Kullu Valley.",
             rooms: 32,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 1899 },
                     { type: "CPAI", price: 2299 },
                     { type: "MAPAI", price: 2699 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -600,12 +761,20 @@ export const hotelsData = {
             description: "Hotel Nitesh is located near Siyali Mahadev Temple(0.7 mi) and Ghatotkach Tree Temple(0.8 mi).It offers a 24-hour front desk, room service, a sun terrace, and an on- site restaurant, along with free parking.",
             rooms: 16,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 1899 },
                     { type: "CPAI", price: 2299 },
                     { type: "MAPAI", price: 2699 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -631,12 +800,20 @@ export const hotelsData = {
             description: "Hotel Manali Queen, Manali is a great choice for travellers looking for a 3 star star hotel in Manali. This Hotel stands out as one of the highly recommended hotel in Manali. Hotel is rated out of 5, which is considered as very good.",
             rooms: 20,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 1899 },
                     { type: "CPAI", price: 2299 },
                     { type: "MAPAI", price: 2699 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -662,12 +839,20 @@ export const hotelsData = {
             description: "The Laurent and Banon by wishlist hospitality is a great choice for travellers looking for a 4 star star hotel in Manali. This Hotel stands out as one of the highly recommended hotel in Manali. Hotel is rated 4.2 out of 5, which is considered as very good.",
             rooms: 23,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 1899 },
                     { type: "CPAI", price: 2299 },
                     { type: "MAPAI", price: 2699 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -722,12 +907,20 @@ export const hotelsData = {
             description: "Hotel CK Internation Shimla is within a 15-minute drive of Viceregal Lodge and Himachal Pradesh University. This hotel is 2.5 KM from Shimla Mall and 2 KM State Museum.",
             rooms: 41,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2999 },
                     { type: "CPAI", price: 3499 },
                     { type: "MAPAI", price: 3999 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -753,12 +946,20 @@ export const hotelsData = {
             description: "Mahaveer Shimla by Royal Collection Hotels is an experience, not just a stay. Reconnect with nature and rejuvenate your senses in luxurious accommodations with exceptional service. It truly is the best hotel in Shimla.",
             rooms: 14,
             website: "https://mahaveershimla.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2299 },
                     { type: "CPAI", price: 2699 },
                     { type: "MAPAI", price: 2999 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -784,12 +985,20 @@ export const hotelsData = {
             description: "The Grand Madhushala is Located in the beautiful city of Shimla, Hotel has 25 well furnished rooms with balcony and other modern amenities. If you are looking for a fun filled holiday in the heart of Shimla.It is an exceptional blend of affordability",
             rooms: 25,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 3299 },
                     { type: "CPAI", price: 3599 },
                     { type: "MAPAI", price: 3999 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -815,12 +1024,20 @@ export const hotelsData = {
             description: "Oak View in Shimla offers 3-star accommodation with free WiFi, parking, and a restaurant, just 5.7 km from Victory Tunnel and 4.6 km from Tara Devi Mandir. Circular Road is 7.2 km away, and Simla Airport is 18 km, with each room featuring a flat-screen TV and private bathroom.",
             rooms: 6,
             website: "https://oakview.in/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 1899 },
                     { type: "CPAI", price: 2299 },
                     { type: "MAPAI", price: 2699 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -842,12 +1059,20 @@ export const hotelsData = {
             description: "Manla Homes offers three- star accommodation near Shimla, featuring hotel rooms, huts, and villas with stunning Himalayan views and modern amenities.The resort includes a gym, spa, restaurant, and is 14 miles from central Shimla.",
             rooms: 70,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 3599 },
                     { type: "CPAI", price: 4599 },
                     { type: "MAPAI", price: 5599 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -885,12 +1110,20 @@ export const hotelsData = {
             description: "Hotel Triund Heights is a speciality lodging in McLeod Ganj. It has free parking service with air conditioning room and flat screen TV.",
             rooms: 16,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 3799 },
                     { type: "CPAI", price: 4199 },
                     { type: "MAPAI", price: 4799 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -916,12 +1149,20 @@ export const hotelsData = {
             description: "Far far away, behind the word mountains, far from the countries",
             rooms: 16,
             website: "https://rcregencydharamshala.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2299 },
                     { type: "CPAI", price: 2499 },
                     { type: "MAPAI", price: 2899 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -947,12 +1188,20 @@ export const hotelsData = {
             description: "RC Regency Dharamshala is a newly built luxury property in Dharamshala. Set high above the city, amidst open spaces and high-tech facilities, its a private zone. Mcleodganj is a hill station near Dharamshala, popular among trekkers.",
             rooms: 32,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 1899 },
                     { type: "CPAI", price: 2299 },
                     { type: "MAPAI", price: 2699 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -987,12 +1236,20 @@ export const hotelsData = {
             description: "Located in the heart of Upper Dharamshala, Hotel Seven Seas is a budget property known for its warm hospitality. The property is established in the lap of nature and provides a perfect retreat away from the city din.",
             rooms: 30,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 1899 },
                     { type: "CPAI", price: 2299 },
                     { type: "MAPAI", price: 2699 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1020,12 +1277,20 @@ export const hotelsData = {
             description: "Hotel Snow Ark Dalhousie is located in Dalhousie. Khajji Naga Shrine and Panjpula are local attractions and Garam Sadak is worth checking out if an activity is on the agenda",
             rooms: 8,
             website: "https://hotelsnowark.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 1899 },
                     { type: "CPAI", price: 2299 },
                     { type: "MAPAI", price: 2699 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1060,12 +1325,20 @@ export const hotelsData = {
             description: "Hotel MOHAN Palace – Dalhousie is best choice for your stay in Dalhousie. Located on Khajiar Road, walking distance from Gandhi Chowk of Dalhousie.",
             rooms: 10,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 1899 },
                     { type: "CPAI", price: 2299 },
                     { type: "MAPAI", price: 2699 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1093,12 +1366,20 @@ export const hotelsData = {
             description: "Hotel 42 Amritsar is the most exclusive address, now a world of luxury, elegance & gracious efficiency. Amritsar Airport, Railway Station, Bus Stand and Golden Temple in Amritsar are just minutes away from the Hotel",
             rooms: 5,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2699 },
                     { type: "CPAI", price: 3299 },
                     { type: "MAPAI", price: 3999 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1124,12 +1405,20 @@ export const hotelsData = {
             description: "Hotel RV Continental is an excellent choice for travellers visiting Amritsar, offering a family-friendly environment alongside many helpful amenities designed to enhance your stay.",
             rooms: 32,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 1899 },
                     { type: "CPAI", price: 2299 },
                     { type: "MAPAI", price: 2699 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1155,12 +1444,20 @@ export const hotelsData = {
             description: "Belofte Yonit Inn, Amritsar, is 750 meters from Amritsar Junction and near attractions like the Golden Temple. Rooms have flat-screen TVs and mini fridges. Amenities include internet, room service, and a restaurant serving local cuisine.",
             rooms: 25,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2699 },
                     { type: "CPAI", price: 3299 },
                     { type: "MAPAI", price: 3999 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1188,12 +1485,20 @@ export const hotelsData = {
             description: "Far far away, behind the word mountains, far from the countries",
             rooms: 60,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2999 },
                     { type: "CPAI", price: 3499 },
                     { type: "MAPAI", price: 3999 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1219,12 +1524,20 @@ export const hotelsData = {
             description: "Clarion Inn Sevilla is a part of the choice hotel international, the largest chain of hotels with 6300 hotels in 30 countries all over the world.",
             rooms: 105,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2999 },
                     { type: "CPAI", price: 3499 },
                     { type: "MAPAI", price: 3999 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1261,12 +1574,20 @@ export const hotelsData = {
             description: "PARIJAT RETREAT (30 KM FROM RANIKHET TOWARDS JIM CORBET) is a great choice for travellers looking for a 3 star star hotel in Khatoli. This Hotel stands out as one of the highly recommended hotel in Khatoli. Hotel is rated 4.2 out of 5, which is considered as very good.",
             rooms: 12,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 3499 },
                     { type: "CPAI", price: 3999 },
                     { type: "MAPAI", price: 4499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1305,12 +1626,20 @@ export const hotelsData = {
             description: "Hotel Maya Regency boasts a unique architectural style that reflects its exceptional hospitality.With 18 spacious, well- furnished rooms equipped with modern amenities, it ensures a comfortable and memorable stay for all guests.",
             rooms: 18,
             website: "https://hotelmayaregency.com/",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2999 },
                     { type: "CPAI", price: 3499 },
                     { type: "MAPAI", price: 3999 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1342,12 +1671,20 @@ export const hotelsData = {
             description: "Natures Valley Resort features spotlessly clean and furnished rooms equipped with cable television, intercom facility, tea/coffee maker, refrigerator, ironing board, direct dial phone surcharge, sofa unit and room heater",
             rooms: 18,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2999 },
                     { type: "CPAI", price: 3499 },
                     { type: "MAPAI", price: 3999 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1375,8 +1712,16 @@ export const hotelsData = {
             description: "Nestled in the city famous for its temples and ghats, Hotel Flora is one of the finest property in Haridwar. The nearest airport is the Jolly Grant Airport and the closest rail-head is the Haridwar Railway Station.",
             rooms: 15,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
                     { type: "EPAI", price: 2499 },
                     { type: "CPAI", price: 2999 },
@@ -1408,8 +1753,16 @@ export const hotelsData = {
             description: "Our fully furnished rooms feature modern amenities such as climate control, Western toilets, power backup, satellite TV, Wi-Fi, and intercom. Enjoy home comforts in a traditional setting, with packages available for both weekend breaks and longer holidays.",
             rooms: 18,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["07th-Jan to 19th-Dec", ""],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
                     { type: "EPAI", price: 2499 },
                     { type: "CPAI", price: 2999 },
@@ -1451,12 +1804,20 @@ export const hotelsData = {
             description: "The Mountain Paradise Resort in Almora Binsar offers luxurious amenities amidst jungle surroundings, featuring a lawn and the multi- cuisine restaurant Pine & Peak, just 2 km from Almora Mall Road.",
             rooms: 9,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 1899 },
                     { type: "CPAI", price: 2299 },
                     { type: "MAPAI", price: 2699 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1484,12 +1845,20 @@ export const hotelsData = {
             description: "Located within 38 km of Bhimtal Lake and 47 km of Naini Lake in Mukteswar, Sukoon Retreat offers accommodation with seating area. This villa provides free private parking and a 24-hour front desk. The villa features family rooms.",
             rooms: 4,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2999 },
                     { type: "CPAI", price: 3499 },
                     { type: "MAPAI", price: 4299 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {
@@ -1514,12 +1883,20 @@ export const hotelsData = {
             description: "Sterling Shivalik Chail offers luxurious rooms with stunning views and thrilling activities like jungle treks and ziplining. Enjoy delicious Himachali cuisine at Tibba restaurant, along with fun in-house activities like badminton and board games.",
             rooms: 32,
             website: "",
-            priceDetails: {
+            OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
                     { type: "EPAI", price: 2999 },
                     { type: "CPAI", price: 3499 },
                     { type: "MAPAI", price: 4599 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 2499 },
+                    { type: "CPAI", price: 2999 },
+                    { type: "MAPAI", price: 3499 }
                 ]
             },
             contactDetails: {

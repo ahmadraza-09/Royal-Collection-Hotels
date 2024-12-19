@@ -25,6 +25,11 @@
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.customer-counting-box:hover {
+    transform: translateY(-15px);
 }
 
 .customer-counting-box h2:first-of-type {

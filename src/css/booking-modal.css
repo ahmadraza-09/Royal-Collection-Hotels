@@ -88,8 +88,17 @@
 
 .room-price-validity {
     width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1.5px solid #000; */
     /* border: 2px solid black; */
     
+}
+
+.room-price-validity-left {
+    border-right: 1.5px solid #B92100;
+    padding: 0px 10px;
 }
 
 .booking-contact-details {
@@ -100,6 +109,7 @@
 
 .price-validity-date {
     display: flex;
+    flex-direction: column;
     align-items: start;
     justify-content: start;
     gap: 10px;
@@ -138,8 +148,12 @@
 /* Responsive */
 @media (min-width: 320px) and (max-width: 480px) {
     .booking-modal-section {
-        padding: 0px 10px;
+        padding: 20px 10px;
         align-items: center;
+    }
+
+    .booking-modal {
+        margin-top: 50px;
     }
 
     .booking-price-validity-and-contact {
@@ -148,6 +162,14 @@
 
     .room-price-validity {
         width: 100%;
+    }
+
+    .room-price-validity-left:last-of-type {
+        border: none;
+    }
+
+    .booking-contacts {
+        text-align: center;
     }
 
     .booking-contact-details {
@@ -160,6 +182,6 @@
     }
 
     .booking-modal {
-        padding: 15px;
+        padding: 10px;
     }
 }

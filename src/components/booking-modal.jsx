@@ -5,7 +5,8 @@ import BookingModalBanner from "../assets/hotel-banner.webp";
 const BookingModal = ({
   hotelName,
   hotelPrice,
-  priceDetails,
+  OffSeasonPriceDetails,
+  SeasonPriceDetails,
   contactDetails,
   onClose,
 }) => {
@@ -30,28 +31,57 @@ const BookingModal = ({
         <br />
         <div className="booking-price-validity-and-contact">
           <div className="room-price-validity">
-            <h2 className="off-season-tariff">Off Season Tariff</h2>
-            <br />
-            <div className="price-validity-date">
-              {priceDetails?.validityDates?.map((date, index) => (
-                <span key={index}>{date}</span>
-              ))}
+            <div className="room-price-validity-left">
+              <h2 className="off-season-tariff">Off Season Tariff</h2>
+              <br />
+              <div className="price-validity-date">
+                {OffSeasonPriceDetails?.validityDates?.map((date, index) => (
+                  <span key={index}>{date}</span>
+                ))}
+              </div>
+              <br />
+              <div className="room-prices-list">
+                {hotelPrice > 0 ? (
+                  <>
+                    {OffSeasonPriceDetails?.roomPrices?.map((room, index) => (
+                      <span key={index}>
+                        <span>₹ {room.price}</span> {room.type}{" "}
+                        <br />
+                      </span>
+                    ))}
+                  </>
+                ) : (
+                  <span className="price-na">Contact Us for Price Inquery</span>
+                )}
+              </div>
             </div>
-            <br />
-            <div className="room-prices-list">
-              {hotelPrice > 0 ? (
-                <>
-                  {priceDetails?.roomPrices?.map((room, index) => (
-                    <span key={index}>
-                      <span>₹ {room.price}</span> {room.type}{" "}
-                      <br />
-                    </span>
-                  ))}
-                </>
-              ) : (
-                <span className="price-na">Contact Us for Price Inquery</span>
-              )}
+            <div className="room-price-validity-left">
+              <h2 className="off-season-tariff">Season Tariff</h2>
+              <br />
+              <div className="price-validity-date">
+                {SeasonPriceDetails?.validityDates?.map((date, index) => (
+                  <>
+                  <span key={index}>{date}</span>
+                  </>
+                ))}
+              </div>
+              <br />
+              <div className="room-prices-list">
+                {hotelPrice > 0 ? (
+                  <>
+                    {SeasonPriceDetails?.roomPrices?.map((room, index) => (
+                      <span key={index}>
+                        <span>₹ {room.price}</span> {room.type}{" "}
+                        <br />
+                      </span>
+                    ))}
+                  </>
+                ) : (
+                  <span className="price-na">Contact Us for Price Inquery</span>
+                )}
+              </div>
             </div>
+
           </div>
           <div className="booking-contact-details">
             <h2>Booking Contact Details</h2>

@@ -153,8 +153,10 @@ const HotelListSection = () => {
                   description={hotel.description}
                   rooms={hotel.rooms}
                   website={hotel.website}
-                  priceDetails={hotel.priceDetails}
-                  validityDates={hotel.priceDetails.validityDates}
+                  OffSeasonPriceDetails={hotel.OffSeasonPriceDetails}
+                  SeasonPriceDetails={hotel.SeasonPriceDetails}
+                  OffSeasonPriceValidityDates={hotel.OffSeasonPriceDetails.OffSeasonPriceValidityDates}
+                  SeasonPriceValidityDates={hotel.SeasonPriceDetails.SeasonPriceValidityDates}
                   contactDetails={hotel.contactDetails}
                 />
               </Suspense>

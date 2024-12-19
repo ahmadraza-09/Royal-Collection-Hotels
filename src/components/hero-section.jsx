@@ -67,26 +67,27 @@ const HeroSection = () => {
                 onChange={(e) => setLocation(e.target.value)}
               >
                 <option value="">Choose Location</option>
-                <option value="amritsar">Amritsar</option>
-                <option value="auli">Auli</option>
-                <option value="almora">Almora</option>
-                <option value="bandhavgarh">Bandhavgarh</option>
-                <option value="bhimtal">Bhimtal</option>
-                <option value="chandigarh">Chandigarh</option>
-                <option value="corbett">Corbett</option>
-                <option value="dhanaulti">Dhanaulti</option>
-                <option value="dalhousie">Dalhousie</option>
-                <option value="dharamshala">Dharamshala</option>
-                <option value="haridwar">Haridwar</option>
-                <option value="kausani">Kausani</option>
-                <option value="lohaghat">Lohaghat</option>
-                <option value="manali">Manali</option>
-                <option value="mussoorie">Mussoorie</option>
-                <option value="nainital">Nainital</option>
-                <option value="ranikhet">Ranikhet</option>
-                <option value="shimla">Shimla</option>
-                <option value="mukteshwar">Mukteshwar</option>
-                <option value="chail">Chail</option>
+                <option value="Almora">Almora</option>
+              <option value="Amritsar">Amritsar</option>
+              <option value="Auli">Auli</option>
+              <option value="Bandhavgarh">Bandhavgarh</option>
+              <option value="Bhimtal">Bhimtal</option>
+              <option value="Chail">Chail</option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Corbett">Corbett</option>
+              <option value="Dalhousie">Dalhousie</option>
+              <option value="Dhanaulti">Dhanaulti</option>
+              <option value="Dharamshala">Dharamshala</option>
+              <option value="Haridwar">Haridwar</option>
+              <option value="Kausani">Kausani</option>
+              <option value="Lohaghat">Lohaghat</option>
+              <option value="Manali">Manali</option>
+              <option value="Mukteshwar">Mukteshwar</option>
+              <option value="Mussoorie">Mussoorie</option>
+              <option value="Nainital">Nainital</option>
+              <option value="Ranikhet">Ranikhet</option>
+              <option value="Rishikesh">Rishikesh</option>
+              <option value="Shimla">Shimla</option>
               </select>
               <button onClick={handleSearch} aria-label="search">
                 Search

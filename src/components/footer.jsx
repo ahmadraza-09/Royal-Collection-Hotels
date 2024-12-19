@@ -186,12 +186,24 @@ const Footer = () => {
         </div>
 
         <div className="footer-copyright">
-          <div className="footer-copyright-left">
-            <p>© 2024</p> <img src="" alt="" loading="lazy" />
-          </div>
+  <div className="footer-copyright-left">
+    <p>Copyright © 2012-2024.</p>
+  </div>
 
-          <div className="footer-copyright-right">All Rights Reserved</div>
-        </div>
+  <div className="footer-copyright-right">
+    <p>
+       All Rights Reserved. -{" "}
+      <a 
+        href="https://www.royalcollectionhotels.com/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        Royal Collection Hotels & Resorts
+      </a>
+    </p>
+  </div>
+</div>
+
       </footer>
     </>
   );
