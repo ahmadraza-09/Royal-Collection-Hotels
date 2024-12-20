@@ -12,6 +12,11 @@
   /* overflow: hidden; */
 }
 
+::selection {
+  background-color: #B92100;
+  color: #fff;
+}
+
 body {
   /* background-color: #E2E8F0; */
   background-color: #fff;
