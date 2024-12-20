@@ -125,18 +125,20 @@ const OnlyHotels = () => {
           {filteredHotels.length > 0 ? (
             filteredHotels.map((hotel, index) => (
               <HotelCard
-                key={index}
-                image={hotel.image}
-                name={hotel.name}
-                price={hotel.price}
-                rating={hotel.rating}
-                description={hotel.description}
-                rooms={hotel.rooms}
-                website={hotel.website}
-                priceDetails={hotel.priceDetails}
-                validityDates={hotel.priceDetails.validityDates}
-                contactDetails={hotel.contactDetails}
-              />
+                  key={index}
+                  image={hotel.image}
+                  name={hotel.name}
+                  price={hotel.price}
+                  rating={hotel.rating}
+                  description={hotel.description}
+                  rooms={hotel.rooms}
+                  website={hotel.website}
+                  OffSeasonPriceDetails={hotel.OffSeasonPriceDetails}
+                  SeasonPriceDetails={hotel.SeasonPriceDetails}
+                  OffSeasonPriceValidityDates={hotel.OffSeasonPriceDetails.OffSeasonPriceValidityDates}
+                  SeasonPriceValidityDates={hotel.SeasonPriceDetails.SeasonPriceValidityDates}
+                  contactDetails={hotel.contactDetails}
+                />
             ))
           ) : (
             <p>No hotels found.</p>
