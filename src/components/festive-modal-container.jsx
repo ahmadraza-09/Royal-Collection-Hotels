@@ -22,7 +22,7 @@ const FestiveModalContainer = () => {
   return (
     <>
       {showCristmasgModal && (
-        <div className='festive-modal-container'>
+        <div className='festive-modal-section'>
           <CristmasModal onClose={handleCloseCristmasModal} />
         </div>
       )}

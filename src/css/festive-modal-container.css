@@ -1,11 +1,6 @@
-@font-face {
-  font-family: "PlayfulChristmas";
-  src: url("../fonts/Playful\ Christmas-Personal\ Use.otf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 
-.festive-modal-container {
+
+.festive-modal-section {
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
@@ -21,6 +16,14 @@
   user-select: none;
 }
 
+/* Cristmas Modal Container */
+@font-face {
+  font-family: "PlayfulChristmas";
+  src: url("../fonts/Playful\ Christmas-Personal\ Use.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .cristmas-modal-container {
   width: 100%;
   max-width: 400px;
@@ -30,7 +33,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../assets/festive-img/cristmas-bg.jpg");
+  background-image: url("../assets/festive-img/newyear-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
@@ -39,7 +42,7 @@
   color: #fff;
 }
 
-.hide-cristmas-modal {
+.hide-festive-modal {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -48,7 +51,7 @@
   justify-content: center;
 }
 
-.cristmas-modal-content {
+.festive-modal-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,13 +59,13 @@
   gap: 10px;
 }
 
-.cristmas-modal-content img {
+.cristmas-modal-container .festive-modal-content img {
     width: 60px;
     position: absolute;
     top: 20px;
 }
 
-.cristmas-modal-content h2 {
+.festive-modal-content h2 {
   font-family: "PlayfulChristmas", "Poppins";
   font-size: 50px;
   text-align: center;
@@ -70,11 +73,31 @@
   z-index: 10;
 }
 
-.cristmas-modal-content p {
+.festive-modal-content ul {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.festive-modal-content ul li {
+  width: fit-content;
+  background-color: #B92100;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.festive-modal-content p {
     text-align: center;
 }
 
-.cristmas-modal-content button {
+.festive-modal-content button {
     border: none;
     outline: none;
     font-size: 16px;
@@ -89,7 +112,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.hide-cristmas-modal-bg {
+.hide-festive-modal-bg {
   border-bottom-left-radius: 25px;
   padding-left: 10px;
   padding-bottom: 10px;
@@ -97,7 +120,7 @@
   top: 10px;
 }
 
-.hide-cristmas-modal i {
+.hide-festive-modal i {
   font-size: 30px;
   color: #fff;
   cursor: pointer;
@@ -131,15 +154,57 @@
   transform: rotate(18deg);
 }
 
+/* New Year Modal Container */
+.newyear-modal-container {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../assets/festive-img/newyear-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin: auto;
+  position: relative;
+  color: #fff;
+}
+
+.newyear-modal-container .festive-modal-content img {
+  width: 80px;
+  position: absolute;
+  border-radius: 55px;
+  top: 20px;
+}
+
+.balloon1 {
+  width: 100px;
+  position: absolute;
+  top: -80px;
+  left: 50px;
+  transform: rotate(30deg);
+}
+
+.balloon2 {
+  width: 100px;position: absolute;
+  top: -60px;
+  right: 50px;
+  transform: rotate(-30deg);
+}
+
+
 /* Responsive */
 @media (max-width: 480px) {
 
-    .festive-modal-container {
+    .festive-modal-section {
         padding: 0px 10px;
         padding-bottom: 100px;
     }
-
-    .cristmas-modal-container {
+    
+    .festive-modal-container {
         width: 320px;
         height: 320px;
     }
@@ -148,13 +213,13 @@
         display: none;
     }
 
-    .cristmas-modal-content img {
+    .festive-modal-content img {
         width: 40px;
         position: absolute;
         top: 5px;
     }
 
-    .cristmas-bell-img {
+    .festive-bell-img {
         width: 320px;
         position: absolute;
         bottom: -100px;

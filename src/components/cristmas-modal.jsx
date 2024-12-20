@@ -13,10 +13,10 @@ const CristmasModal = ({onClose}) => {
         <div className="cristmas-modal-container">
             <img src={Offer} alt="" className='offer-img'/>
             <img src={Offer2} alt="" className='offer-img2'/>
-            <div className="hide-cristmas-modal hide-cristmas-modal-bg" onClick={onClose}>
+            <div className="hide-festive-modal hide-festive-modal-bg" onClick={onClose}>
                 <i className="fa-solid fa-circle-xmark"></i>
             </div>
-            <div className="cristmas-modal-content">
+            <div className="festive-modal-content">
                 <img src={Logo} alt="" />
                 <h2>Best Cristmas Stay Deals !</h2>
                 <p>

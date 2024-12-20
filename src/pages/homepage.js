@@ -12,6 +12,7 @@ import HeroSection from "../components/hero-section";
 import SocialMediaFixed from "../components/socialmedia-fixed";
 import NewsLetter from "../components/newsletter";
 import FestiveModalContainer from "../components/festive-modal-container";
+import NewyearModal from "../components/newyear-modal";
 
 const HomePage = () => {
 
@@ -42,6 +43,7 @@ const HomePage = () => {
             <Navbar />
             <HeroSection />
             <WhyChooseUs />
+            {/* <NewyearModal/> */}
             <WhatWeOffer />
             <DestinationSliderSection />
             <CustomerCounting />
