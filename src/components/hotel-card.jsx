@@ -64,15 +64,18 @@ const HotelCard = ({
                 </span>
                 {` ${rating} Stars`}
               </p>
-              <a
-                href={website}
-                target="_blank"
-                aria-label="explore this hotel website"
-              >
-                <span>
-                  Website <i class="fa-solid fa-up-right-from-square"></i>
-                </span>
-              </a>
+              {website && (
+                <a
+                  href={website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="explore this hotel website"
+                >
+                  <span>
+                    Website <i className="fa-solid fa-up-right-from-square"></i>
+                  </span>
+                </a>
+              )}
             </p>
           </div>
           <div className="hotel-card-content-center">

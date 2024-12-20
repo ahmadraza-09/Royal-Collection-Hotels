@@ -145,28 +145,28 @@
 .swiper-overlay3 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
         url('../assets/corbett.webp') no-repeat;
-    background-position: center;
+    background-position: center right;
     background-size: cover;
 }
 
 .swiper-overlay4 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
         url('../assets/manali.webp') no-repeat;
-    background-position: center;
+    background-position: bottom center;
     background-size: cover;
 }
 
 .swiper-overlay5 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
         url('../assets/bhimtal.webp') no-repeat;
-    background-position: center;
+    background-position: bottom center;
     background-size: cover;
 }
 
 .swiper-overlay6 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
         url('../assets/dharamshala.webp') no-repeat;
-    background-position: center;
+    background-position: bottom center;
     background-size: cover;
 }
 
@@ -180,7 +180,7 @@
 .swiper-overlay8 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
         url('../assets/kausani.webp') no-repeat;
-    background-position: center;
+    background-position: bottom center;
     background-size: cover;
 }
 
@@ -194,7 +194,7 @@
 .swiper-overlay10 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
         url('../assets/dalhousie.webp') no-repeat;
-    background-position: center;
+    background-position: bottom center;
     background-size: cover;
 }
 
@@ -228,29 +228,36 @@
 
 .swiper-overlay15 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+        url('../assets/rishikesh.jpeg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.swiper-overlay16 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
         url('../assets/almora.webp') no-repeat;
     background-position: left;
     background-size: cover;
 }
 
-.swiper-overlay16 {
+.swiper-overlay17 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
         url('../assets/dhanaulti.webp') no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.swiper-overlay17 {
+.swiper-overlay18 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
         url('../assets/lohaghat.webp') no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.swiper-overlay18 {
+.swiper-overlay19 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
         url('../assets/auli.webp') no-repeat;
-    background-position: center;
+    background-position: bottom center;
     background-size: cover;
 }
 

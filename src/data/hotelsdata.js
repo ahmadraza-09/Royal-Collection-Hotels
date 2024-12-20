@@ -14,8 +14,8 @@ import SitaraInternational from '../assets/21.webp'
 import SkRegencyRishikesh from '../assets/skregencyrishikesh.webp'
 import NehaPalace from '../assets/22.webp'
 import HotelNitesh from '../assets/23.webp'
-// import RigzinNest from '../assets/24.webp'
-// import SarthakRegency from '../assets/25.webp'
+import HotelJadeVineResort from '../assets/hotel-jade-vine-resort.jpg'
+import HotelAmeera from '../assets/hotel-ameera.jpg'
 // import SarthakResort from '../assets/26.webp'
 import CkInternational from '../assets/ck.webp'
 import MahaveerShimla from '../assets/mahaveer1.webp'
@@ -75,9 +75,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 4499 },
+                    { type: "CPAI", price: 4999 },
+                    { type: "MAPAI", price: 5499 }
                 ]
             },
             contactDetails: {
@@ -114,9 +114,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 4799 },
+                    { type: "CPAI", price: 5499 },
+                    { type: "MAPAI", price: 5999 }
                 ]
             },
             contactDetails: {
@@ -157,9 +157,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 4999 },
+                    { type: "CPAI", price: 5499 },
+                    { type: "MAPAI", price: 5999 }
                 ]
             },
             contactDetails: {
@@ -220,9 +220,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 5499 },
+                    { type: "CPAI", price: 5999 },
+                    { type: "MAPAI", price: 6499 }
                 ]
             },
             contactDetails: {
@@ -261,9 +261,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 4999 },
+                    { type: "CPAI", price: 5499 },
+                    { type: "MAPAI", price: 5999 }
                 ]
             },
             contactDetails: {
@@ -300,9 +300,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 7499 },
+                    { type: "CPAI", price: 7999 },
+                    { type: "MAPAI", price: 8499 }
                 ]
             },
             contactDetails: {
@@ -343,9 +343,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 6999 },
+                    { type: "CPAI", price: 7999 },
+                    { type: "MAPAI", price: 8999 }
                 ]
             },
             contactDetails: {
@@ -386,9 +386,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 6999 },
+                    { type: "CPAI", price: 7499 },
+                    { type: "MAPAI", price: 8499 }
                 ]
             },
             contactDetails: {
@@ -435,9 +435,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 4499 },
+                    { type: "CPAI", price: 5999 },
+                    { type: "MAPAI", price: 5999 }
                 ]
             },
             contactDetails: {
@@ -476,8 +476,8 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
+                    { type: "EPAI", price: 2699 },
+                    { type: "CPAI", price: 3199 },
                     { type: "MAPAI", price: 3499 }
                 ]
             },
@@ -509,17 +509,17 @@ export const hotelsData = {
             OffSeasonPriceDetails: {
                 validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
                 roomPrices: [
-                    { type: "EPAI", price: 2699 },
-                    { type: "CPAI", price: 3199 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 0 },
+                    { type: "CPAI", price: 0 },
+                    { type: "MAPAI", price: 0 }
                 ]
             },
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 0 },
+                    { type: "CPAI", price: 0 },
+                    { type: "MAPAI", price: 0 }
                 ]
             },
             contactDetails: {
@@ -554,9 +554,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 3499 },
+                    { type: "CPAI", price: 3999 },
+                    { type: "MAPAI", price: 4499 }
                 ]
             },
             contactDetails: {
@@ -601,9 +601,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 3499 },
+                    { type: "CPAI", price: 3999 },
+                    { type: "MAPAI", price: 4499 }
                 ]
             },
             contactDetails: {
@@ -646,9 +646,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 4999 },
+                    { type: "CPAI", price: 5499 },
+                    { type: "MAPAI", price: 5999 }
                 ]
             },
             contactDetails: {
@@ -685,9 +685,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 3499 },
+                    { type: "CPAI", price: 3999 },
+                    { type: "MAPAI", price: 4499 }
                 ]
             },
             contactDetails: {
@@ -918,9 +918,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 4999 },
+                    { type: "CPAI", price: 5499 },
+                    { type: "MAPAI", price: 5999 }
                 ]
             },
             contactDetails: {
@@ -957,9 +957,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 3999 },
+                    { type: "CPAI", price: 4399 },
+                    { type: "MAPAI", price: 4799 }
                 ]
             },
             contactDetails: {
@@ -996,9 +996,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 4699 },
+                    { type: "CPAI", price: 5099 },
+                    { type: "MAPAI", price: 5499 }
                 ]
             },
             contactDetails: {
@@ -1070,9 +1070,87 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 5999 },
+                    { type: "CPAI", price: 6599 },
+                    { type: "MAPAI", price: 8199 }
+                ]
+            },
+            contactDetails: {
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
+                email: "shimla@rchr.in"
+            }
+        },
+        {
+            id: 6,
+            image: HotelJadeVineResort,
+            name: "Hotel Jade Vine Resort",
+            price: 3799,
+            rating: 3,
+            description: "Nestled near Shoghi, Jade Vine Resort offers stunning views, modern amenities, and easy access to Shimla's attractions for a serene escape.",
+            rooms: 38,
+            website: "",
+            OffSeasonPriceDetails: {
+                validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
+                roomPrices: [
+                    { type: "EPAI", price: 3799 },
+                    { type: "CPAI", price: 4299 },
+                    { type: "MAPAI", price: 4799 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 4799 },
+                    { type: "CPAI", price: 5299 },
+                    { type: "MAPAI", price: 5799 }
+                ]
+            },
+            contactDetails: {
+                phone: [
+                    {
+                        id: 1,
+                        number: "9978134111",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000607",
+                    }
+                ],
+                email: "shimla@rchr.in"
+            }
+        },
+        {
+            id: 7,
+            image: HotelAmeera,
+            name: "Hotel Ameera",
+            price: 3299,
+            rating: 3,
+            description: "Hotel Ameera in Shimla offers premium stays with stunning valley views. Known for modern amenities and excellent hospitality, it's a serene retreat.",
+            rooms: 18,
+            website: "",
+            OffSeasonPriceDetails: {
+                validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
+                roomPrices: [
+                    { type: "EPAI", price: 3299 },
+                    { type: "CPAI", price: 3799 },
+                    { type: "MAPAI", price: 4299 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 4799 },
+                    { type: "CPAI", price: 5299 },
+                    { type: "MAPAI", price: 5799 }
                 ]
             },
             contactDetails: {
@@ -1121,9 +1199,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 5199 },
+                    { type: "CPAI", price: 5699 },
+                    { type: "MAPAI", price: 6199 }
                 ]
             },
             contactDetails: {
@@ -1160,9 +1238,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 3499 },
+                    { type: "CPAI", price: 3999 },
+                    { type: "MAPAI", price: 4499 }
                 ]
             },
             contactDetails: {
@@ -1377,9 +1455,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 2699 },
+                    { type: "CPAI", price: 3299 },
+                    { type: "MAPAI", price: 3999 }
                 ]
             },
             contactDetails: {
@@ -1455,9 +1533,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 2699 },
+                    { type: "CPAI", price: 3299 },
+                    { type: "MAPAI", price: 3999 }
                 ]
             },
             contactDetails: {
@@ -1496,9 +1574,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 2999 },
+                    { type: "CPAI", price: 3499 },
+                    { type: "MAPAI", price: 3999 }
                 ]
             },
             contactDetails: {
@@ -1535,9 +1613,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 2999 },
+                    { type: "CPAI", price: 3499 },
+                    { type: "MAPAI", price: 3999 }
                 ]
             },
             contactDetails: {
@@ -1585,9 +1663,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 4999 },
+                    { type: "CPAI", price: 5499 },
+                    { type: "MAPAI", price: 5999 }
                 ]
             },
             contactDetails: {
@@ -1637,9 +1715,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 3999 },
+                    { type: "CPAI", price: 4499 },
+                    { type: "MAPAI", price: 4999 }
                 ]
             },
             contactDetails: {
@@ -1682,9 +1760,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 4499 },
+                    { type: "CPAI", price: 4999 },
+                    { type: "MAPAI", price: 5499 }
                 ]
             },
             contactDetails: {
@@ -1723,9 +1801,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 3999 },
+                    { type: "CPAI", price: 4499 },
+                    { type: "MAPAI", price: 4999 }
                 ]
             },
             contactDetails: {
@@ -1856,9 +1934,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 2999 },
+                    { type: "CPAI", price: 3499 },
+                    { type: "MAPAI", price: 4299 }
                 ]
             },
             contactDetails: {
@@ -1894,9 +1972,9 @@ export const hotelsData = {
             SeasonPriceDetails: {
                 validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
                 roomPrices: [
-                    { type: "EPAI", price: 2499 },
-                    { type: "CPAI", price: 2999 },
-                    { type: "MAPAI", price: 3499 }
+                    { type: "EPAI", price: 3999 },
+                    { type: "CPAI", price: 4999 },
+                    { type: "MAPAI", price: 5599 }
                 ]
             },
             contactDetails: {

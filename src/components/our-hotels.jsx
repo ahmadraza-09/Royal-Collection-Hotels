@@ -197,7 +197,7 @@ const OurHotels = () => {
       title: "Shimla",
       description:
         "One of the most stunning hill resorts, Shimla is one of the most popular hill stations in northern India.",
-      properties: 5,
+      properties: 7,
     },
   ];
 
