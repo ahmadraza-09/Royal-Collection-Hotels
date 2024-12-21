@@ -122,7 +122,7 @@ const Navbar = () => {
                 setIsOpen(false);
               }}
             >
-              Careers
+              Career
             </li>
             <li
               className={isActive("/payment")}

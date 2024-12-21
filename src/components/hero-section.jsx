@@ -85,6 +85,7 @@ const HeroSection = () => {
               <option value="Mukteshwar">Mukteshwar</option>
               <option value="Mussoorie">Mussoorie</option>
               <option value="Nainital">Nainital</option>
+              <option value="NewDelhi">New Delhi</option>
               <option value="Ranikhet">Ranikhet</option>
               <option value="Rishikesh">Rishikesh</option>
               <option value="Shimla">Shimla</option>

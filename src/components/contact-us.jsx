@@ -17,7 +17,7 @@ const ContactUs = () => {
               method="POST"
               className="swipe-left"
             >
-              <h2>GET IN TOUCH</h2>
+              <h2>QUERY FORM</h2>
               <input
                 type="hidden"
                 name="subject"
@@ -58,7 +58,7 @@ const ContactUs = () => {
 
               {/* Submit Button */}
               <button type="submit" name="submit">
-                Send Message
+                Send Query
               </button>
             </form>
           </div>

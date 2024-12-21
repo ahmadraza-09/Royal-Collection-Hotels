@@ -1,0 +1,123 @@
+.states-we-covered-section {
+    width: 100%;
+    height: fit-content;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.states-we-covered-section h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.states-we-covered-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.state-card {
+    height: 250px;
+    width: 230px;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.state-card:hover {
+    transform: scale(1.05);
+}
+
+.state-card1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+        url('../assets/Himachal-Pradesh.webp') no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.state-card2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+        url('../assets/Madhya-Pradesh.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.state-card3 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+        url('../assets/new-delhi.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.state-card4 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+        url('../assets/punjab.webp') no-repeat;
+    background-position: top center;
+    background-size: cover;
+ 
+}
+.state-card5 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+        url('../assets/uttarakhand.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.state-card .state-card-content {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 10px;
+    color: #fff;
+    gap: 5px;
+}
+
+.state-card .state-card-content h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    /* background-color: #B92100; */
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.state-card .state-card-content span {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 5px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .states-we-covered-section h1 {
+        font-size: 25px;
+    }
+
+    .state-card {
+        width: 150px;
+        height: 180px;
+    }
+
+    .state-card .state-card-content h2 {
+        font-size: 14px;
+    }
+
+    .state-card .state-card-content span {
+        font-size: 14px;
+    }
+
+    .state-card .state-card-content {
+        padding: 5px;
+    }
+}

@@ -37,6 +37,7 @@ const DestinationSlider = () => {
     { name: "Dhanaulti", listings: "1" },
     { name: "Lohaghat", listings: "1" },
     { name: "Auli", listings: "1" },
+    { name: "New Delhi", listings: "1" },
   ];
 
   return (

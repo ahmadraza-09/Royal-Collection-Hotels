@@ -22,13 +22,12 @@ const HotelListSection = () => {
 
   // Set the document title with the city name
   useEffect(() => {
-    document.title = `${getCityDisplayName(
-      cityName
-    )} - Royal Collection Hotels`;
+    document.title = `${getCityDisplayName(cityName).toUpperCase()} - Royal Collection Hotels`;
     return () => {
       document.title = "Royal Collection Hotels";
     };
   }, [cityName]);
+  
 
   // Load original hotel data based on city name
   useEffect(() => {

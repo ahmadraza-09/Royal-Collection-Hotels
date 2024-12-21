@@ -22,7 +22,7 @@ const HotelDestinationCard = ({ image, title, description, properties }) => {
           <p>{description}</p>
         </div>
         <div className="hotel-destination-card-content-footer">
-          <h3>{properties} Properties</h3>
+          <h3>{properties} Propert{properties > 1 ? 'ies' : 'y'}</h3>
           <button onClick={handleExplore} name="explore">
             Explore
           </button>

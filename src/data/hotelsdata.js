@@ -16,7 +16,7 @@ import NehaPalace from '../assets/22.webp'
 import HotelNitesh from '../assets/23.webp'
 import HotelJadeVineResort from '../assets/hotel-jade-vine-resort.jpg'
 import HotelAmeera from '../assets/hotel-ameera.jpg'
-// import SarthakResort from '../assets/26.webp'
+import HotelBlueSapphire from '../assets/hotel-blue-sapphire.jpg'
 import CkInternational from '../assets/ck.webp'
 import MahaveerShimla from '../assets/mahaveer1.webp'
 import GrandMadhushala from '../assets/madhushala.webp'
@@ -234,6 +234,51 @@ export const hotelsData = {
                     {
                         id: 2,
                         number: "9971834101",
+                    }
+                ],
+                email: "booking@rchronline.com"
+            }
+        },
+    ],
+    newdelhi: [
+        {
+            id: 1,
+            image: HotelBlueSapphire,
+            name: "Hotel Blue Sapphire",
+            price: 1999,
+            rating: 3,
+            description: "Hotel Blue Sapphire by Royal Collection Hotels offers a convenient stay in New Delhi, located near iconic attractions like Red Fort, Jama Masjid (5 km), and Gurudwara Bangla Sahib (7 km), with Delhi",
+            rooms: 23,
+            website: "https://hotelbluesapphire.com/",
+            OffSeasonPriceDetails: {
+                validityDates: ["15th-July to 25-Oct", "7th-Jan to 31st-March"],
+                roomPrices: [
+                    { type: "EPAI", price: 1999 },
+                    { type: "CPAI", price: 2499 },
+                    { type: "MAPAI", price: 2999 }
+                ]
+            },
+            SeasonPriceDetails: {
+                validityDates: ["1st-April to 15th-July", "20th-Dec to 5th-Jan"],
+                roomPrices: [
+                    { type: "EPAI", price: 1999 },
+                    { type: "CPAI", price: 2499 },
+                    { type: "MAPAI", price: 2999 }
+                ]
+            },
+            contactDetails: {
+                phone: [
+                    {
+                        id: 1,
+                        number: "8743000181",
+                    },
+                    {
+                        id: 2,
+                        number: "8743000615",
+                    },
+                    {
+                        id: 3,
+                        number: "8743000197",
                     }
                 ],
                 email: "booking@rchronline.com"

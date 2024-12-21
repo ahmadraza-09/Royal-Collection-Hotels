@@ -15,7 +15,7 @@ import Dharamshala from "../assets/dharamshala.webp";
 import Dalhousie from "../assets/dalhousie.webp";
 import Amritsar from "../assets/amritsar.webp";
 import Chandigarh from "../assets/chandigarh.webp";
-// import Gujarat from "../assets/sasangir.webp";
+import NewDelhi from "../assets/new-delhi.jpg";
 import Bhimtal from "../assets/bhimtal.webp";
 import Kausani from "../assets/kausani.webp";
 import Haridwar from "../assets/haridwar.webp";
@@ -177,6 +177,14 @@ const OurHotels = () => {
     },
     {
       id: 19,
+      image: NewDelhi,
+      title: "NewDelhi",
+      description:
+        "New Delhi, India’s capital, is a vibrant hub blending modernity with heritage, home to landmarks like India Gate and Red Fort, diverse markets, and rich cultural heritage.",
+      properties: 1,
+    },
+    {
+      id: 20,
       image: Ranikhet,
       title: "Ranikhet",
       description:
@@ -184,7 +192,7 @@ const OurHotels = () => {
       properties: 1,
     },
     {
-      id: 20,
+      id: 21,
       image: Rishikesh,
       title: "Rishikesh",
       description:
@@ -192,7 +200,7 @@ const OurHotels = () => {
       properties: 1,
     },
     {
-      id: 21,
+      id: 22,
       image: Shimla,
       title: "Shimla",
       description:
@@ -246,6 +254,7 @@ const OurHotels = () => {
               <option value="Mukteshwar">Mukteshwar</option>
               <option value="Mussoorie">Mussoorie</option>
               <option value="Nainital">Nainital</option>
+              <option value="NewDelhi">New Delhi</option>
               <option value="Ranikhet">Ranikhet</option>
               <option value="Rishikesh">Rishikesh</option>
               <option value="Shimla">Shimla</option>
