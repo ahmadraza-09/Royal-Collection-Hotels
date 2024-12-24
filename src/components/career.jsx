@@ -23,6 +23,27 @@ const Career = () => {
     setSelectedFile(null);
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+
+    fetch(form.action, {
+      method: form.method,
+      body: new FormData(form),
+    })
+      .then((response) => {
+        if (response.ok) {
+          window.location.href = "/thanks";
+        } else {
+          alert("There was an issue submitting the form. Please try again.");
+        }
+      })
+      .catch((error) => {
+        console.error("Form submission error:", error);
+        alert("An error occurred while submitting the form.");
+      });
+  };
+
   return (
     <div className="career-section">
       <div className="career-banner">
@@ -74,12 +95,8 @@ const Career = () => {
             action="https://api.web3forms.com/submit"
             // enctype="multipart/form-data"
             method="POST"
+            onSubmit={handleSubmit}
           >
-            <input
-              type="hidden"
-              name="redirect"
-              value="https://web3forms.com/success"
-            />
             {/* Hidden Inputs */}
             <input
               type="hidden"

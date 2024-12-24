@@ -10,7 +10,7 @@ import Offer2 from '../assets/festive-img/offer3.png'
 const CristmasModal = ({onClose}) => {
     const navigate = useNavigate();
     return (
-        <div className="cristmas-modal-container">
+        <div className="cristmas-modal-container swipe" >
             <img src={Offer} alt="" className='offer-img'/>
             <img src={Offer2} alt="" className='offer-img2'/>
             <div className="hide-festive-modal hide-festive-modal-bg" onClick={onClose}>

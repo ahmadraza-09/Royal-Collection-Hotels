@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "../css/navbar.css";
 import { useNavigate, useLocation } from "react-router-dom";
-// import Logo from "../assets/logo.webp";
+import TextLogo from "../assets/text-logo.jpg";
 import Logo from "../assets/festive-img/cristmas-logo.png";
-// import Logo from "../assets/festive-img/newyear-logo.png";
 import ListPropertyForm from "./list-property-form";
 import SearchModal from "./search-modal";
 
@@ -12,7 +11,8 @@ const Navbar = () => {
   const location = useLocation();
 
   const [isOpen, setIsOpen] = useState(false);
-  const [navbarsection, setNavbarSection] = useState(false);
+  const [navbarSection, setNavbarSection] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const navbarFixed = () => {
     if (window.scrollY >= 100) {
@@ -30,6 +30,10 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
   };
 
   const [showForm, setShowForm] = useState(false);
@@ -58,7 +62,7 @@ const Navbar = () => {
         {showSearchModal && <SearchModal onClose={handleCloseSearchModal} />}
         <div
           className={
-            navbarsection ? "navbar-section activated" : "navbar-section"
+            navbarSection ? "navbar-section activated" : "navbar-section"
           }
         >
           <input type="checkbox" id="check" />
@@ -68,11 +72,10 @@ const Navbar = () => {
               navigate("/");
             }}
           >
-            <img src={Logo} alt="" loading="lazy" fetchPriority="high" />
-            <h2>Royal Collection Hotels</h2>
+            <img src={Logo} alt="Logo" loading="lazy" />
+            <img src={TextLogo} alt="Text Logo" loading="lazy" className="text-logo" />
           </div>
 
-          {/* Conditionally render menu based on isOpen */}
           <ul className={`menu-section ${isOpen ? "show-menu" : ""}`}>
             <li className="none">
               <button
@@ -116,23 +119,15 @@ const Navbar = () => {
               Our Hotels
             </li>
             <li
-              className={isActive("/career")}
+              className={isActive("/packages")}
               onClick={() => {
-                navigate("/career");
+                navigate("/packages");
                 setIsOpen(false);
               }}
             >
-              Career
+              Packages
             </li>
-            <li
-              className={isActive("/payment")}
-              onClick={() => {
-                navigate("/payment");
-                setIsOpen(false);
-              }}
-            >
-              Payment
-            </li>
+
             <li
               className={isActive("/contact")}
               onClick={() => {
@@ -141,6 +136,40 @@ const Navbar = () => {
               }}
             >
               Contact
+            </li>
+            <li
+              className={`dropdown ${isDropdownOpen ? "open" : ""}`}
+              onMouseEnter={() => setIsDropdownOpen(true)}
+              onMouseLeave={() => setIsDropdownOpen(false)}
+              aria-label="More options"
+            >
+              <span onClick={toggleDropdown}>
+                More &nbsp; <i className="fa-solid fa-angle-down"></i>
+              </span>
+              {isDropdownOpen && (
+                <ul className="more-dropdown">
+                  <li
+                    className={isActive("/payment")}
+                    onClick={() => {
+                      navigate("/payment");
+                      setIsOpen(false);
+                    }}
+                  >
+                    Payment
+                  </li>
+                  <li
+                    className={isActive("/career")}
+                    onClick={() => {
+                      navigate("/career");
+                      setIsDropdownOpen(false);
+                      setIsOpen(false);
+                    }}
+                  >
+                    Career
+                  </li>
+
+                </ul>
+              )}
             </li>
           </ul>
 
@@ -159,7 +188,6 @@ const Navbar = () => {
             >
               List Property
             </button>
-            {/* Hamburger Icon */}
             <div className="menu-bars" onClick={toggleMenu}>
               {isOpen ? (
                 <label htmlFor="check">

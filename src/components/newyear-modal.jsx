@@ -9,7 +9,7 @@ import Ballon2 from '../assets/festive-img/balloons.png'
 const NewyearModal = ({ onClose }) => {
     const navigate = useNavigate();
     return (
-        <div className='newyear-modal-container'>
+        <div className='newyear-modal-container swipe' >
             <img src={Offer} alt="" className='offer-img' />
             <div className="hide-festive-modal hide-festive-modal-bg" onClick={onClose}>
                 <i className="fa-solid fa-circle-xmark"></i>

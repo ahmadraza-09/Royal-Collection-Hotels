@@ -2,20 +2,36 @@ import React from "react";
 import "../css/contact-us.css";
 
 const ContactUs = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+
+    fetch(form.action, {
+      method: form.method,
+      body: new FormData(form),
+    })
+      .then((response) => {
+        if (response.ok) {
+          window.location.href = "/thanks";
+        } else {
+          alert("There was an issue submitting the form. Please try again.");
+        }
+      })
+      .catch((error) => {
+        console.error("Form submission error:", error);
+        alert("An error occurred while submitting the form.");
+      });
+  };
   return (
     <>
       <div className="contact-us-section">
         <div className="contact-us-up">
           <div className="contact-us-left">
-            <input
-              type="hidden"
-              name="redirect"
-              value="https://yourwebsite.com/thanks.html"
-            />
             <form
               action="https://api.web3forms.com/submit"
               method="POST"
               className="swipe-left"
+              onSubmit={handleSubmit}
             >
               <h2>QUERY FORM</h2>
               <input
@@ -31,7 +47,7 @@ const ContactUs = () => {
               <input
                 type="hidden"
                 name="access_key"
-                value="cfcb3d81-370f-407a-a5d9-fd6f622fe78c"
+                value="ac18f110-8548-4859-aa68-b7b13bdbd1b2"
               ></input>
               <input
                 type="text"

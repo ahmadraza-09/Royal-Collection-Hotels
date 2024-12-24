@@ -10,7 +10,9 @@ import OnlyHotelsPage from './pages/onlyhotelspage';
 import PrivacyPolicyPage from './pages/privacypolicypage';
 import CancellationPolicyPage from './pages/cancellationpolicypage';
 import PaymentPage from './pages/paymentpage';
+import ThanksPage from './pages/thanks-page';
 import { HelmetProvider } from 'react-helmet-async';
+import PackagesPage from './pages/packagespage';
 
 function App() {
   return (
@@ -26,8 +28,10 @@ function App() {
           <Route path='/privacy-policy' element={<PrivacyPolicyPage />} />
           <Route path='/cancellation-policy' element={<CancellationPolicyPage />} />
           <Route path='/payment' element={<PaymentPage />} />
+          <Route path='/packages' element={<PackagesPage />} />
           {/* Change the dynamic route to match the desired format */}
           <Route path='/our-city/:cityName' element={<CityHotelsPage />} />
+          <Route path='/thanks' element={<ThanksPage />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>

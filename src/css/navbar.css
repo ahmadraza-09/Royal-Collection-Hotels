@@ -104,6 +104,10 @@ li {
     width: 50px;
 }
 
+.navbar-section .logo-section .text-logo {
+    width: 250px
+} 
+
 .navbar-section .menu-section {
     display: flex;
     align-items: center;
@@ -121,6 +125,7 @@ li {
     cursor: pointer;
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
+    position: relative;
 }
 
 .navbar-section .menu-section li:hover {
@@ -169,6 +174,41 @@ input[type="checkbox"]:checked~.menu-section {
 .none {
     display: none;
 }
+
+.dropdown {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dropdown .more-dropdown {
+    width: 150px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    z-index: 10;
+    color: #000;
+  }
+  
+  .dropdown.open .more-dropdown {
+    display: block;
+  }
+  
+  .dropdown .more-dropdown li {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .dropdown .more-dropdown li:hover {
+    background-color: #b81104;
+    color: #fff;
+  }
+  
 
 /* Responsive */
 @media (min-width: 320px) and (max-width: 900px) {
@@ -230,4 +270,11 @@ input[type="checkbox"]:checked~.menu-section {
     .navbar-section .search-section button:first-of-type {
         display: flex;
     }
+}
+
+@media (max-width: 480px) {
+    .navbar-section .logo-section .text-logo {
+        width: 180px
+    } 
+    
 }

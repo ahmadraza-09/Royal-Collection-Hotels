@@ -16,7 +16,7 @@ const ListPropertyForm = ({ onClose }) => {
         <input
           type="hidden"
           name="redirect"
-          value="https://web3forms.com/success"
+          value="https://royalcollectionhotels.com/thanks"
         />
         {/* Hidden Inputs */}
         <input

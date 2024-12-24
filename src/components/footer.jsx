@@ -92,14 +92,14 @@ const Footer = () => {
                 navigate("/career");
               }}
             >
-              Careers
+              Career
             </span>
             <span
               onClick={() => {
                 navigate("/payment");
               }}
             >
-              Payment Option
+              Payment
             </span>
           </div>
           <div class="footer-col">
