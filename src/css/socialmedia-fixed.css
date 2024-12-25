@@ -33,7 +33,7 @@
 .social-media-fixed-section-right {
     position: fixed;
     right: 30px;
-    bottom: 0px;
+    bottom: -60px;
     transform: translateY(-50%);
     z-index: 1000;
 }

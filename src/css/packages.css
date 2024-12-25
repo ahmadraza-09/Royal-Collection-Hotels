@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 20px;
 }
 
@@ -62,7 +62,7 @@
 
 .package-card {
   width: 320px;
-  height: 320px;
+  height: 350px;
   cursor: pointer;
   padding: 10px;
   background: #fff;
@@ -112,6 +112,7 @@
   font-size: 14px;
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .package-inclusive span i {
@@ -125,9 +126,9 @@
 
 .package-details {
   margin-top: 20px;
-  padding: 10px;
+  padding: 20px;
   background: #f9f9f9;
-  border-radius: 5px;
+  border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -150,6 +151,7 @@
 
 .package-details img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .package-details .package-inclusive i {
@@ -249,6 +251,9 @@
     background: none;
     border: none;
     color: #b92100;
+     background-color: #fff;
+     padding: 0px 10px;
+     border-radius: 55px;
     font-size: 25px;
     cursor: pointer;
 }
@@ -327,6 +332,10 @@
 
     .packages-container p {
         font-size: 12px;
+    }
+
+    .package-details {
+      padding: 10px;
     }
 
     .package-details .package-inclusive i {

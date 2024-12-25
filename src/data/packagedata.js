@@ -16,6 +16,19 @@ import LongWeekendPackageGallery2 from '../assets/packages/long-weekend-package/
 import LongWeekendPackageGallery3 from '../assets/packages/long-weekend-package/long-weekend-package3.jpg'
 import LongWeekendPackageGallery4 from '../assets/packages/long-weekend-package/long-weekend-package4.jpg'
 
+import ShimlaVolvoPackage from '../assets/packages/shimla-volvo-package.jpg';
+import ShimlaCarPackage from '../assets/packages/shimla-car-package.jpg';
+
+import ShimlaVolvoPackageGallery1 from '../assets/packages/travel-package-gallery/shimla-volvo-package-gallery1.jpg';
+import ShimlaVolvoPackageGallery2 from '../assets/packages/travel-package-gallery/shimla-volvo-package-gallery2.jpg';
+import ShimlaVolvoPackageGallery3 from '../assets/packages/travel-package-gallery/shimla-volvo-package-gallery3.jpg';
+import ShimlaVolvoPackageGallery4 from '../assets/packages/travel-package-gallery/shimla-volvo-package-gallery4.jpg';
+
+import ShimlaCarPackageGallery1 from '../assets/packages/travel-package-gallery/shimla-car-package-gallery1.jpg';
+import ShimlaCarPackageGallery2 from '../assets/packages/travel-package-gallery/shimla-car-package-gallery2.jpg';
+import ShimlaCarPackageGallery3 from '../assets/packages/travel-package-gallery/shimla-car-package-gallery3.jpg';
+import ShimlaCarPackageGallery4 from '../assets/packages/travel-package-gallery/shimla-car-package-gallery4.jpg';
+
 const packageData = [
     {
         state: 'Uttarakhand',
@@ -245,8 +258,9 @@ const packageData = [
         state: 'Himachal Pradesh',
         packages: [
             {
+                image: ShimlaVolvoPackage,
                 name: 'Shimla Volvo Package',
-                description: 'Explore the serene beauty of Shimla with our comfortable Volvo package, offering a seamless travel experience and unforgettable scenic views.',
+                description: 'Experience a relaxing getaway with our Shimla Volvo Package, featuring luxury Volvo travel, cozy stays, and visits to top attractions like Mall Road, Christ Church, and Kufri. Enjoy scenic views, delicious meals, and a hassle-free vacation in the Queen of Hills. Perfect for families and couples!',
                 icons: [
                     { iconImage: Hotel, iconName: 'Hotel' },
                     { iconImage: Food, iconName: 'Food' },
@@ -255,13 +269,31 @@ const packageData = [
                     { iconImage: Activity, iconName: 'Activity' }
                 ],
                 packageInclusive: [
-                    '02 Breakfast, 02 Lunch & 02 Dinner',
-                    '02 Nights/03 Days Stay',
+                    'Welcome drink on arrival',
+                    '2 Breakfast & 2 Dinner',
+                    'One day Kufri Tour',
+                    'Accommodation for 2 days in Deluxe room',
+                    'All transfers and sightseeing by non-AC vehicle',
+                    'Delhi – Shimla – Delhi transfers by AC Volvo bus',
+                    'One day local sightseeing of Shimla',
+                ],
+                packageExclusive: [
+                    'Any meal other than those mentioned above',
+                    'Heater charges',
+                    'Any adventure activity (Paragliding, Snow Skating, Horse riding, River crossing, Rafting, etc.) & entrance fees for any monument',
+                    'Any personal expense',
+                ],
+                packageGallery: [
+                    ShimlaVolvoPackageGallery1,
+                    ShimlaVolvoPackageGallery2,
+                    ShimlaVolvoPackageGallery3,
+                    ShimlaVolvoPackageGallery4,
                 ],
             },
             {
+                image: ShimlaCarPackage,
                 name: 'Shimla Car Package',
-                description: 'Experience the charm of Shimla with our personalized car packages, ensuring a relaxing journey and breathtaking hill views.',
+                description: 'Discover the beauty of Shimla with our Shimla Car Package, offering private car travel, comfortable stays, and visits to top attractions like Mall Road, Jakhoo Temple, and Kufri. Enjoy a personalized journey, stunning views, and a relaxing vacation in the Queen of Hills. Perfect for families and couples seeking convenience and comfort!',
                 icons: [
                     { iconImage: Hotel, iconName: 'Hotel' },
                     { iconImage: Food, iconName: 'Food' },
@@ -270,9 +302,25 @@ const packageData = [
                     { iconImage: Activity, iconName: 'Activity' }
                 ],
                 packageInclusive: [
-                    '02 Breakfast, 01 Dinner',
-                    '02 Nights/03 Days Stay',
-
+                    'Welcome drink on arrival',
+                    '2 Breakfast & 2 Dinner',
+                    'One day Kufri Tour',
+                    'Accommodation for 2 days in Deluxe room',
+                    'All transfers and sightseeing by car',
+                    'Delhi – Shimla – Delhi transfers by car',
+                    'One day local sightseeing of Shimla',
+                ],
+                packageExclusive: [
+                    'Any meal other than those mentioned above',
+                    'Heater charges',
+                    'Any adventure activity (Paragliding, Snow Skating, Horse riding, River crossing, Rafting, etc.) & entrance fees for any monument',
+                    'Any personal expense',
+                ],
+                packageGallery: [
+                    ShimlaCarPackageGallery1,
+                    ShimlaCarPackageGallery2,
+                    ShimlaCarPackageGallery3,
+                    ShimlaCarPackageGallery4,
                 ],
             },
         ],

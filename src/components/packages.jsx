@@ -197,7 +197,7 @@ const Packages = () => {
                 <div className="modal" onClick={handleCloseModal}>
                     <div className="modal-content">
                         <img src={modalImage} alt="Full-Screen View" className="modal-image" />
-                        <button className="modal-close" onClick={handleCloseModal}><i className="fa-regular fa-circle-xmark"></i></button>
+                        <button className="modal-close" onClick={handleCloseModal}><i className="fa-solid fa-xmark"></i></button>
                     </div>
                 </div>
             )}
