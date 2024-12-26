@@ -1,29 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import '../css/festive-modal-container.css';
-import CristmasModal from './cristmas-modal';
+import NewyearModal from './newyear-modal';
 
 const FestiveModalContainer = () => {
   // Check if the modal was previously shown by using localStorage
-  const [showCristmasgModal, setShowCristmasModal] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
     // Check if the 'showModal' flag is set in localStorage
     // const isModalShown = localStorage.getItem('showModal');
     // if (!isModalShown) {
-      setShowCristmasModal(true);
+      setShowModal(true);
       // localStorage.setItem('showModal', 'true'); // Set flag to true to prevent showing modal again
     // }
   }, []);
 
-  const handleCloseCristmasModal = () => {
-    setShowCristmasModal(false);
+  const handleCloseModal = () => {
+    setShowModal(false);
   };
 
   return (
     <>
-      {showCristmasgModal && (
+      {showModal && (
         <div className='festive-modal-section'>
-          <CristmasModal onClose={handleCloseCristmasModal} />
+          <NewyearModal onClose={handleCloseModal} />
         </div>
       )}
     </>

@@ -19,24 +19,24 @@ const NewyearModal = ({ onClose }) => {
                 <br />
                 <br />
                 <br />
-                <h2>Happy New Year Stay Deals !</h2>
+                <h2>New Year Stay Deals !</h2>
                 <p>
                     🎉 New Year, New Getaway! 🏨 Book your stay now and make 2025 unforgettable! ✨
                 </p>
                 <ul>
                     <li onClick={() => {
-                    navigate("/contact");
-                }}>&#x2022; OFFER AVAILABLE &#x2022;</li>
+                        navigate("/contact");
+                    }}>&#x2022; OFFER AVAILABLE &#x2022;</li>
                     <li onClick={() => {
-                    navigate("/contact");
-                }}>&#x2022; LIMITED ROOMS AVAILABLE &#x2022;</li>
+                        navigate("/contact");
+                    }}>&#x2022; LIMITED ROOMS AVAILABLE &#x2022;</li>
                 </ul>
                 <button type="button" onClick={() => {
                     navigate("/contact");
                 }}>Book Your Stay</button>
             </div>
-            <img src={Ballon1} alt="" className='balloon1'/>
-            <img src={Ballon2} alt="" className='balloon2'/>
+            <img src={Ballon1} alt="" className='balloon1' />
+            <img src={Ballon2} alt="" className='balloon2' />
         </div>
     )
 }

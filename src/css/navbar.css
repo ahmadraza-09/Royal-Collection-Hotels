@@ -101,7 +101,7 @@ li {
 }
 
 .navbar-section .logo-section img {
-    width: 50px;
+    width: 80px;
 }
 
 .navbar-section .logo-section .text-logo {
@@ -273,6 +273,12 @@ input[type="checkbox"]:checked~.menu-section {
 }
 
 @media (max-width: 480px) {
+
+    .navbar-section .logo-section img {
+        width: 60px;
+        
+    }
+
     .navbar-section .logo-section .text-logo {
         width: 180px
     } 
