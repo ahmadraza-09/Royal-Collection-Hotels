@@ -196,6 +196,29 @@
 }
 
 
+/* Flyers Modal Container */
+.flyers-modal-container {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../assets/festive-img/otm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+  position: relative;
+  color: #000;
+}
+
+.flyers-modal-container i {
+  color: #fff;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
 
@@ -211,6 +234,11 @@
 
     .newyear-modal-container {
       padding: 20px 10px;
+    }
+
+    .flyers-modal-container {
+      width: 320px;
+      height: 320px;
     }
 
     .festive-modal-content h2 {

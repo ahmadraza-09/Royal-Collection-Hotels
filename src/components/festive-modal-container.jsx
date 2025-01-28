@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../css/festive-modal-container.css';
 import RepublicDayModal from './republic-day-modal';
+import FlyersPopup from './flyers-popup';
 
 const FestiveModalContainer = () => {
   // Check if the modal was previously shown by using localStorage
@@ -23,7 +24,7 @@ const FestiveModalContainer = () => {
     <>
       {showModal && (
         <div className='festive-modal-section'>
-          <RepublicDayModal onClose={handleCloseModal} />
+          <FlyersPopup onClose={handleCloseModal} />
         </div>
       )}
     </>
