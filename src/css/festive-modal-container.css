@@ -206,7 +206,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../assets/festive-img/otm.jpg");
+  background-image: url("../assets/festive-img/gtf.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
@@ -216,7 +216,7 @@
 }
 
 .flyers-modal-container i {
-  color: #fff;
+  color: #B92100;
 }
 
 /* Responsive */
